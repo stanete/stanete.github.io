@@ -1,10 +1,10 @@
 ---
 title: Introducción a machine learning pero sin hype
-updated: 2017-01-15 11:00
+updated: 2017-01-15 16:48
 comments: true
 ---
 
-> Aprendizaje supervisado & Clasificación
+> Primeros pasos, aprendizaje supervisado & clasificación
 
 Vamos a saltarnos la parte de explicar qué es [Machine Learning](https://es.wikipedia.org/wiki/Aprendizaje_autom%C3%A1tico) y para qué sirve. Vamos a empezar directamente con cosas más prácticas.
 
@@ -32,7 +32,11 @@ PD 2: Yo utilizo [PyCharm](https://www.jetbrains.com/pycharm/) y tengo todo dent
 
 PD 3: Los ejemplos de código están hechos para que se puedan seguir con una consola de python en el orden que se muestran.
 
-PD 4: Casi siempre debemos seguir el mismo proceso:
+<div class="divider"></div>
+
+## El proceso
+
+A la hora de intetar resolver un problema en Machine Learning casi siempre debemos seguir el mismo proceso:
 
 1. Recolectar y preparar datos
 2. Escojer un modelo
