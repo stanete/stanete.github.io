@@ -1,8 +1,8 @@
 # Site Info
 title:              "Machine Learning"
 description:        "The Plain is a Minimalist Jekyll theme that focuses on writing matters."
-google_verify:      epFgX0s_0RM3CdjwFcsewfXzPov2g8s9ZBOLyaIUH-o # Put your Google Verification here
-google_analytics:   UA-XXXXXXX-X # Put your Google Analytics code
+google_verify:      MZlkm_Gq7ly7eJkGo-x7JDMux-ljTyc7sFduOaUZBVg # Put your Google Verification here
+google_analytics:   UA-54798604-2 # Put your Google Analytics code
 
 # Author Info
 author_name:        "David Stanete"
@@ -11,10 +11,13 @@ author_gravatar:    43c674a8e565e1f9d4b34bdfe7cc6088 # Gravatar md5 hash
 twitter_username:   stanete
 github_username:    stanete # GitHub username
 
+# Disqus
+disqus_shortname: stanete
+
 # Site Settings
 baseurl:            "" # Base URL must end WITHOUT a slash, default: ""
-permalink:          /notes/:title # Post permalink
-timezone:           Asia/Kuala_Lumpur # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+permalink:          /:title # Post permalink
+timezone:           Europe/Madrid # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 mathjax:            true  # enables support for mathjax - set to false to disable
 
 # Site Build

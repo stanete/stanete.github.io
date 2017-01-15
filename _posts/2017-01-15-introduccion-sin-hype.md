@@ -1,6 +1,7 @@
 ---
 title: Introducción a machine learning pero sin hype
 updated: 2017-01-15 11:00
+comments: true
 ---
 
 > Aprendizaje supervisado & Clasificación
@@ -234,4 +235,4 @@ Wow! La precisión ha mejorado hasta 0.97. Como vemos, no todo depende del clasi
 
 ## Para terminar
 
-Machine Learning no es una caja mágica, sino matemáticas y código. Esto es sólo el principio y en próximos posts vamos a ver más algoritmos y más tipos de problemas.
+Machine Learning no es una caja mágica, sino cálculo, álgebra, estadística y código. Esto es sólo el principio y en próximos posts vamos a ver más algoritmos y más tipos de problemas. Espero tu Feedback!
