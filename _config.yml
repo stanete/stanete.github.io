@@ -1,6 +1,6 @@
 # Site Info
-title:              "Machine Learning"
-description:        "The Plain is a Minimalist Jekyll theme that focuses on writing matters."
+title:              "Machine Learning pero sin hype"
+description:        "TMachine Learning pero sin hype es un blog sobre aprendizaje automático en español"
 google_verify:      MZlkm_Gq7ly7eJkGo-x7JDMux-ljTyc7sFduOaUZBVg # Put your Google Verification here
 google_analytics:   UA-54798604-2 # Put your Google Analytics code
 
@@ -18,7 +18,7 @@ disqus_shortname: stanete
 baseurl:            "" # Base URL must end WITHOUT a slash, default: ""
 permalink:          /:title # Post permalink
 timezone:           Europe/Madrid # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-mathjax:            true  # enables support for mathjax - set to false to disable
+mathjax:            false  # enables support for mathjax - set to false to disable
 
 # Site Build
 highlighter:        rouge

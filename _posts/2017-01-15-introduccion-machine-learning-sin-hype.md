@@ -8,7 +8,7 @@ comments: true
 
 Vamos a saltarnos la parte de explicar qué es [Machine Learning](https://es.wikipedia.org/wiki/Aprendizaje_autom%C3%A1tico) y para qué sirve. Vamos a empezar directamente con cosas más prácticas.
 
-PD: En próximos posts hablaremos de Deep Learning también.
+PD: En próximos posts hablaremos sobre Deep Learning también 😏.
 
 ## ¿Cómo se empieza?
 
@@ -16,7 +16,7 @@ PD: En próximos posts hablaremos de Deep Learning también.
 
 No vamos a programar esos algoritmos sino que vamos a usar python y varias librerías opensource para usarlos directamente y verlos en acción (sí que vamos a tratar de entender cómo funcionan).
 
-A estos algoritmos también se les llama **modelos**. Un modelo sirve para representar de forma sencilla una realidad mucho más compleja. El problema es que eso nunca es exacto y siempre va a existir un **error**. Por eso, nuestro trabajo será maximizar la precisión con la que un modelo es capaz de clasificar, predecir o describir esa realidad.
+A estos algoritmos también se les llama **modelos**. Un modelo sirve para representar de forma sencilla una realidad mucho más compleja. El problema es que eso nunca es exacto y siempre va a existir un **error**. Por eso, nuestro trabajo será maximizar la precisión con la que un modelo es capaz de clasificar, predecir o describir esa realidad 🤔.
 
 Para empezar necesitamos tener instalado python y varios paquetes:
 
@@ -129,7 +129,7 @@ El problema que estamos intentando resolver es de **aprendizaje supervisado**. E
 
 Concretamente, este es un problema de **clasificación**. Una vez que hayamos encontrado esa regla, podremos clasificar nuevas flores Iris según su subespecie. Para encontrar esa regla o serie de reglas debemos usar un modelo llamado **clasificador**.
 
-Con *scikit-learn* tenemos disponibles varios clasificadores. Nosotros vamos a usar un **clasificador bayesiano ingenuo** o **Naïve Bayes**, uno de los clasificadores más utilizados por su simplicidad y rapidez. Quién era Bayes y por qué su clasificador es ingenuo lo veremos en próximos posts.
+Con *scikit-learn* tenemos disponibles varios clasificadores. Nosotros vamos a usar un **clasificador bayesiano ingenuo** o **Naïve Bayes**, uno de los clasificadores más utilizados por su simplicidad y rapidez. Quién era Bayes y por qué su clasificador es ingenuo lo veremos en próximos posts 😅.
 
 ```python
 from sklearn.naive_bayes import GaussianNB
@@ -233,6 +233,6 @@ Wow! La precisión ha mejorado hasta 0.97. Como vemos, no todo depende del clasi
 
 <div class="divider"></div>
 
-## Para terminar
+## Vamos a terminar esto
 
-Machine Learning no es una caja mágica, sino cálculo, álgebra, estadística y código. Esto es sólo el principio y en próximos posts vamos a ver más algoritmos y más tipos de problemas. Espero tu Feedback!
+Machine Learning no es una caja mágica, sino cálculo, álgebra, estadística y código. Esto es sólo el principio y en próximos posts vamos a ver más modelos y más tipos de problemas. Cualquier feedback es bienvenido! 👋
