@@ -28,7 +28,7 @@ Para empezar necesitamos tener instalado python y varios paquetes:
 
 PD 1: Si los instalamos en este orden via *pip*, no deberíamos tener ningún problema.
 
-PD 2: Yo utilizo [PyeCharm](https://www.jetbrains.com/pycharm/) y tengo todo dentro de un [virtualenv](https://virtualenv.pypa.io/en/stable/).
+PD 2: Yo utilizo [PyCharm](https://www.jetbrains.com/pycharm/) y tengo todo dentro de un [virtualenv](https://virtualenv.pypa.io/en/stable/).
 
 PD 3: Los ejemplos de código están hechos para que se puedan seguir con una consola de python en el orden que se muestran.
 
