@@ -36,7 +36,7 @@ Si los instalamos en este orden via *pip*, no deberíamos tener ningún problema
 A la hora de intetar resolver un problema en Machine Learning casi siempre debemos seguir el mismo proceso:
 
 1. Recolectar y preparar datos
-2. Escojer un modelo
+2. Escoger un modelo
 3. Entrenar el modelo con los datos
 4. Probar el modelo
 
@@ -50,7 +50,7 @@ Es improbable (no imposible) que nosotros desarrollemos un nuevo algoritmo que d
 
 Para empezar vamos a usar el dataset de las flores Iris, un conjunto de datos clásico de los años treinta que contiene características sobre 3 subespecies de flores Iris:
 
-![iris_setosa](../images/iris_flowers.png)
+![iris_flowers](../images/iris_flowers.png)
 
  Hoy en día, las diferentes especies de Iris se clasificarían por sus firmas genómicas pero en la década de 1930, el ADN no había sido identificado como el portador de la información genética, pero sí que se las podían clasificar por su morfología:
 
@@ -128,7 +128,7 @@ features_train, features_test, \
 
 <div class="divider"></div>
 
-## Escojer un modelo
+## Escoger un modelo
 
 Dependiendo de la situación debemos usar un modelo u otro. Uno de los fallos de alguien que empieza en Machine Learning es pensar que las redes neuronales son la solución para todo, y eso no cierto.
 
