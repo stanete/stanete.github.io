@@ -101,9 +101,11 @@ for l, c in zip(range(3), "brw"):
                 features[labels == l, 1],
                 c=c)
 
+# Poner nombre a los dos ejes x, y.
 plt.xlabel(feature_names[0])
 plt.ylabel(feature_names[1])
 
+# Mostrar el gráfico.
 plt.show()
 ```
 
@@ -174,11 +176,16 @@ for l, c in zip(range(3), "brw"):
     plt.scatter(features[labels == l, 0],
                 features[labels == l, 1],
                 c=c)
+
+# Poner nombre a los dos ejes x, y.
 plt.xlabel(feature_names[0])
 plt.ylabel(feature_names[1])
 
+# Definir los límites del gráfico.
 plt.xlim(xx.min(), xx.max())
 plt.ylim(yy.min(), yy.max())
+
+# Mostrar el gráfico.
 plt.show()
 ```
 
@@ -195,8 +202,11 @@ Ya hemos entrenado el clasificador pero no sabemos cómo de preciso es a la hora
 ```python
 from sklearn.metrics import accuracy_score
 
+# Predecir etiquetas para los datos de testeo.
 labels_predict = clf.predict(features_test)
 
+# Calcular la precisión comparando
+# las etiquetas predecidas y las etiquedas reales.
 accuracy = accuracy_score(labels_predict, labels_test)
 
 print("Accuracy: %.2f" % (accuracy))
@@ -223,7 +233,7 @@ features_train, features_test, \
 # Alimentar el clasificador con los datos de entrenamiento.
 clf.fit(features_train, labels_train)
 
-# Predecir etiquetas sobre los datos de testeo.
+# Predecir etiquetas para los datos de testeo.
 labels_predict = clf.predict(features_test)
 
 # Calcular precisión.
