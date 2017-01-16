@@ -197,7 +197,7 @@ Dependiendo de qué lado de cada frontera esté una nueva flor Iris, el clasific
 
 ## Poner el modelo a prueba
 
-Ya hemos entrenado el clasificador pero no sabemos cómo de **preciso** es a la hora de clasificar nuevas flores Iris. Para averiguarlo vamos a testear el clasificador con los datos que hemos dividido antes. Vamos a hacer que nuestro clasificador determine las etiquetas de algunas flores de Iris y compararlo con sus etiquetas reales.
+Ya hemos entrenado el clasificador pero no sabemos cómo de **preciso** es a la hora de clasificar nuevas flores Iris. Para averiguarlo vamos a testear el clasificador con los datos que hemos dividido antes. Vamos a hacer que nuestro clasificador determine (o prediga) las etiquetas de algunas flores de Iris y compararlo con sus etiquetas reales.
 
 ```python
 from sklearn.metrics import accuracy_score
