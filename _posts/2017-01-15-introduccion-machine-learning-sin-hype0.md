@@ -1,13 +1,13 @@
 ---
-title: Introducción a machine learning pero sin hype
-updated: 2017-01-15 16:48
+title: Introducción a Machine Learning pero sin hype
+updated: 2017-01-15 21:29
 comments: true
 mailchimp: true
 ---
 
 > Primeros pasos, aprendizaje supervisado & clasificación
 
-Vamos a saltarnos la parte de explicar qué es [Machine Learning](https://es.wikipedia.org/wiki/Aprendizaje_autom%C3%A1tico) y para qué sirve. Vamos a empezar directamente con cosas más prácticas.
+Este es el primer post de **Machine Learning pero sin hype**, una serie sobre aprendizaje automático (o de máquinas) en español. Vamos a saltarnos la parte de explicar qué es [Machine Learning](https://es.wikipedia.org/wiki/Aprendizaje_autom%C3%A1tico) y para qué sirve y vamos a empezar directamente con cosas más prácticas.
 
 PD: En próximos posts hablaremos sobre Deep Learning también 😏.
 
