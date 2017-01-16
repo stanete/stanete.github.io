@@ -9,7 +9,7 @@ mailchimp: true
 
 Este es el primer post de **Machine Learning pero sin hype**, una serie sobre aprendizaje automático (o de máquinas) en español. Vamos a saltarnos la parte de explicar qué es [Machine Learning](https://es.wikipedia.org/wiki/Aprendizaje_autom%C3%A1tico) y para qué sirve y vamos a empezar directamente con cosas más prácticas.
 
-PD: En próximos posts hablaremos sobre Deep Learning también 😏.
+En próximos posts hablaremos sobre Deep Learning también 😏.
 
 ## ¿Cómo se empieza?
 
@@ -27,11 +27,7 @@ Para empezar necesitamos tener instalado python y varios paquetes:
 - [matplotlib](http://matplotlib.org/)
 - [scikit-learn](http://scikit-learn.org/)
 
-PD 1: Si los instalamos en este orden via *pip*, no deberíamos tener ningún problema.
-
-PD 2: Yo utilizo [PyCharm](https://www.jetbrains.com/pycharm/) y tengo todo dentro de un [virtualenv](https://virtualenv.pypa.io/en/stable/).
-
-PD 3: Los ejemplos de código están hechos para que se puedan seguir con una consola de python en el orden que se muestran.
+Si los instalamos en este orden via *pip*, no deberíamos tener ningún problema. Yo utilizo [PyCharm](https://www.jetbrains.com/pycharm/) y tengo todo dentro de un [virtualenv](https://virtualenv.pypa.io/en/stable/). Los ejemplos de código están hechos para que se puedan seguir con una consola de python en el orden que se muestran.
 
 <div class="divider"></div>
 
@@ -52,7 +48,11 @@ Es improbable (no imposible) que nosotros desarrollemos un nuevo algoritmo que d
 
 > Una buena característica es simple, independiente e informativa.
 
-Para empezar vamos a usar el dataset de las flores Iris, un conjunto de datos clásico de los años treinta. Hoy en día, las diferentes especies de Iris se clasificarían por sus firmas genómicas pero en la década de 1930, el ADN no había sido identificado como el portador de la información genética, pero sí que se las podían clasificar por su morfología:
+Para empezar vamos a usar el dataset de las flores Iris, un conjunto de datos clásico de los años treinta que contiene características sobre 3 subespecies de flores Iris:
+
+![iris_setosa](../images/iris_flowers.png)
+
+ Hoy en día, las diferentes especies de Iris se clasificarían por sus firmas genómicas pero en la década de 1930, el ADN no había sido identificado como el portador de la información genética, pero sí que se las podían clasificar por su morfología:
 
 - Longitud del sépalo (sepal length (cm))
 - Anchura del sépalo (sepal width (cm))
