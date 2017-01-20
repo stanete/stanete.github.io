@@ -11,11 +11,11 @@ Este es un mini post de **Machine Learning pero sin hype**, una serie sobre apre
 
 Hemos visto en el [primer post](introduccion-machine-learning-sin-hype) que un clasificador puede, a partir de una serie de características, predecir una etiqueta (o clase).
 
-Los clasficadores bayesianos ingenuos o **Naïve Bayes** son una familia de algoritmos de **clasificación probabilística** basados en el [**teorema de Bayes**](https://es.wikipedia.org/wiki/Teorema_de_Bayes) y en la asumción de [**independencia condicional**](https://es.wikipedia.org/wiki/Independencia_condicional).
+Los clasficadores bayesianos ingenuos o **Naïve Bayes** son una familia de algoritmos de **clasificación probabilística** basados en el [**teorema de Bayes**](https://es.wikipedia.org/wiki/Teorema_de_Bayes) y en la asunción de [**independencia condicional**](https://es.wikipedia.org/wiki/Independencia_condicional).
 
 Todos comparten el principio de que **todas las características utilizadas son independientes**, es decir, asumen que ninguna característica tiene ningún tipo de relación con cualquier otra.
 
-**En la vida real las característica no son siempre independientes**, sino que tienen relación entre ellas. Precisamente por esta asumción tan fuerte se dice que el clasificador es **ingenuo** 🤔.
+**En la vida real las característica no son siempre independientes**, sino que tienen relación entre ellas. Precisamente por esta asunción tan fuerte se dice que el clasificador es **ingenuo** 🤔.
 
 <div class="divider"></div>
 
