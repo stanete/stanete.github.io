@@ -7,7 +7,7 @@ mailchimp: true
 
 > Teorema de Bayes, independencia condicional, vantajas & desventajas
 
-Este es un mini post de **Machine Learning pero sin hype**, una serie sobre aprendizaje automático (o de máquinas) en español.
+Este es un post de **Machine Learning pero sin hype**, una serie sobre aprendizaje automático (o de máquinas) en español.
 
 Hemos visto en el [primer post](introduccion-machine-learning-sin-hype) que un clasificador puede, a partir de una serie de características, predecir una etiqueta (o clase).
 
