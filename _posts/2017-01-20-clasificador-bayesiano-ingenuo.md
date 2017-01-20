@@ -5,7 +5,7 @@ comments: true
 mailchimp: true
 ---
 
-> Teorema de Bayes, independencia condicional, vantajas & desventajas
+> Teorema de Bayes, independencia condicional, ventajas & desventajas
 
 Este es un post de **Machine Learning pero sin hype**, una serie sobre aprendizaje automático (o de máquinas) en español.
 
