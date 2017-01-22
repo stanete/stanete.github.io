@@ -20,7 +20,7 @@ Si los instalamos en este orden via *pip*, no deberíamos tener ningún problema
 
 El único paquete con el que no hemos trabajado todavía es **pandas**. De momento sólo necesitamos saber que es una librería de python opensource para análisis de datos.
 
-El proceso que seguirémos será el mismo que en el primer post:
+El proceso que seguirémos será el mismo que en el [primer post](introduccion-machine-learning-sin-hype):
 
 1. Recolectar y preparar datos
 2. Escoger un modelo
