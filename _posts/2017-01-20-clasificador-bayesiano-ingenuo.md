@@ -42,6 +42,6 @@ Desventajas:
 
 ## Vamos a terminar esto
 
-Aunque se basan en una idea relativamente sencilla, esta familia de clasificadores puede superar en muchas ocasiones a algoritmos mucho más complejos 😌. En el próximo post vamos a usar un **clasificador bayesiano ingenuo** y vamos a ver que **es increíblemente efectivo en la deteción de spam y clasificación de documentos**.
+Aunque se basan en una idea relativamente sencilla, esta familia de clasificadores puede superar en muchas ocasiones a algoritmos mucho más complejos 😌. En el [próximo post](filtro-spam-machine-learning) vamos a usar un **clasificador bayesiano ingenuo** y vamos a ver que **es increíblemente efectivo en la deteción de spam y clasificación de documentos**.
 
 Te puedes suscribir y recibir un email cada vez que haya un nuevo post.
