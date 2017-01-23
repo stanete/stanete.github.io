@@ -1,5 +1,5 @@
 ---
-title: Cómo crear un filtro de spam con Machine Learning
+title: Crear un filtro de spam con Machine Learning
 updated: 2017-01-23 08:45
 comments: true
 mailchimp: true
