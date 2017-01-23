@@ -1,5 +1,5 @@
 ---
-title: Filtro de spam con Machine Learning pero sin hype
+title: Cómo crear un filtro de spam con Machine Learning
 updated: 2017-01-23 08:45
 comments: true
 mailchimp: true
@@ -7,7 +7,7 @@ mailchimp: true
 
 > Extraer características, tokenización & clasificación de documentos
 
-Este es el segundo post de **Machine Learning pero sin hype**, una serie sobre aprendizaje automático (o de máquinas) en español. En este post vamos a construir un filtro de spam bastante preciso a partir de emails reales etiquetados como *spam* o *ham* (emails que no son spam).
+Este es el segundo post de **Machine Learning pero sin hype**, una serie sobre aprendizaje automático (o de máquinas) en español. En este post vamos a crear un filtro de spam bastante preciso a partir de emails reales etiquetados como *spam* o *ham* (emails que no son spam).
 
 Necesitamos tener instalado [python 3.5 o 3.6](https://www.python.org/) y varios paquetes:
 
