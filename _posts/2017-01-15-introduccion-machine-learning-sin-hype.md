@@ -136,7 +136,7 @@ El problema que estamos intentando resolver es de **aprendizaje supervisado**. E
 
 Concretamente, este es un problema de **clasificación**. Una vez que hayamos encontrado esa regla, podremos clasificar nuevas flores Iris según su subespecie. Para encontrar esa regla o serie de reglas debemos usar un modelo llamado **clasificador**.
 
-Con *scikit-learn* tenemos disponibles varios clasificadores. Nosotros vamos a usar un **clasificador bayesiano ingenuo** o **Naïve Bayes**, uno de los clasificadores más utilizados por su simplicidad y rapidez. Quién era Bayes y por qué su clasificador es ingenuo lo veremos en próximos posts 😅.
+Con *scikit-learn* tenemos disponibles varios clasificadores. Nosotros vamos a usar un **clasificador bayesiano ingenuo** o **Naïve Bayes**, uno de los clasificadores más utilizados por su simplicidad y rapidez. Por qué el clasificador es ingenuo lo vamos a ver en el [próximo post](clasificador-bayesiano-ingenuo) 😅.
 
 ```python
 from sklearn.naive_bayes import GaussianNB

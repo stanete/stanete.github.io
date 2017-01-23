@@ -1,6 +1,6 @@
 ---
 title: Filtro de spam con Machine Learning pero sin hype
-updated: 2017-01-23 23:32
+updated: 2017-01-23 08:45
 comments: true
 mailchimp: true
 ---
@@ -35,7 +35,7 @@ Vamos a tener que enamorarnos de este paso porque es en el que vamos a pasar gra
 
 ### Descargar datos
 
-Vamos a trabajar con el dataset público [Enron-Spam](http://www.aueb.gr/users/ion/data/enron-spam/) que vamos a descargar y poner en una carpeta llamada *data*. Este conjunto de datos contiene emails preprocesados divididos en carpetas *spam* y *ham*.
+Vamos a utilizar el dataset público [Enron-Spam](http://www.aueb.gr/users/ion/data/enron-spam/) que vamos a descargar y poner en una carpeta llamada *data*. Este conjunto de datos contiene emails preprocesados divididos en carpetas *spam* y *ham*.
 
 Primero tenemos que definir las etiquetas (o clases) de este dataset y las rutas de las carpetas que contienen los emails que hemos descargado.
 
@@ -59,7 +59,7 @@ SOURCES = [
 
 ### Cargar datos
 
-Vamos a cargar los datos en un [DataFrame](http://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.html), una estructura de datos en la que podemos pensar como un diccionario construido sobre **numpy**. Este DataFrame contendrá los cuerpos de los emails en una columna y la etiqueta correspondiente en otra columna.
+Vamos a cargar los datos en un [DataFrame](http://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.html), una estructura de datos en la que podemos pensar como un diccionario construido sobre **numpy** (eso quiere decir que es rápido). El DataFrame contendrá los cuerpos de los emails en una columna y la etiqueta correspondiente en otra.
 
 ```python
 from pandas import DataFrame
@@ -148,16 +148,16 @@ data = data.reindex(numpy.random.permutation(data.index))
 
 ### Extraer características
 
-Antes de que podamos entrenar un algoritmo para clasificar los emails, necesitamos unas características (features) para hacerlo. En la clasificación de documentos, la frecuencia con la que aparece cada palabra es una buena característica.
+Antes de que podamos entrenar un algoritmo para clasificar los emails, necesitamos unas **características** (features). En la clasificación de documentos, la frecuencia con la que aparece cada palabra es una buena característica.
 
-Vamos a crear una tabla con todas las palabras mencionadas en el corpus(colleción de emails que tenemos) y su frecuencia en cada clase de email (spam o ham):
+Vamos a crear una tabla con todas las palabras mencionadas en el **corpus**(colleción de emails que tenemos) y su frecuencia en cada clase de email (spam o ham):
 
 |      |    Linux   |   today    |   Viagra   |    Free    |
 |:----:|:----------:|:----------:|:----------:|:----------:|
 | ham  | 619        | 67         | 0          | 50         |
 | spam | 3          | 432        | 291        | 534        |
 
-Este proceso también se llama **tokenización** porque transformamos una colección de documentos de texto a una matriz de recuento de tokens. Con *scikit-learn* esto es muy fácil:
+Este proceso también se llama **tokenización** porque **transformamos una colección de documentos de texto a una matriz de recuento de tokens**. Con *scikit-learn* esto es muy fácil:
 
 
 ```python
@@ -197,7 +197,7 @@ features_train, features_test, \
 
 El problema que estamos intentando resolver es de **aprendizaje supervisado**, concretamente, **clasificación**.
 
-Vamos a usar un [**clasificador bayesiano ingenuo**](clasificador-bayesiano-ingenuo), uno de los clasificadores más utilizados por su simplicidad y rapidez. Vamos a ver que es increíblemente efectivo en la detección de spam y clasificación de documentos.
+Vamos a usar un [**clasificador bayesiano ingenuo**](clasificador-bayesiano-ingenuo), uno de los clasificadores más sencillos y rápidos. Este clasificador es increíblemente efectivo en la detección de spam y clasificación de documentos en general.
 
 ```python
 from sklearn.naive_bayes import MultinomialNB
