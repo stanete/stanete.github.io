@@ -19,7 +19,7 @@ baseurl:            "" # Base URL must end WITHOUT a slash, default: ""
 permalink:          /:title # Post permalink
 timezone:           Europe/Madrid # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 mathjax:            false  # enables support for mathjax - set to false to disable
-image:              /images/site_image.png
+image:              /images/site.png
 
 # Site Build
 highlighter:        rouge
