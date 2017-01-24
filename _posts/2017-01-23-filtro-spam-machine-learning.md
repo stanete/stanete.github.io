@@ -7,7 +7,7 @@ mailchimp: true
 
 > Extraer características, tokenización & clasificación de documentos
 
-Este es el segundo post de **Machine Learning pero sin hype**, una serie sobre aprendizaje automático (o de máquinas) en español. En este post vamos a crear un filtro de spam bastante preciso a partir de emails reales etiquetados como *spam* o *ham* (emails que no son spam).
+Este es el tercer post de **Machine Learning pero sin hype**, una serie sobre aprendizaje automático (o de máquinas) en español. En este post vamos a crear un filtro de spam bastante preciso a partir de emails reales etiquetados como *spam* o *ham* (emails que no son spam).
 
 Necesitamos tener instalado [python 3.5 o 3.6](https://www.python.org/) y varios paquetes:
 
@@ -259,5 +259,7 @@ El filtro de spam funciona a la perfección 🎉🎉🎉!!
 ## Vamos a terminar esto
 
 Los clasificadores bayesianos ingenuos o Naïve Bayes funcionan muy bien para clasificar documentos. Y aunque en la vida real los filtros de spam son mucho más complejos, el nuestro funciona también bastante bien.
+
+<div class="divider"></div>
 
 Te puedes suscribir y recibir un email cada vez que haya un nuevo post.

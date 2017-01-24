@@ -7,7 +7,7 @@ mailchimp: true
 
 > Teorema de Bayes, independencia condicional, ventajas & desventajas
 
-Este es un post de **Machine Learning pero sin hype**, una serie sobre aprendizaje automático (o de máquinas) en español.
+Este es el segundo post de **Machine Learning pero sin hype**, una serie sobre aprendizaje automático (o de máquinas) en español.
 
 Hemos visto en el [primer post](introduccion-machine-learning-sin-hype) que un clasificador puede, a partir de una serie de características, predecir una etiqueta (o clase).
 
@@ -43,5 +43,7 @@ Desventajas:
 ## Vamos a terminar esto
 
 Aunque se basan en una idea relativamente sencilla, esta familia de clasificadores puede superar en muchas ocasiones a algoritmos mucho más complejos 😌. En el [próximo post](filtro-spam-machine-learning) vamos a usar un **clasificador bayesiano ingenuo** y vamos a ver que **es increíblemente efectivo en la deteción de spam y clasificación de documentos**.
+
+<div class="divider"></div>
 
 Te puedes suscribir y recibir un email cada vez que haya un nuevo post.
