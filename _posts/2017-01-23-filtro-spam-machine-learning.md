@@ -1,5 +1,5 @@
 ---
-title: Crear un filtro de spam con Machine Learning
+title: Cómo crear un filtro de spam con Machine Learning
 updated: 2017-01-23 08:45
 comments: true
 mailchimp: true
@@ -157,7 +157,7 @@ Vamos a crear una tabla con todas las palabras mencionadas en el **corpus**(coll
 | ham  | 619        | 67         | 0          | 50         |
 | spam | 3          | 432        | 291        | 534        |
 
-Este proceso también se llama **tokenización** porque **transformamos una colección de documentos de texto a una matriz de recuento de tokens**. Con *scikit-learn* esto es muy fácil:
+Este modelo o proceso se llama **[bolas de palabras](https://es.wikipedia.org/wiki/Modelo_bolsa_de_palabras)** o **tokenización** porque **transformamos una colección de documentos de texto a una matriz de recuento de tokens**. Con *scikit-learn* esto es muy fácil:
 
 
 ```python
