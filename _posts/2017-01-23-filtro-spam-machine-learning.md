@@ -5,9 +5,11 @@ comments: true
 mailchimp: true
 ---
 
-> Extraer características, tokenización & clasificación de documentos
+> Extraer características, tokenización, & clasificación de documentos
 
-Este es el tercer post de **Machine Learning pero sin hype**, una serie sobre aprendizaje automático (o de máquinas) en español. En este post vamos a crear un filtro de spam bastante preciso a partir de emails reales etiquetados como *spam* o *ham* (emails que no son spam).
+Este es el tercer post de **Machine Learning pero sin hype**, una serie sobre aprendizaje automático (o de máquinas) en español.
+
+Crear un filtro de spam es el **"Hola Mundo"** de la clasificación de documentos con Machine Learning. Por eso, en este post vamos a crear un filtro de spam bastante preciso a partir de emails reales etiquetados como *spam* o *ham* (emails que no son spam).
 
 Necesitamos tener instalado [python 3.5 o 3.6](https://www.python.org/) y varios paquetes:
 
@@ -197,7 +199,7 @@ features_train, features_test, \
 
 El problema que estamos intentando resolver es de **aprendizaje supervisado**, concretamente, **clasificación**.
 
-Vamos a usar un [**clasificador bayesiano ingenuo**](clasificador-bayesiano-ingenuo), uno de los clasificadores más sencillos y rápidos. Este clasificador es increíblemente efectivo en la detección de spam y clasificación de documentos en general.
+Vamos a usar un [**clasificador bayesiano ingenuo**](clasificador-bayesiano-ingenuo), uno de los clasificadores más sencillos y rápidos. Este tipo de clasificador es increíblemente efectivo en la detección de spam y clasificación de documentos en general.
 
 ```python
 from sklearn.naive_bayes import MultinomialNB
@@ -205,11 +207,17 @@ from sklearn.naive_bayes import MultinomialNB
 clf = MultinomialNB()
 ```
 
+<div class="divider"></div>
+
+## Entrenar el modelo con los datos
+
 Vamos a **entrenar el clasificador** con los datos que hemos dividio:
 
 ```python
 clf.fit(features_train, labels_train)
 ```
+
+Este es el **proceso de aprendizaje**. A partir de ejemplos etiquetados, el clasificador bayesiano **aprende** las probabilidades que cada token aporta a esa etiqueta (o clase). Dado un nuevo email, el clasificador usará esas probabilidades para predecir su etiqueta (o clase), en este caso *spam* o *ham*.
 
 <div class="divider"></div>
 
