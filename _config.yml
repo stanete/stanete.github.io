@@ -37,7 +37,7 @@ include:            [ "robots.txt" ]
 exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile" ]
 gems:
   - jekyll-sitemap
-
+  - jekyll-feed
 
 
 defaults:
