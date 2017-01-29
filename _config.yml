@@ -21,6 +21,9 @@ timezone:           Europe/Madrid # https://en.wikipedia.org/wiki/List_of_tz_dat
 mathjax:            false  # enables support for mathjax - set to false to disable
 image:              /images/site.png
 
+# Feed
+url:                "https://stanete.com"
+
 # Site Build
 highlighter:        rouge
 #markdown:           redcarpet
