@@ -3,6 +3,7 @@ title: Introducción a Machine Learning pero sin hype
 updated: 2017-01-15 21:29
 comments: true
 mailchimp: true
+image: ../images/introduccion-machine-learning-sin-hype.png
 ---
 
 > Primeros pasos, aprendizaje supervisado & clasificación
