@@ -6,7 +6,7 @@ mailchimp: true
 image: /images/introduccion-machine-learning-sin-hype.png
 ---
 
-> Primeros pasos, aprendizaje supervisado & clasificación
+> Primeros pasos, el proceso, aprendizaje supervisado & clasificación
 
 Este es el primer post de **Machine Learning pero sin hype**, una serie sobre aprendizaje automático (o de máquinas) en español. Vamos a saltarnos la parte de explicar qué es [Machine Learning](https://es.wikipedia.org/wiki/Aprendizaje_autom%C3%A1tico) y para qué sirve y vamos a empezar directamente con cosas más prácticas.
 

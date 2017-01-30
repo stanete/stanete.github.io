@@ -7,7 +7,7 @@ image: /images/filtro-spam-machine-learning.png
 redirect_from: "/clasificador-bayesiano-ingenuo"
 ---
 
-> Extraer características, tokenización, & clasificación de documentos
+> Extraer características, tokenización, clasificador bayesiano ingenuo & clasificación de documentos
 
 Este es el segundo post de **Machine Learning pero sin hype**, una serie sobre aprendizaje automático (o de máquinas) en español.
 
@@ -201,6 +201,8 @@ features_train, features_test, \
 El problema que estamos intentando resolver es de **aprendizaje supervisado**, concretamente, **clasificación**.
 
 Vamos a usar un **clasificador bayesiano ingenuo**, uno de los clasificadores probabilísticos más sencillos y rápidos. Está basado en el [**teorema de Bayes**](https://es.wikipedia.org/wiki/Teorema_de_Bayes) y en la asunción de [**independencia condicional**](https://es.wikipedia.org/wiki/Independencia_condicional). Este clasificador asume que **todas las características utilizadas son independientes**, es decir, que ninguna característica tiene ningún tipo de relación con otra. **En la vida real las característica no son siempre independientes**, sino que tienen relación entre ellas. Precisamente por esta asunción tan fuerte se dice que el clasificador es **ingenuo** 🤔.
+
+En este caso, asumimos que la probabilidad de que aparezca una palabra no influye en la probabilidad de que aparezca cualquier otra.
 
 ```python
 from sklearn.naive_bayes import MultinomialNB
