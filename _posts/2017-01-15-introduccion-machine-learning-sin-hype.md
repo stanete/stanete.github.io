@@ -34,7 +34,7 @@ Si los instalamos en este orden via *pip*, no deberíamos tener ningún problema
 
 ## El proceso
 
-A la hora de intetar resolver un problema en Machine Learning casi siempre debemos seguir el mismo proceso:
+A la hora de intentar resolver un problema en Machine Learning casi siempre debemos seguir el mismo proceso:
 
 1. Recolectar y preparar datos
 2. Escoger un modelo
@@ -47,8 +47,6 @@ A la hora de intetar resolver un problema en Machine Learning casi siempre debem
 
 Es improbable (no imposible) que nosotros desarrollemos un nuevo algoritmo que de mejores resultados que los que ya existen. Pero un algoritmo sin datos no sirve de nada. Un algoritmo puede dar resultados muy diferentes dependiendo de la estructura de los datos con los que lo alimentamos. Por eso gran parte de nuestro trabajo será recolectar y manipular datos. A esto se le llama *feature engineering*. Una feature o **característica** es cualquier medida de nuestros datos.
 
-> Una buena característica es simple, independiente e informativa.
-
 Para empezar vamos a usar el dataset de las flores Iris, un conjunto de datos clásico de los años treinta que contiene características sobre 3 subespecies de flores Iris:
 
 ![iris_flowers](../images/iris_flowers.png)
@@ -59,6 +57,8 @@ Para empezar vamos a usar el dataset de las flores Iris, un conjunto de datos cl
 - Anchura del sépalo (sepal width (cm))
 - Longitud de los pétalos (petal length (cm))
 - Anchura de los pétalos (petal width (cm))
+
+### Cargar datos
 
 Lo bueno es que este dataset viene dentro de *scikit-learn*:
 
@@ -92,7 +92,9 @@ print(labels_names)
 # ['setosa' 'versicolor' 'virginica']
 ```
 
-Vamos a visualizar estos datos con *matplotlib*. Representamos cada subespecie por separado con un color difernte:
+### Visualizar datos
+
+Vamos a visualizar estos datos con *matplotlib*. Representamos cada subespecie por separado con un color diferente:
 
 ```python
 from matplotlib import pyplot as plt
@@ -116,7 +118,7 @@ Visualizar los datos nos puede dar pistas sobre qué modelo utilizar. Por eso, *
 
 ### Datos de entrenamiento y datos de testeo
 
-Por último, necesitamos **dividir** este dataset en datos para entrenar el modelo y datos para testearlo. Más adelante entenderemos por qué esto es extremadamente importante.
+Por último, necesitamos **dividir** este dataset en conjuntos de entrenamiento el modelo y datos para testearlo. Más adelante entenderemos por qué esto es extremadamente importante.
 
 ```python
 from sklearn.model_selection import train_test_split
@@ -133,9 +135,7 @@ features_train, features_test, \
 
 ## Escoger un modelo
 
-Dependiendo de la situación debemos usar un modelo u otro. Uno de los fallos de alguien que empieza en Machine Learning es pensar que las redes neuronales son la solución para todo, y eso no cierto.
-
-El problema que estamos intentando resolver es de **aprendizaje supervisado**. Eso quiere decir que dados ejemplos etiquetados (labeled), podemos diseñar una regla que eventualmente se aplicará a otros ejemplos.
+El problema que estamos intentando resolver es de **aprendizaje supervisado**. Eso quiere decir que disponemos de un conjunto de ejemplos etiquetados (ya clasificados), podemos diseñar una regla que eventualmente se aplicará a otros ejemplos.
 
 Concretamente, este es un problema de **clasificación**. Una vez que hayamos encontrado esa regla, podremos clasificar nuevas flores Iris según su subespecie. Para encontrar esa regla o serie de reglas debemos usar un modelo llamado **clasificador**.
 
@@ -147,7 +147,7 @@ from sklearn.naive_bayes import GaussianNB
 clf = GaussianNB()
 ```
 
-Vamos a **alimentar al clasificador** con los datos que hemos dividio:
+Vamos a **alimentar al clasificador** con los datos que hemos dividido:
 
 ```python
 clf.fit(features_train, labels_train)
