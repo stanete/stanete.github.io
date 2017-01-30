@@ -4,11 +4,12 @@ updated: 2017-01-23 08:45
 comments: true
 mailchimp: true
 image: /images/filtro-spam-machine-learning.png
+redirect_from: "/clasificador-bayesiano-ingenuo"
 ---
 
 > Extraer características, tokenización, & clasificación de documentos
 
-Este es el tercer post de **Machine Learning pero sin hype**, una serie sobre aprendizaje automático (o de máquinas) en español.
+Este es el segundo post de **Machine Learning pero sin hype**, una serie sobre aprendizaje automático (o de máquinas) en español.
 
 Crear un filtro de spam es el **"Hola Mundo"** de la clasificación de documentos con Machine Learning. Por eso, en este post vamos a crear un filtro de spam bastante preciso a partir de emails reales etiquetados como *spam* o *ham* (emails que no son spam).
 
@@ -200,7 +201,7 @@ features_train, features_test, \
 
 El problema que estamos intentando resolver es de **aprendizaje supervisado**, concretamente, **clasificación**.
 
-Vamos a usar un [**clasificador bayesiano ingenuo**](clasificador-bayesiano-ingenuo), uno de los clasificadores más sencillos y rápidos. Este tipo de clasificador es increíblemente efectivo en la detección de spam y clasificación de documentos en general.
+Vamos a usar un **clasificador bayesiano ingenuo**, uno de los clasificadores probabilísticos más sencillos y rápidos. Está basado en el [**teorema de Bayes**](https://es.wikipedia.org/wiki/Teorema_de_Bayes) y en la asunción de [**independencia condicional**](https://es.wikipedia.org/wiki/Independencia_condicional). Este clasificador asume que **todas las características utilizadas son independientes**, es decir, que ninguna característica tiene ningún tipo de relación con otra. **En la vida real las característica no son siempre independientes**, sino que tienen relación entre ellas. Precisamente por esta asunción tan fuerte se dice que el clasificador es **ingenuo** 🤔.
 
 ```python
 from sklearn.naive_bayes import MultinomialNB

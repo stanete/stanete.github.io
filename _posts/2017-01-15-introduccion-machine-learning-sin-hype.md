@@ -114,6 +114,8 @@ plt.show()
 
 Visualizar los datos nos puede dar pistas sobre qué modelo utilizar. Por eso, **siempre tenemos que visualizar los datos**. El problema es que los humanos somos muy buenos visualizando datos en 2 e incluso en 3 dimensiones, pero no más. Para esto hemos elegido sólo dos características. En próximos posts hablaremos sobre cómo escoger las caracerísticas que más información aportan a la hora de visualizar los datos.
 
+### Datos de entrenamiento y datos de testeo
+
 Por último, necesitamos **dividir** este dataset en datos para entrenar el modelo y datos para testearlo. Más adelante entenderemos por qué esto es extremadamente importante.
 
 ```python
@@ -137,7 +139,7 @@ El problema que estamos intentando resolver es de **aprendizaje supervisado**. E
 
 Concretamente, este es un problema de **clasificación**. Una vez que hayamos encontrado esa regla, podremos clasificar nuevas flores Iris según su subespecie. Para encontrar esa regla o serie de reglas debemos usar un modelo llamado **clasificador**.
 
-Con *scikit-learn* tenemos disponibles varios clasificadores. Nosotros vamos a usar un **clasificador bayesiano ingenuo** o **Naïve Bayes**, uno de los clasificadores más utilizados por su simplicidad y rapidez. Por qué el clasificador es ingenuo lo vamos a ver en el [próximo post](clasificador-bayesiano-ingenuo) 😅.
+Con *scikit-learn* tenemos disponibles varios clasificadores. Nosotros vamos a usar un **clasificador bayesiano ingenuo** o **Naïve Bayes**, uno de los clasificadores más utilizados por su simplicidad y rapidez.
 
 ```python
 from sklearn.naive_bayes import GaussianNB

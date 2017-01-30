@@ -41,7 +41,7 @@ exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile" ]
 gems:
   - jekyll-sitemap
   - jekyll-feed
-
+  - jekyll-redirect-from
 
 defaults:
   -
