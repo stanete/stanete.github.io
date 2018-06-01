@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Machine Learning pero sin hype
+title: What is this all about
 mailchimp: true
 ---
 
 Hey 🖖
 
-Mi nombre es David Stanete y soy un **machine learning enthusiast**, sea lo que sea lo que signifique eso. *Machine Learning* se ha convertido en una expresión mágica que todo el mundo utiliza sin saber exáctamente lo que significa o cómo funciona, por no mencionar el hype alrededor de Deep Learning 😒.
+My name is David Stanete and I'm a Software Engineer. I've been working mostly in tech startups with special focus on consumer products. I try to create rock SOLID, clean, testable and maintainable software.
 
-Cuando empecé a aprender sobre Machine Learning me he encontrado con muchas barreras. Hay mucho conocimiento sobre estadísticas, cálculo, álgebra etc. que se da por hecho. Y aunque entiendo que sea así, todos queremos aprender. A esto le tenemos que sumar que no hay mucho material en español y con este blog voy a intentar aportar mi granito de arena 😌.
+Here I create posts for sharing thoughts and ideas about software engineering. 
 
-Estoy en Twitter como [@stanete](https://twitter.com/stanete) y también te puedes suscribir y recibir un email cada vez que haya un nuevo post.
+I'm on twitter as [@stanete](https://twitter.com/stanete) and you can also subscribe and receive an email every time I create a new post.
