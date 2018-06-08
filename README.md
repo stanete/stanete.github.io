@@ -1,9 +1,3 @@
-## Machine Learning pero sin hype
+## Under construction... please wait for a release anouncement
 
-Un [blog](https://stanete.com) sobre Machine Learning en español hecho con [jeckyll](https://jekyllrb.com/) y [GitHub Pages](https://pages.github.com/). El tema es [The Plain](https://github.com/heiswayi/the-plain).
-
-Machine Learning se ha convertido en una expresión mágica que todo el mundo utiliza sin saber exáctamente lo que significa o cómo funciona, por no mencionar el hype alrededor de Deep Learning 😒.
-
-Cuando empecé a aprender sobre Machine Learning me he encontrado con muchas barreras. Hay mucho conocimiento sobre estadísticas, cálculo, álgebra etc. que se da por hecho. Y aunque entiendo que sea así, todos queremos aprender. A esto le tenemos que sumar que no hay mucho material en español.
-
-Con esto voy a intentar aportar mi granito de arena 😌.
+This is a personal [blog](https://stanete.com) where I write about software engineering. It is made with [jeckyll](https://jekyllrb.com/) and [GitHub Pages](https://pages.github.com/). The template is [The Plain](https://github.com/heiswayi/the-plain).
