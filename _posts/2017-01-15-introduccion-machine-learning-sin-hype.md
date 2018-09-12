@@ -6,29 +6,29 @@ mailchimp: true
 image: /images/introduccion-machine-learning-sin-hype.png
 ---
 
-> Primeros pasos, el proceso, aprendizaje supervisado & clasificación
+> First steps, the process, supervised learning & classification
 
-Este es el primer post de **Machine Learning pero sin hype**, una serie sobre aprendizaje automático (o de máquinas) en español. Vamos a saltarnos la parte de explicar qué es [Machine Learning](https://es.wikipedia.org/wiki/Aprendizaje_autom%C3%A1tico) y para qué sirve y vamos a empezar directamente con cosas más prácticas.
+This is the first blog about **Machine Learning**. By this point everybody has aat least some understandig of what is machine learning so we are going to skip the part where what is it and what's useful for.
 
-En próximos posts hablaremos sobre Deep Learning también 😏.
+We will talk about Deep Learning too 😏.
 
-## ¿Cómo se empieza?
+## Where to start?
 
-**Algoritmos**. Necesitamos aprender cómo funcionan los algoritmos que ya existen (al menos algunos de ellos) y entender en qué situaciones es mejor utilizar uno u otro.
+**Algorithms**. We need to get comfortable with how the algorithms that are already out there work. At least with some of them and understand when is better to use one or other depending on the problem we need to solve.
 
-No vamos a programar esos algoritmos sino que vamos a usar python y varias librerías opensource para usarlos directamente y verlos en acción (sí que vamos a tratar de entender cómo funcionan).
+We are not going to program those algorithms ourselves. We are going to use python and different opensource libraries to apply those algorithms directly and observe them in action. We are going to try to understand the magic underneath.
 
-A estos algoritmos también se les llama **modelos**. Un modelo sirve para representar de forma sencilla una realidad mucho más compleja. El problema es que eso nunca es exacto y siempre va a existir un **error**. Por eso, nuestro trabajo será maximizar la precisión con la que un modelo es capaz de clasificar, predecir o describir esa realidad 🤔.
+These algorithms are also called **models**. A model represents a compelx reality in a simpler way. That representation isn't perfect and there is always going to be an **error**. Our job will be to maximize the precission with which that model is able to classify, predict or describe that reality 🤔.
 
-Para empezar necesitamos tener instalado python y varios paquetes:
+The easyest and most common way to get started is with an iPython notebook. There we can start playing with some machine learning libraries and algorithms right away. 
 
-- [python 3.5 o 3.6](https://www.python.org/)
-- [numpy](http://www.numpy.org/)
-- [scipy](https://www.scipy.org/)
-- [matplotlib](http://matplotlib.org/)
-- [scikit-learn](http://scikit-learn.org/)
+The fastest way to get an iPython notebook up and runnign is using a [docker](https://www.docker.com) image. After installing docker just run the following command in your working repository:
 
-Si los instalamos en este orden via *pip*, no deberíamos tener ningún problema. Yo utilizo [PyCharm](https://www.jetbrains.com/pycharm/) y tengo todo dentro de un [virtualenv](https://virtualenv.pypa.io/en/stable/). Los ejemplos de código están hechos para que se puedan seguir con una consola de python en el orden que se muestran.
+```
+docker run -p 8888:8888 -v $(pwd):/src stanete/scikitlearn 
+```
+
+This will download the docker image, build it and run a container with everything you need. Just like magic. It will show you a message containing a URL that you will have to paste on your browser.
 
 <div class="divider"></div>
 
