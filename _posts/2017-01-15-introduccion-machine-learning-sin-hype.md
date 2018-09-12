@@ -1,12 +1,12 @@
 ---
-title: Introducción a Machine Learning pero sin hype
-updated: 2017-01-15 21:29
+title: First steps with machine learning
+updated: 2018-12-09 22:05
 comments: true
 mailchimp: true
 image: /images/introduccion-machine-learning-sin-hype.png
 ---
 
-> First steps, the process, supervised learning & classification
+> First steps, the workflow, supervised learning & classification
 
 This is the first blog about **Machine Learning**. By this point everybody has aat least some understandig of what is machine learning so we are going to skip the part where what is it and what's useful for.
 
@@ -25,25 +25,25 @@ The easyest and most common way to get started is with an iPython notebook. Ther
 The fastest way to get an iPython notebook up and runnign is using a [docker](https://www.docker.com) image. After installing docker just run the following command in your working repository:
 
 ```
-docker run -p 8888:8888 -v $(pwd):/src stanete/scikitlearn 
+docker run -p 8888:8888 -v $(pwd):/src stanete/scikit-learn
 ```
 
-This will download the docker image, build it and run a container with everything you need. Just like magic. It will show you a message containing a URL that you will have to paste on your browser.
+This will download the docker image and will run a container with everything you need. It will show you a console message containing a URL that you will have to paste on your browser. Just like magic ✨.
 
 <div class="divider"></div>
 
-## El proceso
+## The workflow
 
-A la hora de intentar resolver un problema en Machine Learning casi siempre debemos seguir el mismo proceso:
+Almost any machine learning problem will follow the same workflow. We will talk about it with more detail in future posts. But for now here is a simplified version of it:
 
-1. Recolectar y preparar datos
-2. Escoger un modelo
-3. Entrenar el modelo con los datos
-4. Probar el modelo
+1. Gathering and preparing the data
+2. Choosing a model
+3. Training the model
+4. Testing the model
 
 <div class="divider"></div>
 
-## Recolectar y preparar datos
+## Gathering and preparing the data
 
 Es improbable (no imposible) que nosotros desarrollemos un nuevo algoritmo que de mejores resultados que los que ya existen. Pero un algoritmo sin datos no sirve de nada. Un algoritmo puede dar resultados muy diferentes dependiendo de la estructura de los datos con los que lo alimentamos. Por eso gran parte de nuestro trabajo será recolectar y manipular datos. A esto se le llama *feature engineering*. Una feature o **característica** es cualquier medida de nuestros datos.
 
