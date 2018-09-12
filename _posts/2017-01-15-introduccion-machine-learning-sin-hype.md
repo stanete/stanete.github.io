@@ -18,17 +18,17 @@ We will talk about Deep Learning too 😏.
 
 We are not going to program those algorithms ourselves. We are going to use python and different opensource libraries to apply those algorithms directly and observe them in action. We are going to try to understand the magic underneath.
 
-These algorithms are also called **models**. A model represents a compelx reality in a simpler way. That representation isn't perfect and there is always going to be an **error**. Our job will be to maximize the precission with which that model is able to classify, predict or describe that reality 🤔.
+These algorithms are also called **models**. **A model represents a compelx reality in a simpler way**. The problem is that any representation wont't be perfect and there will always going to be an **error**. Our job will be to maximize the precision with which that model is able to classify, predict or describe that reality 🤔.
 
-The easyest and most common way to get started is with an iPython notebook. There we can start playing with some machine learning libraries and algorithms right away. 
+The easiest and most common way to get started is with an iPython notebook. That way we can start playing with some machine learning libraries and algorithms right away. 
 
-The fastest way to get an iPython notebook up and runnign is using a [docker](https://www.docker.com) image. After installing docker just run the following command in your working repository:
+The fastest way to get an iPython notebook up and runnign is using a [docker](https://www.docker.com) 🐳 image. After installing docker just run the following command in your working repository:
 
 ```
 docker run -p 8888:8888 -v $(pwd):/src stanete/scikit-learn
 ```
 
-This will download the docker image and will run a container with everything you need. It will show you a console message containing a URL that you will have to paste on your browser. Just like magic ✨.
+This will download the docker image and will run a container with everything you need. It will show you a console message containing a URL that you will have to copy and paste on your browser. Just like magic ✨.
 
 <div class="divider"></div>
 
