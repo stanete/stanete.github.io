@@ -10,19 +10,19 @@ image: /images/introduccion-machine-learning-sin-hype.png
 
 This is the first post from the series **Machine learning! But without the hype...**. It's 2018 so by this point everybody has at least some understandig of what machine learning is and what it is useful for. That's why we are going to skip the introducction and we are going to jump right into it.
 
-Don't worry. We will talk about Deep Learning too 😏.
+Don't worry. We will talk about Deep Learning too :smirk:.
 
-## Where do we start?
+## Where do we start :thinking_face:
 
 **Algorithms**. We need to get comfortable with how the algorithms that are already out there work. At least with some of them and understand when is better to use one or other depending on the problem we need to solve.
 
 We are not going to program those algorithms ourselves. We are going to use python and different opensource libraries to apply those algorithms directly and observe them in action. We are going to try to understand the magic underneath.
 
-These algorithms are also called **models**. **A model represents a compelx reality in a simpler way**. The problem is that any representation wont't be perfect and there will always going to be an **error**. Our job will be to maximize the precision with which that model is able to classify, predict or describe that reality 🤔.
+These algorithms are also called **models**. **A model represents a compelx reality in a simpler way**. The problem is that any representation wont't be perfect and there will always going to be an **error**. Our job will be to maximize the precision with which that model is able to classify, predict or describe that reality :thinking_face:.
 
 The easiest and most common way to get started is with an iPython notebook. That way we can start playing with some machine learning libraries and models right away. 
 
-The fastest way to get an iPython notebook up and runnign is using a [docker](https://www.docker.com) 🐳 container. After installing docker just run the following command in your working repository:
+The fastest way to get an iPython notebook up and runnign is using a [docker](https://www.docker.com) :whale: container. After installing docker just run the following command in your working repository:
 
 ```
 docker run -p 8888:8888 -v $(pwd):/src stanete/scikit-learn
@@ -32,7 +32,7 @@ This will download a docker image with everything you need and will run a contai
 
 <div class="divider"></div>
 
-## The workflow
+## The workflow :male-technologist:
 
 We will follow the same workflow on almost every machine learning problem. We will talk about it with more detail in future posts. But for now here is a simplified version of it:
 
@@ -43,9 +43,9 @@ We will follow the same workflow on almost every machine learning problem. We wi
 
 <div class="divider"></div>
 
-## Gathering and preparing the data
+## Gathering and preparing the data :male-detective:
 
-It is improbable (difficult but not imposible) for us to develop new types of models. However a model without data isn't useful. In most cases, a model won't be able to learn from completely arbitrary data. The data needs to be presented to the model in a way that will make the model’s job easier. A model can achieve very different results depending on the structure of the data it's fed with. That's why a big part of our job will be to gather and manipulate that data to suit the needs of a certain model. That is called *feature engineering*.  
+It is improbable (difficult but not imposible) for us to develop new types of models. However a model without data isn't useful. In most cases, a model won't be able to learn from completely arbitrary data. The data needs to be presented to the model in a way that will make the model’s job easier. A model can achieve very different results depending on the structure of the data it's fed with. That's why a big part of our job will be to gather and manipulate that data to suit the needs of a certain model. That is called *feature engineering*.
 
 To get started we are going to use the dataset of the Iris flowers. This is a classic dataset from the 30s that has features about 3 subspecies of Iris flowers:
 
@@ -93,7 +93,7 @@ print(labels_names)
 # ['setosa' 'versicolor' 'virginica']
 ```
 
-### Visualize the data
+### Visualize the data 📊
 
 We are going to use *matplotlib* to visualize the data. We represent each subspecies with a different color:
 
@@ -117,7 +117,7 @@ plt.show()
 
 Visualizing the data can give us hints about what model to use. That's why we should **always visualize the data**. We humans are very good to visualize data in 2 dimensions and even in 3 dimensions. But it's imposible to visualize more than that. That's why we have chosen only 2 features.
 
-### Training and testing data
+### Training and testing data 
 
 Lastly, we need to **separate** this dataset into a training set and a testing set. We will talk in future posts about the reason behind it and why this is extremly important.
 
@@ -152,7 +152,7 @@ Let's **feed the classifier** with the training data:
 clf.fit(features_train, labels_train)
 ```
 
-## What happened undeneath?
+## What happened undeneath 🤔
 
 The classifier has built some **decision borders** or **surfice borders** to divide the vectorial space in different sets, one for every Iris subspecies. Let's visualize those **decision borders** along with the data:
 
@@ -197,7 +197,7 @@ Depending on which side of the border is going to fall a new Iris flower, the cl
 
 <div class="divider"></div>
 
-## Testing the model
+## Testing the model 👮‍
 
 We have already trained the model but we don't know how **accurate** it is when classifying new Iris flowers. To find out we are going to test the classfier with the testing data. 
 
@@ -249,7 +249,7 @@ print("Accuracy: %.2f" % (accuracy))
 # Accuracy: 0.97
 ```
 
-Wow! The accuracy has improved a lot. As you see not everything depends on the model we use.
+Wow 👏! The accuracy has improved a lot. As you see not everything depends on the model we use.
 
 <div class="divider"></div>
 
