@@ -1,5 +1,5 @@
 ---
-title: Crear un filtro de spam con Machine Learning
+title: Create a spam filter using Machine Learning
 updated: 2017-01-23 08:45
 comments: true
 mailchimp: true
@@ -7,50 +7,47 @@ image: /images/filtro-spam-machine-learning.png
 redirect_from: "/clasificador-bayesiano-ingenuo"
 ---
 
-> Extraer características, tokenización, clasificador bayesiano ingenuo & clasificación de documentos
+> Extracting features, tekenization, naïve Bayes classiffier & documents classification
 
-Este es el segundo post de **Machine Learning pero sin hype**, una serie sobre aprendizaje automático (o de máquinas) en español.
+This is the second post from the series **Machine learning! But without the hype...**.
 
-Crear un filtro de spam es el **"Hola Mundo"** de la clasificación de documentos con Machine Learning. Por eso, en este post vamos a crear un filtro de spam bastante preciso a partir de emails reales etiquetados como *spam* o *ham* (emails que no son spam).
+Creating a spam filter is the **Hello World** of the classification of docuemnts in MAchine Learning. In this post we are going to create a simpe spam filter from real emails labeled as *spam* or *ham* (emails that are not spam).
 
-Necesitamos tener instalado [python 3.5 o 3.6](https://www.python.org/) y varios paquetes:
+Again you will need to have [docker](https://www.docker.com) 🐳 installed and in your working directory run:
 
-- [numpy](http://www.numpy.org/)
-- [scipy](https://www.scipy.org/)
-- [pandas](http://pandas.pydata.org/)
-- [scikit-learn](http://scikit-learn.org/)
-
-Si los instalamos en este orden via *pip*, no deberíamos tener ningún problema. Yo utilizo [PyCharm](https://www.jetbrains.com/pycharm/) y tengo todo dentro de un [virtualenv](https://virtualenv.pypa.io/en/stable/).
+```
+docker run -p 8888:8888 -v $(pwd):/src stanete/scikit-learn
+```
 
 El único paquete con el que no hemos trabajado todavía es **pandas**. De momento sólo necesitamos saber que es una librería de python opensource para análisis de datos.
 
-El proceso que seguirémos será el mismo que en el [primer post](introduccion-machine-learning-sin-hype):
+The workflow we are going to follow is the same as in [first post](machine-learning-without-hype):
 
-1. Recolectar y preparar datos
-2. Escoger un modelo
-3. Entrenar el modelo con los datos
-4. Probar el modelo
+1. Gathering and preparing the data
+2. Choosing a model
+3. Training the model
+4. Testing the model
 
 <div class="divider"></div>
 
-## Recolectar y preparar datos
+## Gathering and preparing the data 🏗
 
-Vamos a tener que enamorarnos de este paso porque es en el que vamos a pasar gran parte del tiempo a la hora de trabajar en Machine Learning.
+We will have to learn to love this step because in real life is going to be the one in which we spend the most time on.
 
-### Descargar datos
+### Downloading the data
 
-Vamos a utilizar el dataset público [Enron-Spam](http://www.aueb.gr/users/ion/data/enron-spam/) que vamos a descargar y poner en una carpeta llamada *data*. Este conjunto de datos contiene emails preprocesados divididos en carpetas *spam* y *ham*.
+We are going to use the public dataset [Enron-Spam](http://www.aueb.gr/users/ion/data/enron-spam/) which we are going to download and place in a folder named *data*. This dataset contains preprocessed emails divided in folders *spam* and *ham*.
 
-Primero tenemos que definir las etiquetas (o clases) de este dataset y las rutas de las carpetas que contienen los emails que hemos descargado.
+Let's define the labels (or classes) of this dataset and the routs of the directories that contain the emails that we have just dowloaded:
+
 
 ```python
-# Etiquetas.
+# Labels.
 HAM = 'ham'
 SPAM = 'spam'
 
-# Fuentes de datos con las rutas de
-# las carpetas que contienen los emails
-# y las etiquetas correspondientes.
+# Datasources with the routes and folders
+# that contain the corresponding emails.
 SOURCES = [
     ('data/enron1/spam', SPAM),
     ('data/enron1/ham', HAM),
@@ -61,9 +58,9 @@ SOURCES = [
 ]
 ```
 
-### Cargar datos
+### Loading the data
 
-Vamos a cargar los datos en un [DataFrame](http://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.html), una estructura de datos en la que podemos pensar como un diccionario construido sobre **numpy** (eso quiere decir que es rápido). El DataFrame contendrá los cuerpos de los emails en una columna y la etiqueta correspondiente en otra.
+Let's load the data in a [DataFrame](http://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.html), a data structure in which we can think as a dictionary built upon **numpy**. The DataFrame will contain the bodies of the emails in one column and the corresponding label in the other column.
 
 ```python
 from pandas import DataFrame

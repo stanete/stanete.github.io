@@ -22,7 +22,7 @@ These algorithms are also called **models**. **A model represents a compelx real
 
 The easiest and most common way to get started is with an iPython notebook. That way we can start playing with some machine learning libraries and models right away. 
 
-The fastest way to get an iPython notebook up and runnign is using a [docker](https://www.docker.com) :whale: container. After installing docker just run the following command in your working repository:
+The fastest way to get an iPython notebook up and runnign is using a [docker](https://www.docker.com) 🐳 container. After installing docker just run the following command in your working repository:
 
 ```
 docker run -p 8888:8888 -v $(pwd):/src stanete/scikit-learn
