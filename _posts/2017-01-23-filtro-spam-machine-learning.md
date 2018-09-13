@@ -1,5 +1,5 @@
 ---
-title: Create a spam filter using Machine Learning
+title: Data processing and feature extraction
 updated: 2017-01-23 08:45
 comments: true
 mailchimp: true
@@ -111,36 +111,35 @@ def build_data_frame(path, label):
     rows = []
     index = []
 
-    # Recorrer todos los ficheros dada un ruta.
+    # Loop over the files given a path.
     for file_path, text in read_files(path):
-        # Añadir el texto del fichero junto
-        # con su etiqueta correspondiente.
+        # Add the text of the file with its 
+        # correspondat label.
         rows.append({'text': text, 'label': label})
 
-        # Utilizar la ruta del fichero como index.
+        # Use the frame of the file as index.
         index.append(file_path)
 
-    # Crear un nuevo DataFrame
-    # a partir de las filas y los indexes.
+    # Create a new DataFrame
+    # from the rows and indexes. 
     data_frame = DataFrame(rows, index=index)
 
-    # Devolver el DataFrame.
+    # Finally return the DataFrame.
     return data_frame
 ```
 
-Vamos a usar estas dos funciones, *read_files* y *build_data_frame*, para construir un DataFrame a partir de los emails que tenemos:
+We are going to use those two functions*read_files* y *build_data_frame* to build a DataFrame from the emails we have:
 
 ```python
-# Recorrer las rutas de las
-# carpetas que contienen los emails:
+# Loop over the paths of the
+# directories that contain the email:
 for path, label in SOURCES:
-    # Añadir cada DataFrame que devuelve
-    # la función build_data_frame dada la
-    # ruta de la carpeta y su etiqueta correspondiente.
+    # Add each DataFrame to a dictionary 
+    # with its correspondant label
     data = data.append(build_data_frame(path, label))
 ```
 
-Para asegurarnos de que los datos no están ordenados de forma uniforme, vamos a mezclarlos:
+To ensure that the data are not ordered in a uniform way, we are going to shuffle them:
 
 ```python
 import numpy
@@ -148,7 +147,7 @@ import numpy
 data = data.reindex(numpy.random.permutation(data.index))
 ```
 
-### Extraer características
+### Extract features
 
 Antes de que podamos entrenar un algoritmo para clasificar los emails, necesitamos unas **características** (features). En la clasificación de documentos, la frecuencia con la que aparece cada palabra es una buena característica.
 
