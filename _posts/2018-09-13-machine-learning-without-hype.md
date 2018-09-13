@@ -93,7 +93,7 @@ print(labels_names)
 # ['setosa' 'versicolor' 'virginica']
 ```
 
-### Visualize the data 📊
+### Visualizing the data 📊
 
 We are going to use *matplotlib* to visualize the data. We represent each subspecies with a different color:
 
