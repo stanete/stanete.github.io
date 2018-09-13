@@ -18,7 +18,7 @@ Don't worry. We will talk about Deep Learning too 😏.
 
 We are not going to program those algorithms ourselves. We are going to use python and different opensource libraries to apply those algorithms directly and observe them in action. We are going to try to understand the magic underneath.
 
-These algorithms are also called **models**. **A model represents a compelx reality in a simpler way**. The problem is that any representation wont't be perfect and there will always going to be an **error**. Our job will be to maximize the precision with which that model is able to classify, predict or describe that reality 🤔.
+These algorithms are also called **models**. **A model represents a compelx reality in a simpler way**. The problem is that any representation wont't be perfect and there will always going to be an **error**. Our job will be to maximize the precision with which a model is able to classify, predict or describe that reality 🤔.
 
 The easiest and most common way to get started is with an iPython notebook. That way we can start playing with some machine learning libraries and models right away. 
 
