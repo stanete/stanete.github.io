@@ -45,22 +45,23 @@ Almost any machine learning problem will follow the same workflow. We will talk 
 
 ## Gathering and preparing the data
 
-Es improbable (no imposible) que nosotros desarrollemos un nuevo algoritmo que de mejores resultados que los que ya existen. Pero un algoritmo sin datos no sirve de nada. Un algoritmo puede dar resultados muy diferentes dependiendo de la estructura de los datos con los que lo alimentamos. Por eso gran parte de nuestro trabajo será recolectar y manipular datos. A esto se le llama *feature engineering*. Una feature o **característica** es cualquier medida de nuestros datos.
+It is improbable (but not imposible) for us to develop new algorithms that improve existings results. But an algorithm without data isn't useful. An algorithm can achieve very different results depending on the structure of the data we feed it. That's why a big part of our job will be to gather and manipulate that data to suit our needs for certain algorithm. That is called *feature engineering*. A feature is any measure of our data.
 
-Para empezar vamos a usar el dataset de las flores Iris, un conjunto de datos clásico de los años treinta que contiene características sobre 3 subespecies de flores Iris:
+To get started we are going to use the dataset of the Iris flowers. This is a classic dataset from the 30s that has features about 3 subspecies of Iris flowers:
 
 ![iris_flowers](../images/iris_flowers.png)
 
- Hoy en día, las diferentes especies de Iris se clasificarían por sus firmas genómicas pero en la década de 1930, el ADN no había sido identificado como el portador de la información genética, pero sí que se las podían clasificar por su morfología:
 
-- Longitud del sépalo (sepal length (cm))
-- Anchura del sépalo (sepal width (cm))
-- Longitud de los pétalos (petal length (cm))
-- Anchura de los pétalos (petal width (cm))
+Nowadays, the different subspeciees of Iris flowers will be classified by their genomic blueprint but in the 30s, the DNA was not discovered yet. In the 30s we aould classify them by their morfology:
 
-### Cargar datos
+- Sepal length (cm)
+- Sepal width (cm)
+- Petal length (cm)
+- Petal width (cm)
 
-Lo bueno es que este dataset viene dentro de *scikit-learn*:
+### Loading the data
+
+This dataset comes packed in with *scikit-learn*:
 
 ```python
 from sklearn import datasets
@@ -68,7 +69,7 @@ from sklearn import datasets
 iris = datasets.load_iris()
 ```
 
-Para simplificarlo al máximo, vamos a trabajar solamente con las primeras dos características:
+To simplify this to the maximum we are going to work only with the first two features:
 
 ```python
 features = iris.data[:, :2]
@@ -80,7 +81,7 @@ print(feature_names)
 # ['sepal length (cm)', 'sepal width (cm)']
 ```
 
-Los datos de este dataset están etiquetados (labeled). Eso quiere decir que cada conjunto de características corresponde a una subespecie de Iris:
+The data in this dataset is labeled. That means that any feature set corresponts to a Iris subspecies:
 
 ``` python
 labels = iris.target
@@ -92,9 +93,9 @@ print(labels_names)
 # ['setosa' 'versicolor' 'virginica']
 ```
 
-### Visualizar datos
+### Visualize the data
 
-Vamos a visualizar estos datos con *matplotlib*. Representamos cada subespecie por separado con un color diferente:
+We are going to use *matplotlib* to visualize the data. We represent each subspecies with a different color:
 
 ```python
 from matplotlib import pyplot as plt
@@ -104,21 +105,21 @@ for l, c in zip(range(3), "brw"):
                 features[labels == l, 1],
                 c=c)
 
-# Poner nombre a los dos ejes x, y.
+# Naming axes x and y.
 plt.xlabel(feature_names[0])
 plt.ylabel(feature_names[1])
 
-# Mostrar el gráfico.
+# Show the graph.
 plt.show()
 ```
 
 ![figure_1](../images/1_figure_1.png)
 
-Visualizar los datos nos puede dar pistas sobre qué modelo utilizar. Por eso, **siempre tenemos que visualizar los datos**. El problema es que los humanos somos muy buenos visualizando datos en 2 e incluso en 3 dimensiones, pero no más. Para esto hemos elegido sólo dos características. En próximos posts hablaremos sobre cómo escoger las caracerísticas que más información aportan a la hora de visualizar los datos.
+Visualizing the data can give us hints about what model to use. That's why we should **always visualize the data**. We humans are very good to visualize data in 2 dimensions and even in 3 dimensions. But it's imposible to visualize more dimensions than that. That's why we have chosen only 3 features. In future posts we will talk about how to choose features that have the most value when it comes to visualizing data.
 
-### Datos de entrenamiento y datos de testeo
+### Training and testing data
 
-Por último, necesitamos **dividir** este dataset en conjuntos de entrenamiento el modelo y datos para testearlo. Más adelante entenderemos por qué esto es extremadamente importante.
+Lastly, we need to **separate** this dataset into a training set and a testing set.
 
 ```python
 from sklearn.model_selection import train_test_split
@@ -133,13 +134,11 @@ features_train, features_test, \
 
 <div class="divider"></div>
 
-## Escoger un modelo
+## Choosing a model
 
-El problema que estamos intentando resolver es de **aprendizaje supervisado**. Eso quiere decir que disponemos de un conjunto de ejemplos etiquetados (ya clasificados), podemos diseñar una regla que eventualmente se aplicará a otros ejemplos.
+We are trying to solve is a **classification** problem and we are going to solve it with a **supervised learning** model. A **classifier**. That means that we have available a set of already classified or labeld data and the model will infer some rules that will apply to classify new data. 
 
-Concretamente, este es un problema de **clasificación**. Una vez que hayamos encontrado esa regla, podremos clasificar nuevas flores Iris según su subespecie. Para encontrar esa regla o serie de reglas debemos usar un modelo llamado **clasificador**.
-
-Con *scikit-learn* tenemos disponibles varios clasificadores. Nosotros vamos a usar un **clasificador bayesiano ingenuo** o **Naïve Bayes**, uno de los clasificadores más utilizados por su simplicidad y rapidez.
+With *scikit-learn* we have available different classifiers. We are going to use the **Naïve Bayes** classifier, which is by far the most popular one. 
 
 ```python
 from sklearn.naive_bayes import GaussianNB
@@ -147,20 +146,20 @@ from sklearn.naive_bayes import GaussianNB
 clf = GaussianNB()
 ```
 
-Vamos a **alimentar al clasificador** con los datos que hemos dividido:
+We are going to **feed the classifier** with the training data:
 
 ```python
 clf.fit(features_train, labels_train)
 ```
 
-El clasificador ha construido unas **fronteras de decisión** o **superficies de decisión** para dividir el espacio vectorial en varios conjuntos, uno para cada subespecie de Iris. El clasificador clasificará todos los puntos de un lado de cada frontera de decisión como pertenecientes a una subespecie.
+The classifier has build some **decision borders** or **surfice borders** to divide the vectorial space in different sets, one for every Iris subspecies. It will classify every point of a **decision border** as belonging to a subspecie.
 
-Vamos a visualizar las **fronteras de decisión** junto a los datos, aunque no nos vamos a preocupar por los detalles del código por ahora:
+Let's visualize the **decision borders** along with the data:
 
 ```python
 import numpy as np
 
-# Visualizar las fronteras de decisión.
+# Visualize the decision borders.
 h = .02
 x_min = features[:, 0].min() - 1
 x_max = features[:, 0].max() + 1
@@ -174,42 +173,42 @@ Z = clf.predict(np.c_[xx.ravel(), yy.ravel()])
 Z = Z.reshape(xx.shape)
 plt.contourf(xx, yy, Z, cmap=plt.cm.coolwarm, alpha=0.8)
 
-# Visualizar también los datos.
+# Visualize the data.
 for l, c in zip(range(3), "brw"):
     plt.scatter(features[labels == l, 0],
                 features[labels == l, 1],
                 c=c)
 
-# Poner nombre a los dos ejes x, y.
+#  Naming axes x and y.
 plt.xlabel(feature_names[0])
 plt.ylabel(feature_names[1])
 
-# Definir los límites del gráfico.
+# Define the graphs limits.
 plt.xlim(xx.min(), xx.max())
 plt.ylim(yy.min(), yy.max())
 
-# Mostrar el gráfico.
+# Show the graph.
 plt.show()
 ```
 
 ![figure_2](../images/1_figure_2.png)
 
-Dependiendo de qué lado de cada frontera esté una nueva flor Iris, el clasificador le asignará una etiqueta u otra.
+Depending on which side of the border is going to be a new Iris flower, the classifier will assign a label or other.
 
 <div class="divider"></div>
 
-## Poner el modelo a prueba
+## Testing the model
 
-Ya hemos entrenado el clasificador pero no sabemos cómo de **preciso** es a la hora de clasificar nuevas flores Iris. Para averiguarlo vamos a testear el clasificador con los datos que hemos dividido antes. Vamos a hacer que nuestro clasificador determine (o prediga) las etiquetas de algunas flores de Iris y compararlo con sus etiquetas reales.
+We have already trained the classifier but we don't know how **accurate** it is when classifying new Iris flowers. To find it out we are going to test the classfier with the testing data. We are going to make the classifier to determine (or predict) the labels of some Iris flowers and comer them with their real labels.
 
 ```python
 from sklearn.metrics import accuracy_score
 
-# Predecir etiquetas para los datos de testeo.
+# Predict labels for the testing data.
 labels_predict = clf.predict(features_test)
 
-# Calcular la precisión comparando
-# las etiquetas predecidas y las etiquedas reales.
+# Calculate precision comparing
+# predicte labels with real labels.
 accuracy = accuracy_score(labels_predict, labels_test)
 
 print("Accuracy: %.2f" % (accuracy))
@@ -217,15 +216,15 @@ print("Accuracy: %.2f" % (accuracy))
 # Accuracy: 0.73
 ```
 
-0.73 es mejor que la casualidad, pero no demasiado teniendo en cuenta que la precision se mide entre 0 y 1.
+0.73 is better than change, but not too much taking into account that accuracy is measured between 0 and 1.
 
-Vamos a intentar entrenar nuestro modelo con las 4 características y ver si la precisión del clasificador mejora:
+Let's try to train the model with the 4 features and see if the accuracy of the classifier improves:
 
 ```python
-# Las 4 características.
+# The 4 features.
 features = iris.data
 
-# Dividir datos.
+# Divide the data.
 features_train, features_test, \
     labels_train, labels_test = train_test_split(
         features, labels,
@@ -233,13 +232,14 @@ features_train, features_test, \
         test_size=0.2,
         random_state=0)
 
-# Alimentar el clasificador con los datos de entrenamiento.
+# Feed the classifier with training data.
 clf.fit(features_train, labels_train)
 
-# Predecir etiquetas para los datos de testeo.
+# Predict labels for the testing data.
 labels_predict = clf.predict(features_test)
 
-# Calcular precisión.
+# Calculate precision comparing
+# predicte labels with real labels.
 accuracy = accuracy_score(labels_predict, labels_test)
 
 print("Accuracy: %.2f" % (accuracy))
@@ -247,14 +247,14 @@ print("Accuracy: %.2f" % (accuracy))
 # Accuracy: 0.97
 ```
 
-Wow! La precisión ha mejorado hasta 0.97. Como vemos, no todo depende del clasificador que usemos.
+Wow! The accuracy has improved a lot. Not everything depends on the classifier we use.
 
 <div class="divider"></div>
 
-## Vamos a terminar esto
+## Wrapping up
 
-Machine Learning no es una caja mágica, sino cálculo, álgebra, estadística y código. Esto es sólo el principio y en próximos posts vamos a ver más modelos y más tipos de problemas.
+Machine Learning is not a magic box. It's calculus, algebra, statistics and code. This is only the beggining and in next posts we are going to explore more models and more types of problems to solve.
 
 <div class="divider"></div>
 
-Te puedes suscribir y recibir un email cada vez que haya un nuevo post. Cualquier feedback es bienvenido!
+You can subscribe and receive an email any time there is a new post. Any feedback is welcomed 🤗!!
