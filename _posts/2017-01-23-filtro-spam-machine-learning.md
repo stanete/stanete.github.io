@@ -9,9 +9,9 @@ redirect_from: "/clasificador-bayesiano-ingenuo"
 
 > Extracting features, tekenization, naïve Bayes classiffier & documents classification
 
-This is the second post from the series **Machine learning! But without the hype...**.
+This is the second post from the series **Machine learning! But without the hype...**. In this post we will focus on the process of preparing the data for a model and have a grasp of how tedious it can be.
 
-Creating a spam filter is the **Hello World** of the classification of docuemnts in MAchine Learning. In this post we are going to create a simpe spam filter from real emails labeled as *spam* or *ham* (emails that are not spam).
+We are going to create a spam filter which is the **Hello World** of the classification of docuemnts in Machine Learning. In this post we are going to create a simpe spam filter from real emails labeled as *spam* or *ham* (emails that are not spam).
 
 Again you will need to have [docker](https://www.docker.com) 🐳 installed and in your working directory run:
 
@@ -105,7 +105,6 @@ def read_files(path):
 
 We are also going to define a function that will build and return a DataFrame from the bodies of the emails obtain with *read_files*. This function will also assign to each email its correspondat label. Every entry in the DataFrame is going to be indexed by the route of the file that contains the email.
 
-
 ```python
 def build_data_frame(path, label):
     rows = []
@@ -149,36 +148,36 @@ data = data.reindex(numpy.random.permutation(data.index))
 
 ### Extract features
 
-Antes de que podamos entrenar un algoritmo para clasificar los emails, necesitamos unas **características** (features). En la clasificación de documentos, la frecuencia con la que aparece cada palabra es una buena característica.
+Before we can train a model to classify the emails we need some **features**. In documents classification, the frequency with which a word appears seems to be a good feature.
 
-Vamos a crear una tabla con todas las palabras mencionadas en el **corpus**(colleción de emails que tenemos) y su frecuencia en cada clase de email (spam o ham):
+Let's create a table with all the words mentioned in the **corpus** and their frequency in each email label (spam or ham).
 
 |      |    Linux   |   today    |   Viagra   |    Free    |
 |:----:|:----------:|:----------:|:----------:|:----------:|
 | ham  | 619        | 67         | 0          | 50         |
 | spam | 3          | 432        | 291        | 534        |
 
-Este proceso se llama **tokenización** porque **transformamos una colección de documentos de texto a una matriz de recuento de tokens**. Con *scikit-learn* esto es muy fácil:
+This process is called **tokenización** because **transforms a collection of text documents to a matrix of tokens count**. Using *scikit-learn* this is easy:
 
 ```python
 from sklearn.feature_extraction.text import CountVectorizer
 
 count_vectorizer = CountVectorizer()
 
-# Los emails que tenemos en el DataFrame.
+# The emails we have in the DataFrame.
 email_bodies = data['text'].values
 
-# Aprender el vocabulario del corpus
-# y extraer el recuento de tokens.
+# Learn the vocabulary of the corpus
+# and extract the tokens.
 features = count_vectorizer.fit_transform(email_bodies)
 
-# Las etiquetas (spam o ham).
+# The labels (spam or ham).
 labels = data['label'].values
 ```
 
-### Datos de entrenamiento y datos de testeo
+### Training and testing data
 
-Por último, necesitamos **dividir** este dataset en datos para entrenar el modelo y datos para testearlo.
+Lastly we need to **separate** this dataset in training and testing sets so we can train the model and then test it with different data.
 
 ```python
 from sklearn.model_selection import train_test_split
@@ -193,13 +192,13 @@ features_train, features_test, \
 
 <div class="divider"></div>
 
-## Escoger un modelo
+## Choosing a model
 
-El problema que estamos intentando resolver es de **aprendizaje supervisado**, concretamente, **clasificación**.
+The probelm we are trying to solve is a **supervised learning**, and more concretely a **clasification**.
 
-Vamos a usar un **clasificador bayesiano ingenuo**, uno de los clasificadores probabilísticos más sencillos y rápidos. Está basado en el [**teorema de Bayes**](https://es.wikipedia.org/wiki/Teorema_de_Bayes) y en la asunción de [**independencia condicional**](https://es.wikipedia.org/wiki/Independencia_condicional). Este clasificador asume que **todas las características utilizadas son independientes**, es decir, que ninguna característica tiene ningún tipo de relación con otra. **En la vida real las característica no son siempre independientes**, sino que tienen relación entre ellas. Precisamente por esta asunción tan fuerte se dice que el clasificador es **ingenuo** 🤔.
+We are going to use a naïve bayes classifier, one of the fastest and simplest probabilistic classifiers. It's based on the [Bayes Theorem](https:google.es) and on the asumption of [**contitional independecy**]. This classifier assumes that **all features are used independend of one another**, that is, no feature has any relation with one another. **In real life the features are not completely independent**. Precisely because of this strong assumption we say that the classifier is **naïve**.
 
-En este caso, asumimos que la probabilidad de que aparezca una palabra no influye en la probabilidad de que aparezca cualquier otra.
+In this case, we assume that the probability with which a word appears does not influence the probablity of other words appearing.
 
 ```python
 from sklearn.naive_bayes import MultinomialNB
@@ -209,30 +208,32 @@ clf = MultinomialNB()
 
 <div class="divider"></div>
 
-## Entrenar el modelo con los datos
+## Training the model with data
 
-Vamos a **entrenar el clasificador** con los datos que hemos dividio:
+Let's **train the classifier** with the data we have separated:
 
 ```python
 clf.fit(features_train, labels_train)
 ```
 
-Este es el **proceso de aprendizaje**. A partir de ejemplos etiquetados, el clasificador bayesiano **aprende** las probabilidades que cada token aporta a esa etiqueta (o clase). Dado un nuevo email, el clasificador usará esas probabilidades para predecir su etiqueta (o clase), en este caso *spam* o *ham*.
+This is the **learning process**. From labeld examples, the bayes classifier **learns** the probabilities that each token appearence contributes to that label (or class). Given a new email, the classifier will use those probabilities to predict its label (or class), in this case *spam* o *ham*.
 
 <div class="divider"></div>
 
 ## Probar el modelo
 
-Ya hemos entrenado el clasificador pero no sabemos cómo de **preciso** es a la hora de clasificar nuevos emails. Para averiguarlo vamos a testear el clasificador con los datos que hemos dividido antes. Vamos a hacer que nuestro clasificador determine (o prediga) las etiquetas de algunas emails y compararlas con las etiquetas reales.
+We have already trained the classifier but we don't know how **accurate** it is when classifing new emails. To figure it out we are going to test the classifier with the testing data set we have separated before. 
+
+Let's make our classifier determine (or predict) the labels of some emails and compare those predicted labels with the real ones.
 
 ```python
 from sklearn.metrics import accuracy_score
 
-# Predecir etiquetas para los emails de testeo.
+# PRedict labels for the testing emails.
 labels_predict = clf.predict(features_test)
 
-# Calcular la precisión comparando
-# las etiquetas predecidas y las etiquedas reales.
+# Calculate the accuracy comparing
+# the predicted labels and the real ones.
 accuracy = accuracy_score(labels_predict, labels_test)
 
 print("Accuracy: %.2f" % (accuracy))
@@ -240,19 +241,19 @@ print("Accuracy: %.2f" % (accuracy))
 # Accuracy: 0.99
 ```
 
-Wow! Una precisión del 99% 😳
+Wow 👏! An accuracy of 99% 😳
 
-También podemos probar nuestro filtro de spam con nuevos emails:
+We can also test our filter with new emails:
 
 ```python
-# Emails de prueba.
+# Testing emails.
 test_emails = ['Free Viagra!',
                "I'm going to attend the meeting tomorrow."]
 
-# Tokenización.
+# Tokenization.
 test_features = count_vectorizer.transform(test_emails)
 
-# Predecir etiquetas.
+# Predict labels.
 labels_predict = clf.predict(example_features)
 
 print("Predictions: %s" % labels_predict)
@@ -260,14 +261,14 @@ print("Predictions: %s" % labels_predict)
 # Predictions: ['spam' 'ham']
 ```
 
-El filtro de spam funciona a la perfección 🎉🎉🎉!!
+The spam filter works perfectly 🎉🎉🎉!!
 
 <div class="divider"></div>
 
-## Vamos a terminar esto
+## Wrapping up
 
-Los clasificadores bayesianos ingenuos o Naïve Bayes funcionan muy bien para clasificar documentos. Y aunque en la vida real los filtros de spam son mucho más complejos, el nuestro funciona también bastante bien.
+The naive bayes classifiers work very well to classify documents. the real life spam filters are of course much more complex but ours works very great as well.
 
 <div class="divider"></div>
 
-Te puedes suscribir y recibir un email cada vez que haya un nuevo post.
+You can subscribe and receive an email any time there is a new post. Any feedback is welcomed 🤗!!
