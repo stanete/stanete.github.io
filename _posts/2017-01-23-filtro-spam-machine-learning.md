@@ -65,45 +65,46 @@ Let's load the data in a [DataFrame](http://pandas.pydata.org/pandas-docs/stable
 ```python
 from pandas import DataFrame
 
-# Definir dos columnas. Una para el texto de los
-# emails y otra para la etiqueta correspondiente.
+# Define two columns. One for the email text body
+# and other one for the label.
 data = DataFrame({'text': [], 'label': []})
 ```
 
-Vamos a crear una función que, dada la ruta de una carpeta, va a leer todos los ficheros de esa carpeta y va a devolver la ruta del fichero junto con el texto del email. Vamos a utilizar la ruta del fichero como index para cada entrada del DataFrame.
+Let's create a function that, given the route of the directory, it will read every file in that directory and will return the route of the file together with the email text. We are going to use the route of the file as index for every DataFrame entry.
 
 ```python
 import os
 
 def read_files(path):
-    # Obtener los nombres de todos los ficheros.
+    # Obtaining files names.
     file_names = os.listdir(path)
 
-    # Recorrer los ficheros.
+    # Loop over the file names.
     for file_name in file_names:
 
-        # La ruta del fichero.
+        # The route of the file.
         file_path = os.path.join(path, file_name)
 
         lines = []
 
-        # Abrir el fichero.
+        # Open the file.
         f = open(file_path, encoding="latin-1")
         for line in f:
-            # Añadir cada línea del email.
+            # Add every line of the email.
             lines.append(line)
 
-        # Cerrar el fichero.
+        # Close the file.
         f.close()
 
-        # Unir las líneas.
+        # Join the lines.
         text = '\n'.join(lines)
 
-        # Devolver la ruta del fichero y el texto.
+        # Return the route of the file and the text.
         yield file_path, text
 ```
 
-También vamos a definir una función que va a construir y devolver un DataFrame a partir de los cuerpos de los emails obtenidos con *read_files*. Esta función también va a asignarle a cada email con su etiqueta (label) correspondiente. Cada entrada del DataFrame va a ser indexada por la ruta del archivo de cada email.
+We are also going to define a function that will build and return a DataFrame from the bodies of the emails obtain with *read_files*. This function will also assign to each email its correspondat label. Every entry in the DataFrame is going to be indexed by the route of the file that contains the email.
+
 
 ```python
 def build_data_frame(path, label):
