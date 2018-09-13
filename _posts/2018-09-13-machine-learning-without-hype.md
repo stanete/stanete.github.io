@@ -10,15 +10,15 @@ image: /images/introduccion-machine-learning-sin-hype.png
 
 This is the first post from the series **Machine learning! But without the hype...**. It's 2018 so by this point everybody has at least some understandig of what machine learning is and what it is useful for. That's why we are going to skip the introducction and we are going to jump right into it.
 
-Don't worry. We will talk about Deep Learning too :smirk:.
+Don't worry. We will talk about Deep Learning too 😏.
 
-## Where do we start :thinking_face:
+## Where do we start 🤔
 
 **Algorithms**. We need to get comfortable with how the algorithms that are already out there work. At least with some of them and understand when is better to use one or other depending on the problem we need to solve.
 
 We are not going to program those algorithms ourselves. We are going to use python and different opensource libraries to apply those algorithms directly and observe them in action. We are going to try to understand the magic underneath.
 
-These algorithms are also called **models**. **A model represents a compelx reality in a simpler way**. The problem is that any representation wont't be perfect and there will always going to be an **error**. Our job will be to maximize the precision with which that model is able to classify, predict or describe that reality :thinking_face:.
+These algorithms are also called **models**. **A model represents a compelx reality in a simpler way**. The problem is that any representation wont't be perfect and there will always going to be an **error**. Our job will be to maximize the precision with which that model is able to classify, predict or describe that reality 🤔.
 
 The easiest and most common way to get started is with an iPython notebook. That way we can start playing with some machine learning libraries and models right away. 
 
@@ -32,7 +32,7 @@ This will download a docker image with everything you need and will run a contai
 
 <div class="divider"></div>
 
-## The workflow :male-technologist:
+## The workflow 🚜
 
 We will follow the same workflow on almost every machine learning problem. We will talk about it with more detail in future posts. But for now here is a simplified version of it:
 
@@ -43,7 +43,7 @@ We will follow the same workflow on almost every machine learning problem. We wi
 
 <div class="divider"></div>
 
-## Gathering and preparing the data :male-detective:
+## Gathering and preparing the data 🏗
 
 It is improbable (difficult but not imposible) for us to develop new types of models. However a model without data isn't useful. In most cases, a model won't be able to learn from completely arbitrary data. The data needs to be presented to the model in a way that will make the model’s job easier. A model can achieve very different results depending on the structure of the data it's fed with. That's why a big part of our job will be to gather and manipulate that data to suit the needs of a certain model. That is called *feature engineering*.
 
