@@ -1,16 +1,13 @@
 <aside class="logo">
+  {% if page.url == '/index.html' or page.url == '/' %} {% assign link =
+  '/about' %} {% assign prompt = 'De qué va todo esto' %} {% else %} {% assign
+  link = '/' %} {% assign prompt = 'Todos los posts' %} {% endif %}
 
-	{% if page.url == '/index.html' or page.url == '/' %}
-		{% assign link = '/about' %}
-		{% assign prompt = 'De qué va todo esto' %}
-	{% else %}
-		{% assign link = '/' %}
-		{% assign prompt = 'Todos los posts' %}
-	{% endif %}
-
-	<a href="{{ link | prepend: site.baseurl }}">
-		<img src="http://www.gravatar.com/avatar/{{ site.author_gravatar }}.png?s=80" class="gravatar">
-	</a>
-	<span class="logo-prompt">{{ prompt }}</span>
-
+  <a href="{{ link | prepend: site.baseurl }}">
+    <img
+      src="http://www.gravatar.com/avatar/{{ site.author_gravatar }}.png?s=80"
+      class="gravatar"
+    />
+  </a>
+  <span class="logo-prompt">{{ prompt }}</span>
 </aside>

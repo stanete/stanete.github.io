@@ -1,61 +1,58 @@
 # Site Info
-title:              "Machine Learning pero sin hype"
-description:        "Machine Learning pero sin hype es un blog sobre aprendizaje automático en español"
-google_verify:      MZlkm_Gq7ly7eJkGo-x7JDMux-ljTyc7sFduOaUZBVg # Put your Google Verification here
-google_analytics:   UA-54798604-2 # Put your Google Analytics code
+title: "Machine Learning pero sin hype"
+description: "Machine Learning pero sin hype es un blog sobre aprendizaje automático en español"
+google_verify: MZlkm_Gq7ly7eJkGo-x7JDMux-ljTyc7sFduOaUZBVg # Put your Google Verification here
+google_analytics: UA-54798604-2 # Put your Google Analytics code
 
 # Author Info
-author_name:        "David Stanete"
-author_email:       davidstanete@gmail.com
-author_gravatar:    43c674a8e565e1f9d4b34bdfe7cc6088 # Gravatar md5 hash
-twitter_username:   stanete
-github_username:    stanete # GitHub username
+author_name: "David Stanete"
+author_email: davidstanete@gmail.com
+author_gravatar: 43c674a8e565e1f9d4b34bdfe7cc6088 # Gravatar md5 hash
+twitter_username: stanete
+github_username: stanete # GitHub username
 
 # Disqus
 disqus_shortname: stanete
 
 # Site Settings
-baseurl:            "" # Base URL must end WITHOUT a slash, default: ""
-permalink:          /:title # Post permalink
-timezone:           Europe/Madrid # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-mathjax:            false  # enables support for mathjax - set to false to disable
-image:              /images/site.png
+baseurl: "" # Base URL must end WITHOUT a slash, default: ""
+permalink: /:title # Post permalink
+timezone: Europe/Madrid # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+mathjax: false # enables support for mathjax - set to false to disable
+image: /images/site.png
 
 # Feed
-url:                "https://stanete.com"
+url: "https://stanete.com"
 
 # Site Build
-highlighter:        rouge
+highlighter: rouge
 #markdown:           redcarpet
 #redcarpet:
 #    extensions:     ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data", "highlight", "footnotes"]
-markdown:           kramdown
+markdown: kramdown
 kramdown:
-    input:          GFM
+  input: GFM
 sass:
-    style:          :compressed
+  style: :compressed
 
 # Other Params
-include:            [ "robots.txt" ]
-exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile" ]
+include: ["robots.txt"]
+exclude: ["LICENSE", "README.md", "CNAME", "vendor", "Gemfile"]
 gems:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-redirect-from
 
 defaults:
-  -
-    scope:
-      path:         ""
+  - scope:
+      path: ""
     values:
-      layout:       "null"
-  -
-    scope:
-      type:         "pages"
+      layout: "null"
+  - scope:
+      type: "pages"
     values:
-      layout:       "page"
-  -
-    scope:
-      type:         "posts"
+      layout: "page"
+  - scope:
+      type: "posts"
     values:
-      layout:       "post"
+      layout: "post"

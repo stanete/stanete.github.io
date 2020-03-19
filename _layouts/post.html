@@ -3,30 +3,33 @@ layout: default
 ---
 
 <article>
+  <div class="center">
+    <h1>{{ page.title }}</h1>
+    <time>{{ page.date | date: '%B %-d, %Y' }}</time>
+  </div>
 
-	<div class="center">
-		<h1>{{ page.title }}</h1>
-		<time>{{ page.date | date: '%B %-d, %Y' }}</time>
-	</div>
+  <div class="divider"></div>
 
-	<div class="divider"></div>
-
-	{{ content }}
-
-	{% include mailchimp.html %}
-
-	{% include disqus.html %}
-
+  {{ content }} {% include mailchimp.html %} {% include disqus.html %}
 </article>
 
 <div class="page-navigation">
-	{% if page.next.url %}
-    <a class="next" href="{{page.next.url}}" title="NEXT: {{page.next.title}}">&lt;&lt;</a>
-		<span> &middot; </span>
+  {% if page.next.url %}
+  <a class="next" href="{{page.next.url}}" title="NEXT: {{page.next.title}}"
+    >&lt;&lt;</a
+  >
+  <span> &middot; </span>
   {% endif %}
-		<a class="home" href="{{site.baseurl}}/" title="Todos los posts">Todos los posts</a>
+  <a class="home" href="{{site.baseurl}}/" title="Todos los posts"
+    >Todos los posts</a
+  >
   {% if page.previous.url %}
-		<span> &middot; </span>
-    <a class="prev" href="{{page.previous.url}}" title="PREV: {{page.previous.title}}">&gt;&gt;</a>
+  <span> &middot; </span>
+  <a
+    class="prev"
+    href="{{page.previous.url}}"
+    title="PREV: {{page.previous.title}}"
+    >&gt;&gt;</a
+  >
   {% endif %}
 </div>

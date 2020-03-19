@@ -3,17 +3,15 @@ layout: default
 ---
 
 <article>
+  <h1 class="title">{{ page.title }}</h1>
 
-	<h1 class="title">{{ page.title }}</h1>
+  <div class="divider"></div>
 
-	<div class="divider"></div>
-
-	{{ content }}
-
-	{% include mailchimp.html %}
-
+  {{ content }} {% include mailchimp.html %}
 </article>
 
 <div class="page-navigation">
-	<a class="home" href="{{site.baseurl}}/" title="Todos los posts">Todos los posts</a>
+  <a class="home" href="{{site.baseurl}}/" title="Todos los posts"
+    >Todos los posts</a
+  >
 </div>
