@@ -6,8 +6,6 @@ mailchimp: true
 
 Hey 🖖
 
-My name is David Stanete and I'm a Product Engineer. I've been working mostly in tech startups with special focus on consumer products. I try to create rock SOLID, clean, testable and maintainable software.
-
-Here I create posts for sharing thoughts and ideas about software engineering.
+My name is David Stanete and I'm a Product Engineer, now a Tech Lead at [Creditas](https://www.creditas.com). Here I just share what I learn so take what you read here with a grain of salt.
 
 I'm on twitter as [@stanete](https://twitter.com/stanete) and you can also subscribe and receive an email every time I create a new post.

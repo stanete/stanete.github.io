@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Sólo queda un paso
+title: One more thing 😌
 mailchimp: false
 ---
 
-Gracias por suscribirte a Machine Learning pero sin hype. Recibirás un **email para confirmar tu suscripción**. Esto es necesario para **comprobar que eres humano** 🤖.
+Thank you for subscribing. I really appreciate it. You will receive an **email 📬 to confirm your subscription**. This is necessary to **confirm that you are human**.
