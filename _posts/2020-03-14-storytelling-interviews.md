@@ -40,15 +40,17 @@ _You have spent some time at the whiteboard exploring different solutions. Then 
 
 As a guide you should try to keep a constant tempo. Accelerate or decelerate slowly enough so the candidate has time to adapt.
 
-## Branching
+## Branches
 
 _The task is done. Or is it? Well, we know that at least the feature is programmed. It is coded. But that code can't stay on our machine forever. It's useless there since it doesn't bring any value to the user._
 
-By the time the candidate completes the story, from thousand possible paths, only one is going to remain explored. The story always follows the timeline. Flashbacks or jumping between branches is not a good idea because it will only add confusion. So give them a transition and let the candidate explore the path that they think is best.
+By the time the candidate completes the story, from thousand possible paths, only one is going to remain explored. The story always pushes the [timeline](https://www.youtube.com/watch?v=Tv3DFbFAM8A) forward. Flashbacks or jumping between branches is not a good idea because it will only add confusion and mental fatigue. So give them a transition and let the candidate explore the path that they think is best.
+
+![](/images/destinations.png)
 
 _Before deploying that code to production, maybe we should invite somebody to review it._
 
-Sometimes there is something specific you want to hear about like testing strategies as “outside in or inside out”. So you will force the candidate to go into places that they were or were not intending to go. That's a forced branch. That's fine if it builds in the direction the story is leading to. You should keep the momentum the story already has and take advantage of it. Observe how the candidates handle the situation, how they get out of it and how they improvise.
+Sometimes there is something specific you want to hear about like testing strategies as “outside in or inside out”. So you will force the candidate to go into places that they were or were not intending to go. That's a forced branch. That's fine if it builds in the direction the story is leading to. You should keep the [momentum the story](https://www.youtube.com/watch?v=wBwjM6p0Ubw) already has and take advantage of it. Observe how the candidates handle the situation, how they get out of it and how they improvise.
 
 ## Transitions and plot twists
 
