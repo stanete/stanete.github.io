@@ -3,7 +3,7 @@ title: Storytelling tips for technical interviews
 updated: 2020-03-14 18:30
 comments: true
 mailchimp: true
-image: /images/introduccion-machine-learning-sin-hype.png
+image: /images/site.png
 ---
 
 > Do not go gentle into that good night,
@@ -68,6 +68,6 @@ _After many iterations, our product is more successful than we ever imagined. Th
 
 The story starts at a very low level. Very specific. By the end it should only be about abstract concepts. You shouldn't expect concrete answers as the candidate will not try to be specific anymore. As the interview goes on and the story gets built, the mental fatigue increases. It is a good idea to go from specifics to more abstract topics. At the end of the story, you are merely talking about higher level ideas or conclusions.
 
-## Wrapping up 🎁
+## Wrapping up 🎁
 
 Unfortunately you just have time to explore so much. But by the time the story is wrapping up, you should understand not only some of what the candidate knows, but also you should have connected with them at some level. Stories, good stories, make us crave for more. If that craving is present, then you have the answer you've been searhing for this whole hour.

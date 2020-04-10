@@ -1,7 +1,7 @@
 <aside class="logo">
   {% if page.url == '/index.html' or page.url == '/' %} {% assign link =
-  '/about' %} {% assign prompt = 'De qué va todo esto' %} {% else %} {% assign
-  link = '/' %} {% assign prompt = 'Todos los posts' %} {% endif %}
+  '/about' %} {% assign prompt = 'What is this all about' %} {% else %} {%
+  assign link = '/' %} {% assign prompt = 'Read more posts' %} {% endif %}
 
   <a href="{{ link | prepend: site.baseurl }}">
     <img
