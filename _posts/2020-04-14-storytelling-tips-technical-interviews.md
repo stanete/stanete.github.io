@@ -54,15 +54,15 @@ Sometimes there is something specific you want to hear about like testing strate
 
 ## Transitions and plot twists
 
-_You are almost there. The code is reviewed and the feature is tested in a staging environment. Now is time to deploy to production._
+_You are almost there. The code is reviewed and the feature is tested in a staging environment. Now is time to deploy to production. And we want to do that smoothly and without friction. It's a good thing that we already have a solid CI/CD pipeline set in place that takes our code through different steps. I'm curious about haw all that works._
 
 [Transitions](https://www.youtube.com/watch?v=QChWIFi8fOY) help the story advance in a certain direction. Most candidates don't know how the story is supposed to advance and what places they need to explore. Transitions shouldn't be drastic. They advance the story one tiny bit at a time. This gives the candidate time to adapt and be prepared to build the story further.
 
-_When we deploy to production, we hope everything will go well. And this time it seems everything has gone well. However the next day the Product Manager reports that there is a bug in the feature that you deployed. How do we hunt that bug down? What tools do we need?_
+_When we deploy to production, we hope everything will go well. And this time it seems everything has gone well. However the next day the Product Manager reports that there is a bug in the feature that you deployed. That is surprising but not unexpected. How do we hunt that bug down? What tools do we need?_
 
 [Plot twists](https://www.youtube.com/watch?v=xmlwZlyhf8I), on the other hand, take the candidate and put them in a completely new situation. Plot twists don’t change context completely. They build upon the context that the candidate already has but it doesn't take full advantage of the momentum of the story. Something unexpected but familiar has happened. [Plot twists](https://www.youtube.com/watch?v=eRhW6RgSm3E) exist because you want to create conflict. A story is not interesting without conflict. Let the candidate explore that.
 
-_Products are not static, they evolve... Software is supposed to change. If it wasn't, it should be hardware. We need to be as lean as possible working in small feedback loops to be sure that what we do really adds value to the user. From an engineering perspective, the simplest setup is having a frontend client and a backend that serve a REST API. As our product evolves, our API will also evolve. Let's talk about what things must take into account when we evolve our API in such iterative ways._
+_We know that products are not static, they evolve... Software is supposed to change. If it wasn't, it should be hardware. We need to be as lean as possible working in small feedback loops to be sure that what we do really adds value to the user. From an engineering perspective, the simplest setup for a digital product is to have a frontend client and a backend that serves a REST API. As our product evolves, our API will also evolve. Let's talk about what things must be taken into account when we evolve our API in such iterative ways._
 
 ![](/images/animating.png)
 
