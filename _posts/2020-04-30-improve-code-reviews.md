@@ -8,11 +8,11 @@ image: /images/code_reviews.png
 
 At some point in a Product Engineering team you will have to address some issues related to code reviews. In some teams, code is pushed without barely looking at because reviews are too light. In others, code stays there for too long because reviews are too harsh. In others, pull requests are completely abandoned because nobody actually reviews code in their day to day.
 
-Some more mature teams like Netlify arrive at [creative solutions](https://www.netlify.com/blog/2020/03/05/feedback-ladders-how-we-encode-code-reviews-at-netlify/) like adopting a metaphor to give feedback on code reviews. Others, like Squarespace, create [more extended](https://engineering.squarespace.com/blog/2019/code-review-culture-part-2) [guidelines](https://engineering.squarespace.com/blog/2019/code-review-culture-part-1) to submit and review pull requests. It doesn't have to be so pro. It can be something simpler. I want to share my approach for the teams I worked with. We actually have this written down in a Confluence page.
+Some more mature teams like Netlify arrive at [creative solutions](https://www.netlify.com/blog/2020/03/05/feedback-ladders-how-we-encode-code-reviews-at-netlify/) like adopting a metaphor to give feedback on code reviews. Others, like Squarespace, create [more extended](https://engineering.squarespace.com/blog/2019/code-review-culture-part-2) [guidelines](https://engineering.squarespace.com/blog/2019/code-review-culture-part-1) to submit and review pull requests. Google as an even more [extensive guide](https://google.github.io/eng-practices/review/reviewer/standard.html). It doesn't have to be so pro. It can be something simpler. I want to share my approach for the teams I worked with. We actually have this written down in a Confluence page.
 
 ![](/images/code_reviews.png)
 
-As a rule of thumb, a pull request must be reviewed by at least one team member from another squad. It doesn't avoid knowledge silos, but it helps to have an idea of what is happening in other squads. For that, we need to have some common rules about submitting and reviewing PRs, so the experience is as uniform as possible.
+As a rule of thumb, a pull request must be reviewed by at least one team member from another team. It doesn't avoid knowledge silos, but it helps to have an idea of what is happening in other teams. For that, we need to have some common rules about submitting and reviewing PRs, so the experience is as uniform as possible.
 
 ## Submitting
 
@@ -71,4 +71,4 @@ Adapt it to what your team actually needs. Address the issues your team is strug
 
 Whether or not you should be even doing pull requests is a topic for another post.
 
-Huge thanks to [undraw.co](https://undraw.co) for the illustrations. You can subscribe to my newsletter **Take it with a grain of salt** and get notified every time I post something new.
+Huge thanks to [undraw.co](https://undraw.co) for the illustrations. You can subscribe to my newsletter **With a grain of salt** and get notified every time I post something new.
