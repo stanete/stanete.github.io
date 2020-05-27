@@ -8,11 +8,11 @@ image: /images/thought_process.png
 
 I ask myself the same question every day: _Does my work add value?_ Or am I moving rocks uphill just to let them fall and start all over again? Am I like [Sisyphus](https://www.youtube.com/watch?v=q4pDUxth5fQ)?. Not even [20th century philosophers](https://www.youtube.com/watch?v=jQOfbObFOCw) can stop my desire of creating products that actually add value and also make me grow at a personal and professional level.
 
-Good Product Software Engineers have a high sense of ownership and are involved in all the phases of building a product. From problem discovery, solution research and business assesment to iterative implementation, continuous deployment and value measurement. They focus on increasing value over anything else. And it's not easy because it involves understanding the user, the bussiness, the product, the brand, the team, the company and its politics, etc.
+Good Product Software Engineers have a high sense of ownership and are involved in all the phases of building a product. From problem discovery, solution research and business assessment to iterative implementation, continuous deployment and value measurement. They focus on increasing value over anything else. And it's not easy because it involves understanding the user, the business, the product, the brand, the team, the company and its politics, etc.
 
 ![](/images/thought_process.png)
 
-Unexperienced Product Software Engineers focus on technology. They find solutions to problems but they don't question if it is a problem worth solving. They don't know the value they are adding so they don't find the most adequate solution either.
+Inexperienced Product Software Engineers focus on technology. They find solutions to problems but they don't question if it is a problem worth solving. They don't know the value they are adding so they don't find the most adequate solution either.
 
 ## What is value?
 
@@ -27,7 +27,7 @@ I personally prefer how [Ron Jeffries](https://ronjeffries.com/) defines it in [
 
 > In Agile software development —as in many other realms— we talk about the notion of value. We make decisions about what to do, or what not to do, based on value. We do things sooner if they are of higher value, and we do things later if their value is lower. What do we mean by value? Value is, simply, "what you want".
 
-Good and experienced Product Engineering Teams are able to forecast the value they will add with a decent accuracy. They take decisions based on the certainty they have on that forecast and ideally they can quantify it. They can put a number on it because [statistics](https://medium.com/@joseperezaguera/some-basic-statistical-techniques-for-product-managers-250a02586453) and data analysis are part of the culture. But unexperienced ones struggle to do that. Most of the time is because, in their their teams, value is not explicit nor visualized.
+Good and experienced Product Engineering Teams are able to forecast the value they will add with a decent accuracy. They take decisions based on the certainty they have on that forecast and ideally they can quantify it. They can put a number on it because [statistics](https://medium.com/@joseperezaguera/some-basic-statistical-techniques-for-product-managers-250a02586453) and data analysis are part of the culture. But inexperienced ones struggle to do that. Most of the time is because, in their teams, value is not explicit nor visualized.
 
 ![](/images/scrum_board.png)
 
@@ -53,7 +53,7 @@ Again, an example helps:
 
 > To **save time** to the **Business Developer**, **automate the weekly report**.
 
-Focusing on the added value makes the team start to ask questions otherwise they wouldn't ask. _How much time?_ In this case the value is quantifieble. Maybe 2 hours for writting that weekly report. We can even question the solution. _Could we do something to save even more time to the Business Developer?_. Sometimes what the user wants is not what the user needs.
+Focusing on the added value makes the team start to ask questions otherwise they wouldn't ask. _How much time?_ In this case the value is quantifiable. Maybe 2 hours for writing that weekly report. We can even question the solution. _Could we do something to save even more time to the Business Developer?_. Sometimes what the user wants is not what the user needs.
 
 ## Continue with the data
 
@@ -65,7 +65,7 @@ Most of the time, before deploying something to production we are in a [superpos
 
 Taking measurements is only another step forward. But without visualizing value, it is all the same. That's why it is important to:
 
-- **Make your data available to everyone**. Every member of the Product Engineering Team should be able to ask any question to the data and receive instant answers. Use some toole like [Metbase](https://www.metabase.com/).
+- **Make your data available to everyone**. Every member of the Product Engineering Team should be able to ask any question to the data and receive instant answers. Use some tool like [Metabase](https://www.metabase.com/).
 - **Make it visible.** A young Product Engineering Team doesn't have the habit to dig into the data. Create dashboards that everyone can see at any moment.
 - **Make it accessible.** Teach the members of your team how to use the necessary tools to ask the right questions. Give an SQL 101 course.
 
@@ -73,6 +73,6 @@ Taking measurements is only another step forward. But without visualizing value,
 
 Without visualizing value, it is difficult to start asking questions. It is even difficult to feel that our work is worth something.
 
-Have pacience though. Growing a Product Engineering Team from childhood to maturity takes time. Because it's not about changing processes but about changing people and evolving culture.
+Have patience though. Growing a Product Engineering Team from childhood to maturity takes time. Because it's not about changing processes but about changing people and evolving culture.
 
 Huge thanks to [undraw.co](https://undraw.co) for the illustrations. You can subscribe to my newsletter **With a grain of salt** and get notified every time I post something new.
