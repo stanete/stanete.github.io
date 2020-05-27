@@ -27,7 +27,7 @@ I personally prefer how [Ron Jeffries](https://ronjeffries.com/) defines it in [
 
 > In Agile software development —as in many other realms— we talk about the notion of value. We make decisions about what to do, or what not to do, based on value. We do things sooner if they are of higher value, and we do things later if their value is lower. What do we mean by value? Value is, simply, "what you want".
 
-Good and experienced Product Engineering Teams are able to forcast the value they will add with a decent accuracy. They take decisions based on the certainty they have on that forcast and ideally they can quantify it. They can put a number on it because [statistics](https://medium.com/@joseperezaguera/some-basic-statistical-techniques-for-product-managers-250a02586453) and data analysis are part of the culture. But unexperienced ones struggle to do that. Most of the time is because, in their their teams, value is not explicit nor visualized.
+Good and experienced Product Engineering Teams are able to forecast the value they will add with a decent accuracy. They take decisions based on the certainty they have on that forecast and ideally they can quantify it. They can put a number on it because [statistics](https://medium.com/@joseperezaguera/some-basic-statistical-techniques-for-product-managers-250a02586453) and data analysis are part of the culture. But unexperienced ones struggle to do that. Most of the time is because, in their their teams, value is not explicit nor visualized.
 
 ![](/images/scrum_board.png)
 
@@ -35,7 +35,7 @@ If value is what we want, it can be for anyone and it can take any form. Value c
 
 ## Start with the language
 
-[Atomic Habits](https://www.youtube.com/watch?v=U_nzqnXWvSo) by [James Clear](https://jamesclear.com) has taught me how small but key changes can have an big impact. Basically, if you're life is too chaotic and you want to regain control, start making your bed in the morning.
+[Atomic Habits](https://www.youtube.com/watch?v=U_nzqnXWvSo) by [James Clear](https://jamesclear.com) has taught me how small but key changes can have an big impact. James states that, if you're life is too chaotic and you want to regain control, start making your bed in the morning.
 
 [Language matters](https://saylordotorg.github.io/text_stand-up-speak-out-the-practice-and-ethics-of-public-speaking/s16-the-importance-of-language.html) and [it shapes the way we think](https://www.youtube.com/watch?v=RKK7wGAYP6k) so the first step is to focus our language on value. Most of us work with user stories, so let's take them as a example. User stories are typically written in the form of:
 
@@ -57,11 +57,11 @@ Focusing on the added value makes the team start to ask questions otherwise they
 
 ## Continue with the data
 
-A young Product Engineering Team won't be able to forcast the added value with great accuracy but starting to measure is the way towrads focusing on value.
+A young Product Engineering Team won't be able to forecast the added value with great accuracy but starting to measure is the way towards focusing on value.
 
 ![](/images/dashboard.png)
 
-Most of the time, before deploying something to production we are in a [superposition](https://www.youtube.com/watch?v=UjaAxUO6-Uw). We can't be sure that what we built adds value, until the user, or the Engineering Team, or the Business Developer interacts with what we built. And the only way to [collapse that wavefunction](https://www.youtube.com/watch?v=RlXdsyctD50) is to [measure](https://www.amazon.es/Measure-What-Matters-Google-Foundation/dp/0525536221). Sometimes the measurement will be cuantitative and other times it will be qualitative. Either way, measuring the added value leads to an [organization based on data](https://medium.com/@joseperezaguera/algunas-claves-y-herramientas-para-crear-una-cultura-organizativa-basada-en-datos-e9785a1498ac).
+Most of the time, before deploying something to production we are in a [superposition](https://www.youtube.com/watch?v=UjaAxUO6-Uw). We can't be sure that what we built adds value, until the user, the Engineering Team or the Business Developer interacts with what we built. And the only way to [collapse that wavefunction](https://www.youtube.com/watch?v=RlXdsyctD50) is to [measure](https://www.amazon.es/Measure-What-Matters-Google-Foundation/dp/0525536221). Sometimes the measurement will be quantitative and other times it will be qualitative. Either way, measuring the added value leads to an [organization based on data](https://medium.com/@joseperezaguera/algunas-claves-y-herramientas-para-crear-una-cultura-organizativa-basada-en-datos-e9785a1498ac).
 
 Taking measurements is only another step forward. But without visualizing value, it is all the same. That's why it is important to:
 
