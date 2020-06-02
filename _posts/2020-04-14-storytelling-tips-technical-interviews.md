@@ -24,7 +24,7 @@ This is not your [CV](https://www.linkedin.com/in/stanete) so you must do it und
 
 ## Worldbuilding
 
-_In any agile product engineering team, you end up with some tasks that are pending to be done. Sometimes it is a ticket on a JIRA board; or just a post-it on the wall; or even a message in Slack from your Product Manager saying it is something urgent. Hopefully not... Anyway... It is a really long journey until a feature is in a machine in the vast wonders of the internet and somebody is using it. I would like you to take me into a journey that takes that feature from to-do to production._
+_In any agile Product Engineering team, you end up with some tasks that are pending to be done. Sometimes it is a ticket on a JIRA board; or just a post-it on the wall; or even a message in Slack from your Product Manager saying it is something urgent. Hopefully not... Anyway... It is a really long journey until a feature is in a machine in the vast wonders of the internet and somebody is using it. I would like you to take me into a journey that takes that feature from to-do to production._
 
 ![](/images/worldbuilding.png)
 
