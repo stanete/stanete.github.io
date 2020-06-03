@@ -26,7 +26,7 @@ Working in a _Product Engineering_ team requires [creativity as well as process]
 
 ### Do pair programming
 
-This is not nogotiable. [Pair program](https://www.youtube.com/watch?v=k3cJjZiZ-cw) the hell out of everything. It has [so many benefits](https://martinfowler.com/articles/on-pair-programming.html) that is hard to find compelling arguments agains it. Use the technique that works best for your situation. Nice if you do Ping-Pong-TDD. Driver-Navigator is also fine.
+This is not negotiable. [Pair program](https://www.youtube.com/watch?v=k3cJjZiZ-cw) the hell out of everything. It has [so many benefits](https://martinfowler.com/articles/on-pair-programming.html) that is hard to find compelling arguments agains it. Use the technique that works best for your situation. Nice if you do Ping-Pong-TDD. Driver-Navigator is also fine.
 
 ### Keep your PR’s small and easy to review
 
