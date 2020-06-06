@@ -4,7 +4,10 @@ updated: 2020-04-14 08:00
 comments: true
 mailchimp: true
 image: /images/conversation.png
+excerpt: Given the importance of stories to the human mind, it seems there is no better way to explore it. This applies for technical interviews too.
 ---
+
+You can read this post in Spanish [here](/es/storytelling-tips-technical-interviews).
 
 Humans love stories. We love telling them and we love reading, listening and watching them. Beyond entertainment, stories have allowed us to collaborate and build the world we live in today. [Sapiens](https://neilkakkar.com/sapiens.html) by Yuval Noah Harari talks in-depth about this.
 

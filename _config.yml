@@ -43,6 +43,10 @@ gems:
   - jekyll-feed
   - jekyll-redirect-from
 
+collections:
+  es:
+    output: true
+
 defaults:
   - scope:
       path: ""

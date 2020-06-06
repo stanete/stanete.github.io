@@ -4,11 +4,14 @@ updated: 2020-05-27 14:00
 comments: true
 mailchimp: true
 image: /images/thought_process.png
+excerpt: I ask myself the same question every day. Does my work add value? Or am I moving rocks uphill just to let them fall and start all over again?
 ---
+
+You can read this post in Spanish [here](/es/focus-on-value).
 
 I ask myself the same question every day: _Does my work add value?_ Or am I moving rocks uphill just to let them fall and start all over again? Am I like [Sisyphus](https://www.youtube.com/watch?v=q4pDUxth5fQ)?. Not even [20th century philosophers](https://www.youtube.com/watch?v=jQOfbObFOCw) can stop my desire of creating products that actually add value and also make me grow at a personal and professional level.
 
-Good _Product Software Engineers_ have a high sense of ownership and are involved in all the phases of building a product. From problem discovery, solution research and business assessment to iterative implementation, continuous deployment and value measurement. They focus on increasing value over anything else. And it's not easy because it involves understanding the user, the business, the product, the brand, the team, the company and its politics, etc.
+Good _Product Software Engineers_ have a [high sense of ownership](https://www.youtube.com/watch?v=ljqra3BcqWM) and are involved in all the phases of building a product. From problem identification, solution research and business assessment to iterative implementation, continuous deployment and value measurement. They focus on increasing value over anything else. And it's not easy because it involves understanding the user, the business, the product, the brand, the team, the company and its politics, etc.
 
 ![](/images/thought_process.png)
 
@@ -31,7 +34,7 @@ Good and experienced _Product Engineering_ teams are able to forecast the value 
 
 ![](/images/scrum_board.png)
 
-If value is what we want, it can be for anyone and it can take any form. Value can be for the user when we implement a new feature. It can be for the _Product Engineering_ team when we improve our CI/CD pipeline. It can be for the Business Developer when we automate a weekly report.
+If value is _what we want_, it can be for anyone and it can take any form. Value can be for the user when we implement a new feature. It can be for the _Product Engineering_ team when we improve our CI/CD pipeline. It can be for the _Business Developer_ when we automate a weekly report.
 
 ## Start with the language
 

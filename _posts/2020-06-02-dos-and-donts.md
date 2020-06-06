@@ -4,7 +4,10 @@ updated: 2020-06-02 08:00
 comments: true
 mailchimp: true
 image: /images/research.png
+excerpt: The little brother of the Engineering Principles are the Dos and Don'ts. It's just a list of rules to evolve your team's mindset.
 ---
+
+You can read this post in Spanish [here](/es/dos-and-donts).
 
 No _Product Engineering_ team is perfect but every one feels the need to improve. That improvement is usually done under some kind of guidelines. There are a lot of posts about **Engineering Principles**. I personally like and get inspired by the ones at [Monzo](https://monzo.com/blog/2018/06/29/engineering-principles) or [Medium](https://medium.engineering/engineering-values-7143c0db0bd6). **Engineering Principles** are necessary but usually they are generic and static.
 
@@ -36,7 +39,7 @@ Keep your PRs as small as possible and your code as easy to understand as possib
 
 ### Keep staging always clean
 
-Multiple teams ship their code to staging, and as fast as possible to production, multiple times a day and at any time anything that's on master can go to production. Keep this in mind when merging a pull request. This is not a problem so don't try to create extra environments to test your code. Some _Software Engineering_ teams out there [drop staging environments completely](https://launchdarkly.com/blog/staging-servers-are-dead-long-live-a-staging-server/). Try to think of problems beforehand and merge code that just works. If you're not sure, put it under a feature flag.
+Multiple teams ship their code to staging, and as fast as possible to production, multiple times a day. At any time anything that's on master can go to production. Keep this in mind when merging a pull request. This is not a problem so don't try to create extra environments to test your code. Some _Software Engineering_ teams out there [drop staging environments completely](https://launchdarkly.com/blog/staging-servers-are-dead-long-live-a-staging-server/). Try to think of problems beforehand and merge code that just works. If you're not sure, put it under a feature flag.
 
 ![](/images/version_control.png)
 

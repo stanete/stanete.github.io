@@ -4,9 +4,12 @@ updated: 2020-05-30 08:00
 comments: true
 mailchimp: true
 image: /images/code_reviews.png
+excerpt: At some point in a Product Engineering team you will need to address some issues related to code reviews. You don't have to go pro to do it.
 ---
 
-At some point in a _Product Engineering_ team you will have to address some issues related to code reviews. In some teams, code is pushed without barely looking at because reviews are too light. In others, code stays there for too long because reviews are too harsh. In others, pull requests are completely abandoned because nobody actually reviews code in their day to day.
+You can read this post in Spanish [here](/es/improve-code-reviews).
+
+At some point in a _Product Engineering_ team you will need to address some issues related to code reviews. In some teams, code is pushed without barely looking at because reviews are too light. In others, code stays there for too long because reviews are too harsh. In others, pull requests are completely abandoned because nobody actually reviews code in their day to day.
 
 Some more mature teams like Netlify arrive at [creative solutions](https://www.netlify.com/blog/2020/03/05/feedback-ladders-how-we-encode-code-reviews-at-netlify/) like adopting a metaphor to give feedback on code reviews. Others, like Squarespace, create [more extended](https://engineering.squarespace.com/blog/2019/code-review-culture-part-2) [guidelines](https://engineering.squarespace.com/blog/2019/code-review-culture-part-1) to submit and review pull requests. Google as an even more [extensive guide](https://google.github.io/eng-practices/review/reviewer/standard.html). It doesn't have to be so pro. It can be something simpler. I want to share my approach for the teams I worked with. We actually have this written down in a Confluence page.
 
