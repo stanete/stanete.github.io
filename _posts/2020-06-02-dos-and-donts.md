@@ -1,5 +1,5 @@
 ---
-title: Do's and Don'ts for a Product Engineering team
+title: Dos and Don'ts for a Product Engineering team
 updated: 2020-06-02 08:00
 comments: true
 mailchimp: true
@@ -26,7 +26,9 @@ Working in a _Product Engineering_ team requires [creativity as well as process]
 
 ### Do pair programming
 
-This is not negotiable. [Pair program](https://www.youtube.com/watch?v=k3cJjZiZ-cw) the hell out of everything. It has [so many benefits](https://martinfowler.com/articles/on-pair-programming.html) that is hard to find compelling arguments agains it. Use the technique that works best for your situation. Nice if you do Ping-Pong-TDD. Driver-Navigator is also fine.
+Try to [pair program](https://www.youtube.com/watch?v=k3cJjZiZ-cw) the hell out of everything. It has [so many benefits](https://martinfowler.com/articles/on-pair-programming.html) that is hard to find compelling arguments agains it. Use the technique that works best for your situation. Nice if you do Ping-Pong-TDD. Driver-Navigator is also fine.
+
+Disclaimer. Pair programming has challenges, specifically mental fatigue. Use it in a way that benefits you the most. It is [not mandatory to use it all the time](https://twitter.com/dhh/status/1016398757674577920).
 
 ### Keep your PR’s small and easy to review
 
@@ -40,11 +42,11 @@ Multiple teams ship their code to staging, and as fast as possible to production
 
 ### Make sure the code you ship works in production
 
-Ideally, you would have [automated end-to-end testing in production](https://medium.com/@copyconstruct/testing-in-production-the-safe-way-18ca102d0ef1). Until it becomes a reality, manual test that you didn't break anything when your code hits production. Have in mind that as complexity increases, manual testing in production becomes harder and harder. So you better start automating soon.
+Ideally, you would have [automated end-to-end testing in production](https://medium.com/@copyconstruct/testing-in-production-the-safe-way-18ca102d0ef1). Until it becomes a reality, manual test that you didn't break anything when your code hits production. Keep in mind that as complexity increases, manual testing in production becomes harder and harder. So you better start automating soon.
 
 ### Measure the code you ship
 
-"Done" means a feature can be measured from a business, product and engineering point of view. This is the only way to [assess that what you build has value](/focus-on-value).
+"Done" means a feature can be measured from a business, product and engineering point of view. This is the only way to [assess that what you build has value](/focus-on-value). For engineering you start with [the four golden signals](https://landing.google.com/sre/sre-book/chapters/monitoring-distributed-systems/#xref_monitoring_golden-signals) and iterate. For business you can start with some of [these key metrics](https://www.ycombinator.com/resources/key-metrics) and iterate. For product you need to [find the metrics that matter](https://www.intercom.com/blog/finding-the-metrics-that-matter-for-your-product/) but you can [start](https://amplitude.com/blog/2016/06/14/10-steps-behavioral-analytics) with some basic [behavioural analytics](https://mixpanel.com/blog/2018/08/01/behavioral-analytics-guide/) and iterate.
 
 ### Don’t overcomplicate. Ship simple code
 
@@ -59,5 +61,9 @@ Simplicity is the most [underrated](https://blog.pragmaticengineer.com/software-
 ### Don’t schedule meetings for everything, sometimes a Slack message is enough
 
 Some even think [meetings are toxic](https://twitter.com/dhh/status/1242935396356354048?s=20) and [online meetings](https://www.youtube.com/watch?v=JMOOG7rWTPg) are even worse. I'm not that radical. But if a meeting is really needed, make sure it is well planned: it has a purpose, documentation to get prepared, an agenda and an output.
+
+### Wrapping up
+
+These rules are supposed to shape the team towards a healthier product mindset and culture. They are part of the utopia and they will never be respected 100% of the time. Our environment is complex and unpredictable and we are better that blindly following a list of rules. Be wise.
 
 Huge thanks to [undraw.co](https://undraw.co) for the illustrations. You can subscribe to my newsletter **With a grain of salt** and get notified every time I post something new.
