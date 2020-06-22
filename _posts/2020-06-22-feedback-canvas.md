@@ -45,11 +45,11 @@ This is the main activity of the _Feedback Canvas_. It takes around 20 minutes a
 
 I know retrospectives can be [organized in different ways](https://www.funretrospectives.com/) depending on the objective. However, in a _Feedback Canvas_, the structure needs to be kept as simple as possible. Divide the board in 3 columns: **Good points**, **Points to improve** and **Improvement actions**. Everybody, your team and yourself, writes their points privately and fill the board when they are finished. Some teams fill the board one point at the time. Try both and see what works better. There are a couple of rules to follow:
 
-1. For every **point to improve** that anybody writes, they should also write an **improvement action** as a suggestion. Sometimes it is not easy to find an **improvement action**. In that case, the feedback can be discussed and you can find one together.
+1. For every **point to improve** anybody writes, they should also write an **improvement action** as a suggestion. Sometimes it is difficult to find an **improvement action**. When that happens, the feedback can be discussed and you can find something together.
 
 2. Write the feedback using the first person: _David, you are cool_ instead of _David is cool_. The feedback should be direct.
 
-You could use [Groupmap](https://www.groupmap.com/) but any other online board will do. A Google Sheet would do too.
+You can use [Groupmap](https://www.groupmap.com/) or [Miro](https://miro.com/) but any other online board will do. A Google Sheet would do too.
 
 ![](/images/scrum_board.png)
 
@@ -61,7 +61,7 @@ Give a note from 1 to 5 for every feedback category. We in Creditas use the comp
 
 3 means **as expected**, 1 means **hugely over expected** and 5 means **hugely under expected**. It’s rare to have a 1 and its rare to have a 5. Yourself and your team vote privately at the same time and then share it with everybody to compare the results.
 
-You could use [Mentimeter](https://www.mentimeter.com/) but I’m sure a Google Sheet would do too.
+You can use [Mentimeter](https://www.mentimeter.com/) but I’m sure a Google Sheet would do too.
 
 ### Compare the score
 

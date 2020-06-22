@@ -46,9 +46,9 @@ Esta es la actividad principal del _Feedback Canvas_. Lleva alrededor de 20 minu
 
 Sé que las retrospectivas se pueden [organizar de diferentes maneras](https://www.funretrospectives.com/) dependiendo del objetivo. Pero la estructura de un _Feedback Canvas_ tiene que mantenerse lo más simple posible. Divide el board en 3 columnas: **Puntos positivos**, **Puntos a mejorar** y **Acciones de mejora**. Tanto tu equipo como tu teneis que escribir los puntos en privado y después ponerlos en el board cuando terminéis. Algunos equipos ponen los puntos en el board uno a uno sin esperar al final. Prueba las dos formas. Hay un par de reglas a seguir:
 
-1. Por cada **Punto a mejorar** que alguien escriba, también tiene que escribir una **Acción de mejora**. A veces no es fácil pensar en una **Acción de Mejora**. En ese caso el feedback se puede discutir y encontrar algo entre todos.
+1. Por cada **punto a mejorar** que alguien escriba, también debería escribir una **acción de mejora**. A veces es difícil pensar en una **acción de mejora**. Cuando eso ocurra, el feedback se puede discutir y podéis encontrar algo entre todos.
 
-2. Escribe el feedback en primera persona: _David, tu molas_ en vez de _David mola_. El feedback debe ser directo.
+2. Escribir el feedback en primera persona: _David, tu molas_ en vez de _David mola_. El feedback debe ser directo.
 
 Puedes usar [Groupmap](https://www.groupmap.com/) o [Miro](https://miro.com/) pero supongo que cualquier otro board online funciona. Una hoja de Google Sheets también vale.
 
@@ -74,7 +74,7 @@ A la izquierda puedes ver mi propia evaluación. A la derecha puedes ver la medi
 
 ### Leer el board
 
-Empieza con la segunda y tercera columna. Cada **Punto a mejorar** se tiene que leer junto con la **Acción de mejora** relacionada. Primero lee las tuyas en voz alta. Después, el facilitador lee el resto. Los **Puntos a mejorar** son la razón principal para organizar un _Feedback Canvas_. En tu día a día es más fácil recibir feedback sobre lo que haces bien. Pero esto es lo que te hará mejorar.
+Empieza con la segunda y tercera columna. Cada **punto a mejorar** se tiene que leer junto con la **acción de mejora** relacionada. Primero lee las tuyas en voz alta. Después, el facilitador lee el resto. Los **puntos a mejorar** son la razón principal para organizar un _Feedback Canvas_. En tu día a día es más fácil recibir feedback sobre lo que haces bien. Pero esto es lo que te hará mejorar.
 
 Si no estás de acuerdo con el feedback de alguien, no discutas. No es ni el lugar ni el momento. Sí que puedes pedir aclaraciones o ejemplos. También puedes preguntar quién escribió el feedback ya que no debería ser anónimo. Si lo fuera, todo esto no tendría sentido.
 
