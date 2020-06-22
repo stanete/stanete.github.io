@@ -10,71 +10,71 @@ excerpt: Pones a un grupo de personas en una habitación para darte el feedback 
 
 Puedes leer este post en inglés [aquí](/feedback-canvas).
 
-Mi primer _Feedback Canvas_ fue duro. Recuerdo los días posteriores. Estaba enfadado, molesto, triste, feliz y emocionado, todo al mismo tiempo. Me hizo darme cuenta de que no estaba acostumbrado a [feedback honesto](https://www.youtube.com/watch?v=X0xS5VNM2x0). Me afectó tanto que realmente no sabía qué hacer ni qué acciones tomar.
+Mi primer _Feedback Canvas_ fue duro. Recuerdo los días siguientes. Estaba enfadado, frustrado, triste, feliz y emocionado al mismo tiempo. Me hizo darme cuenta que no estaba acostumbrado a [feedback honesto](https://www.youtube.com/watch?v=X0xS5VNM2x0). Me afectó tanto que realmente no sabía qué hacer ni qué acciones tomar.
 
-4 meses después tuve mi segundo _Feedback Canvas_. Esta vez me sentí diferente. La herramienta no había cambiado. Había cambiado yo. En estos 4 meses, aprendí cómo recibir feedback y qué estrategia seguir después. Y voy a compartir mi propia experiencia, el feedback que me dio mi equipo y las acciones que estoy tomando en base a ese feedback.
+4 meses después tuve mi segundo _Feedback Canvas_. Entre cada sesión tienen que pasar al menos 3 meses. Esta vez me sentí diferente. La herramienta no había cambiado. Había cambiado yo. En estos 4 meses, aprendí cómo recibir feedback y qué estrategia seguir para mejorar. Voy a compartir mi propia experiencia, el feedback que me dió mi equipo y las acciones que estoy tomando en base a ese feedback.
 
 ## Por qué funciona?
 
-Al igual que con cualquier feedback, solo funciona si la gente te conoce. Y quiero decir, realmente te conoce. [Al verdadero tú](https://youtu.be/qg0_FinB6EE). Si no te conocen, su feedback serán superficial, vacío e inútil.
+Al igual que con cualquier otro feedback, solo funciona si la gente te conoce de verdad. Si conocen [al verdadero tú](https://youtu.be/qg0_FinB6EE). Si no te conocen, su feedback será superficial, vacío e inútil.
 
-Y funciona porque el feedback es [una constante](https://www.youtube.com/watch?v=iUaHMOWRYpI) en vuestro día a día. Si pedir feedback no es un hábito, esta herramienta no funciona.
+Funciona porque el feedback es [constante](https://www.youtube.com/watch?v=iUaHMOWRYpI) en el día a día. Si pides feedback habitualmente, el _Feedback Canvas_ no funciona.
 
-También funciona porque eres tu quien está pidiendo el feedback. Estás siendo proactivo. Eres humilde y entiendes que tienes mucho que mejorar. Porque [quieres mejorar](https://www.youtube.com/watch?v=0iGYp3vTabU), ¿verdad?
+Funciona porque eres tu quien lo está pidiendo. Estás siendo proactivo. Eres humilde y entiendes que tienes mucho por mejorar. Porque [quieres mejorar](https://www.youtube.com/watch?v=0iGYp3vTabU), ¿verdad?
 
 ![](/images/good_team.png)
 
 ## Qué es un _Feedback Canvas_?
 
-Básicamente, pones a un grupo de personas en una habitación para darte el feedback, o retroalimentación, más directo y honesto de tu vida. Ojalá. Es una especie de [Intervención](https://www.youtube.com/watch?v=sNAbnnHKZFE) pero solicitada por ti mismo. El formato es muy similar a una retrospectiva, pero tú eres el sujeto a analizar.
+Básicamente, pones a un grupo de personas en una habitación para darte el feedback más directo y honesto de tu vida. Es una especie de [Intervención](https://www.youtube.com/watch?v=sNAbnnHKZFE) pero la pides tu. El formato es muy similar a una retrospectiva, pero la gente que va, te analiza a ti.
 
-En Creditas, donde "trabajo" actualmente, damos feedback agrupados en 7 categorías, que resultan ser los principios sobre los que se basa la cultura de la empresa: **Love our customers**, **Brutally Honest**, **Learn Fast**, **Thinking like Owners**, **True Team Players**, **Technical Knowledge**, **Warriors and Play to Win**. También tomamos en cuenta lo que se espera de alguien en tu rol. [Aquí](https://www.patkua.com/blog/the-definition-of-a-tech-lead/) puedes encontrar un ejemplo de lo que se espera de un Tech Lead. Cambia todo esto a lo que se adapte a tu contexto.
+En Creditas, donde "trabajo" actualmente, damos feedback en 7 categorías, que resultan ser los principios de la cultura de la empresa: **Love our customers**, **Brutally Honest**, **Learn Fast**, **Thinking like Owners**, **True Team Players**, **Technical Knowledge**, **Warriors and Play to Win**. También tomamos en cuenta lo que se espera de alguien en tu rol. [Aquí](https://www.patkua.com/blog/the-definition-of-a-tech-lead/) puedes encontrar un ejemplo de lo que se espera de un Tech Lead. Todo esto lo tienes que adaptar a tu contexto.
 
 ## Cómo organizar un _Feedback Canvas_?
 
-Elije **entre 5 y 9 personas** que sean más cercanas a ti en tu día a día. Las personas con las que realmente trabajas. Si lideras un equipo, como yo, tienen que estar allí. Tu manager también debería estar allí.
+Elije las personas con las que trabajas cerca en tu día a día. **Entre 5 y 9**. Si lideras un equipo, como yo, tienen que estar allí. Tu manager o mentor también debería estar allí.
 
-Elije un facilitador que se encargará de programar el evento, mantener todo en orden, mantener la estructura, explicar cómo funciona el _Feedback Canvas_ y moderar la sesión. Puede ser cualquier persona.
+Elije un facilitador. Se encargará de programar el evento, establecer un orden, mantener la estructura, explicar a todo el mundo cómo funciona el _Feedback Canvas_ y moderar la sesión. Puede ser cualquier persona.
 
-La sesión dura **entre una y dos horas** dependiendo de la frecuencia con la que se haga y la cantidad de personas presentes. Use un temporizador y asegúrate de que sea visible.
+La sesión dura **entre una y dos horas** dependiendo de la cantidad de personas que has invitado. El facilitador tiene que asegurarse de que todos sepan cuanto queda. Pon un temporizador y que lo vea todo el mundo.
 
 Si quieres decir algo antes de empezar, hazlo. Yo di las gracias a todos por venir y les pedí que fueran lo más honestos y directos posible, sin ningún filtro.
 
 ### Rellenar el board de retrospectiva
 
-Esta es la actividad principal del _Feedback Canvas_. Lleva alrededor de 20 minutos y su propósito es recibir feedback detallados de cada miembro de tu equipo y hacer una autoevaluación detallada y consciente de ti mismo.
+Esta es la actividad principal del _Feedback Canvas_. Lleva alrededor de 20 minutos. Aquí las personas te van a dar feedback detallado y tu vas a hacer una autoevaluación consciente de ti mismo.
 
-Sé que las retrospectivas se pueden [organizar de diferentes maneras](https://www.funretrospectives.com/) dependiendo del objetivo. Sin embargo, en un _Feedback Canvas_, la estructura debe mantenerse lo más simple posible. Divide el board en 3 columnas: **Puntos positivos**, **Puntos de mejora** y **Acciones de mejora**. Todos, tu equipo y tu mismo, escriben sus puntos en privado y llenan el board cuando terminan. Algunos equipos llenan el board un punto a la vez. Prueba ambos y mira qué funciona mejor. La única regla es: por cada **Punto de mejora** que alguien escriba, también debe escribir una **Acción de mejora** como sugerencia.
+Sé que las retrospectivas se pueden [organizar de diferentes maneras](https://www.funretrospectives.com/) dependiendo del objetivo. Pero la estructura de un _Feedback Canvas_ tiene que mantenerse lo más simple posible. Divide el board en 3 columnas: **Puntos positivos**, **Puntos a mejorar** y **Acciones de mejora**. Tanto tu equipo como tu teneis que escribir los puntos en privado y después ponerlos en el board cuando terminéis. Algunos equipos ponen los puntos en el board uno a uno sin esperar al final. Prueba las dos formas. La única regla es: por cada **Punto a mejorar** que alguien escriba, también tiene que escribir una **Acción de mejora**.
 
-Puedes usar [Groupmap](https://www.groupmap.com/) pero cualquier otro board online funciona. Una hoja de Google Sheets también vale.
+Puedes usar [Groupmap](https://www.groupmap.com/) o [Miro](https://miro.com/) pero supongo que cualquier otro board online funciona. Una hoja de Google Sheets también vale.
 
 ![](/images/scrum_board.png)
 
 ### Puntuar cada categoría
 
-Toma alrededor de 5 minutos y su propósito es comparar cómo te percibes a ti mismo con cómo te perciben los demás. La actividad es muy similar a un [Planning Poker](https://es.wikipedia.org/wiki/Planning_poker). ¡Disclaimer! Solo estoy usando Planning Poker como ejemplo, no lo uses como una herramienta real en tu día a día, por favor.
+Esto lleva unos 5 minutos. El propósito de esta actividad es comparar cómo te percibes a ti mismo con cómo te perciben los demás. La actividad es muy similar a un [Planning Poker](https://es.wikipedia.org/wiki/Planning_poker). ¡Disclaimer! Solo estoy usando Planning Poker como ejemplo, no lo uses como una herramienta real en tu día a día, por favor. Por favor. Por favor.
 
-Da una nota del 1 al 5 para cada categoría de feedback. 3 significa **como se esperaba**, 1 significa **mucho más de lo esperado** y 5 significa **muy por debajo de lo esperado**. Es raro tener un 1 y es raro tener un 5. Tu y tu equipo votan en privado al mismo tiempo y luego lo comparten publicamente para comparar los resultados.
+Se trata de ponerte una nota del 1 al 5 para cada categoría de feedback. 3 significa **como se esperaba**, 1 significa **mucho más de lo esperado** y 5 significa **muy por debajo de lo esperado**. Es raro tener un 1 y es raro tener un 5. Tu y tu equipo votan en privado al mismo tiempo y luego lo comparten publicamente para comparar los resultados.
 
-Podrías usar [Mentimeter](https://www.mentimeter.com/) pero estoy seguro de que una hoja de Google Sheets también funciona.
+Puedes usar [Mentimeter](https://www.mentimeter.com/) pero estoy seguro de que una hoja de Google Sheets también funciona.
 
-### Comparar la puntuación de las categorías
+### Comparar la puntuación
 
-Muestra los resultados de la puntuación de las categoría de feedback y compara tus resultados con los de tu equipo.
+Después de dar una nota a cada categoría tienes que comparar tus resultados con los de tu equipo.
 
 ![My own](/images/feedback_canvas_mentimenter_myself.png) | ![My teams](/images/feedback_canvas_mentimenter_team.png)
 
-A la izquierda puedes ver mi propia evaluación. A la derecha puedes ver la media ponderada de las puntuaciones que me dio mi equipo. Pensé que hice lo que se esperaba de mi, pero podría haber hecho mucho más. Sin embargo, mi equipo piensa un poco más de mí que yo mismo.
+A la izquierda puedes ver mi propia evaluación. A la derecha puedes ver la media ponderada de las puntuaciones que me dio mi equipo. Yo pensé que hice lo que se esperaba de mi, pero que podría haber hecho mucho más. Sin embargo, mi equipo piensa que en algunas áreas sí que he hecho un poco más.
 
-### Leer el board de retrospectiva
+### Leer el board
 
 Empieza con los **Puntos positivos**. Primero lee en voz alta tu propia evaluación. Después, el facilitador lee el resto.
 
-Continúa con la segunda columna. Cada **Punto de mejora** se lee junto con su **Acción de mejora** relacionada. Primero lee las tuyas en voz alta. Después, el facilitador lee el resto.
+Continúa con la segunda columna. Cada **Punto a mejorar** se tiene que leer junto con la **Acción de mejora** relacionada. Primero lee las tuyas en voz alta. Después, el facilitador lee el resto.
 
-No discutas si no estás de acuerdo con el feedbackz. No es el lugar ni el momento. Sí que puedes pedir aclaraciones o ejemplos. También puedes preguntar quién escribió el feedback ya que no debería ser anónimo. Todo esto no tendría sentido si lo fuera.
+Si no estás de acuerdo con el feedback de alguien, no discutas. No es ni el lugar ni el momento. Sí que puedes pedir aclaraciones o ejemplos. También puedes preguntar quién escribió el feedback ya que no debería ser anónimo. Si lo fuera, todo esto no tendría sentido.
 
-Aquí dejo un extracto de mi propio board de retrospectiva. Solo los **Puntos de mejora** y las **Acciones de mejora** relacionadas. Si te interesa, y sé que te interesa, puedes encontrar el resto [aquí](/images/feedback_canvas_retrospective_board.jpeg). ¡Disclaimer! Encontrarás inglés, portugués y español allí. Usa Google translate.
+Aquí dejo un extracto de mi propio board. Dejo solamente los **Puntos a mejorar** y las **Acciones de mejora** relacionadas. Si te interesa, y sé que te interesa, puedes encontrar el board completo [aquí](/images/feedback_canvas_retrospective_board.jpeg). ¡Disclaimer! Encontrarás inglés, portugués y español. Usa Google translate.
 
 <!-- Board de retrospectiva -->
 <table>
@@ -126,28 +126,30 @@ Aquí dejo un extracto de mi propio board de retrospectiva. Solo los **Puntos de
 
 ## Qué hacer después
 
-Aunque nada debería ser una [sorpresa](https://www.youtube.com/watch?v=u5CVsCnxyXg), esto es mucho para procesar. Puedes ver que todos están de acuerdo en los mismos puntos más o menos. Y probablemente tú también lo estés.
+Aunque no debería haber [sorpresas](https://www.youtube.com/watch?v=u5CVsCnxyXg), te va a costar procesar todo esto. Como puedes ver, todos están de acuerdo en los mismos puntos más o menos. Y probablemente tú también lo estés.
 
-El primer paso es empezar a pensar en lo que todos acaban de decir y volver a leer los resultados del _Feedback Canvas_ unos días después.
+El primer paso es empezar a pensar en lo que todos te han dicho y volver a leer los resultados del _Feedback Canvas_ unos días después.
 
-El segundo paso es llevar los resultados a su _Team Lead_ o _Manager_. Debes hablar sobre los resultados con alguien que pueda ayudarte a encontrar la estrategia correcta y las áreas de acción. Si no tienes un _Manager_, habla con un mentor. O habla con un amigo. Necesitas ayuda.
+El segundo paso es llevar todo ese feedback a tu _Team Lead_ o _Manager_. Tienes que hablar sobre los resultados con alguien que pueda ayudarte a encontrar la estrategia correcta e identificar las áreas de acción. Si no tienes un _Manager_, habla con un mentor. O habla con un amigo. Habla con quien sea porque necesitas ayuda.
 
 ![](/images/conversation.png)
 
-Yo fui a hablar tanto con mi _Team Lead_ como con mi _Engineering Manager_ y ellos me ayudaron a identificar 4 áreas principales de acción:
+Yo fui a hablar con mi _Team Lead_ y con mi _Engineering Manager_. Ellos me ayudaron a identificar 4 áreas principales de acción:
 
 1. Dar a otros más espacio para mejorar y ayudarlos a crecer. Cuanto antes tenga a alguien en mi equipo que pueda ocupar mi lugar, antes podré avanzar. Este será mi principal enfoque.
 
-2. Seguir mejorando las soft skills y la inteligencia emocional. Me he dado cuenta de que mis soft skills empeoran cuando estoy [hambriento, enfadado, frustrado, solo o cansado](https://bradfordhealth.com/halt-hunger-anger-loneliness-tiredness/). Esto es normal para todos, pero puede ser más drástico en personas que necesitan ser más conscientes de sí mismas, como yo. También leeré un par de libros para ser más autoconsicente. Esto llevará tiempo.
+2. Seguir mejorando las soft skills y la inteligencia emocional. Me he dado cuenta de que mis soft skills empeoran cuando estoy [hambriento, enfadado, frustrado, solo o cansado](https://bradfordhealth.com/halt-hunger-anger-loneliness-tiredness/). Esto le pasa a todo el mundo, pero es más drástico en personas que necesitan prestar más atención a sus emociones, como yo. También leeré un par de libros para ser más autoconsicente y entender cómo puedo mejorar. Esto llevará tiempo.
 
-3. Hacer que otros tengan el mismo entusiasmo que yo. Esto no se puede hacer directamente. El entusiasmo y la pasión son contagiosos hasta cierto punto. Necesito entender mejor cuáles son las fortalezas, debilidades y motivaciones de las personas en mi equipo. Solo entonces puedo centrarme en crear el ambiente adecuado para que el entusiasmo aparezca espontáneamente. Esto requerirá paciencia.
+3. Hacer que otros tengan el mismo entusiasmo que yo. Esto no se puede hacer directamente. El entusiasmo y la pasión se contagian pero hasta cierto punto. Necesito entender cuáles son las fortalezas, debilidades y motivaciones de las personas de mi equipo. Solo entonces puedo centrarme en crear el ambiente adecuado para que el entusiasmo aparezca espontáneamente. Esto requerirá paciencia.
 
-4. Dar feedback honestos y verdadero a cada miembro del equipo. Eso no será posible si no tengo una [conexión real](https://www.youtube.com/watch?v=01ZCnCXpG4A) con las personas de mi equipo. Construir relaciones verdaderas y honestads es difícil. Estoy empezando una iniciativa llamada _Honest coffee_ que me permitirá conocer mejor a las personas con las que trabajo. Para ser sincero, mi _Feedback Canvas_ debería haber sido mucho más duro. Esto mejorará la calidad de mi feedback y la calidad del feedback que me da mi equipo.
+4. Dar feedback honesto y verdadero a cada miembro del equipo. Eso no será posible si no tengo una [conexión real](https://www.youtube.com/watch?v=01ZCnCXpG4A) con las personas de mi equipo. Construir relaciones verdaderas y honestas es difícil. Estoy empezando una iniciativa llamada _Honest coffee_ para conocer mejor a las personas con las que trabajo. Para ser sincero, mi _Feedback Canvas_ debería haber sido mucho más duro. Esto mejorará la calidad de mi feedback y la calidad del feedback que me da mi equipo.
+
+Deberías organizar otra sesión de _Feedback Canvas_ al menos 3 meses más tarde. No antes. Necesitas tiempo para trabajar en el feedback que acabas de recibir. En la siguiente sesión, tu equipo va a mencionar que has mejorado. Idealmente, van a enfocar su feedback en otros temas.
 
 ## Wrapping up
 
-_Feedback Canvas_ es una herramienta y, como cualquier herramienta, tiene que adaptarse a tu contexto. [Aquí](https://medium.com/@reinaldocamargo/feedback-canvas-2-0-2f2040aa4a49) puedes encontrar otro post que lo expliqua y [aquí](https://medium.com/@reinaldocamargo/a-feedback-canvas-real-implementation-6fb8e65b0253) puedes encontrar una forma diferente para llevarlo a cabo.
+El _Feedback Canvas_ es una herramienta y, como cualquier herramienta, la tienes que adaptar a tu contexto. [Aquí](https://medium.com/@reinaldocamargo/feedback-canvas-2-0-2f2040aa4a49) puedes encontrar otro post que lo explica de forma diferente y [aquí](https://medium.com/@reinaldocamargo/a-feedback-canvas-real-implementation-6fb8e65b0253) puedes encontrar una forma diferente de llevarlo a cabo.
 
-Las primeras sesiones serán un poco desordenadas y no verás el valor de inmediato. Probablemente. La mayoría de las compañías no están acostumbradas a dar feedback honesto y directo, y una sesión de _Feedback Canvas_ puede parecer mucho para empezar. Pero necesitas empezar por algún lado.
+Las primeras sesiones serán un poco desordenadas y no vas a ver el valor en seguida. Probablemente. La mayoría de las compañías no están acostumbradas a dar feedback tan honesto y una sesión de _Feedback Canvas_ puede parecer intimidante. Pero necesitas empezar por algún lado.
 
 Muchas gracias a [undraw.co](https://undraw.co) por las ilustraciones. Puedes suscribirte a mi newsletter **With a grain of salt** y recibir un email con novedades cada cierto tiempo.

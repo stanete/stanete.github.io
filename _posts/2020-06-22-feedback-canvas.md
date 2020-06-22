@@ -51,7 +51,7 @@ You could use [Groupmap](https://www.groupmap.com/) but any other online board w
 
 ### Give a score for each feedback category
 
-It takes around 5 minutes and its purpose is to compare how you perceive yourself with how others perceive you. The activity is very similar to a [Planning Poker](https://es.wikipedia.org/wiki/Planning_poker). I'm just using Planning Poker as an example, please don't use it as a real tool in your day to day.
+It takes around 5 minutes and its purpose is to compare how you perceive yourself with how others perceive you. The activity is very similar to a [Planning Poker](https://es.wikipedia.org/wiki/Planning_poker). Disclarimer. I'm just using Planning Poker as an example, please don't use it as a real tool in your day to day. Please. Please.
 
 Give a note from 1 to 5 for every feedback category. 3 means **as expected**, 1 means **hugely over expected** and 5 means **hugely under expected**. It’s rare to have a 1 and its rare to have a 5. Yourself and your team vote privately at the same time and then share it with everybody to compare the results.
 
@@ -143,6 +143,8 @@ So I went and talked with my _Team Lead_ and with my _Engineering Manager_ and t
 3. Make others have the same enthusiasm as I do. It can’t be done directly. Enthusiasm and passion are contagious up to a point. I need to understand better which are the strengths, weaknesses and motivations of the people in my team. Then I can focus on creating the proper environment for enthusiasm to appear spontaneously. This will require patience.
 
 4. Give honest and true feedback to every member of the team. That won’t be possible if I don’t have a [real connection](https://www.youtube.com/watch?v=01ZCnCXpG4A) with the members of my team. Building true relationships is hard. I’m starting an initiative called _Honest coffee_ that’ll allow me to get to know better the people I work with. To be honest, my _Feedback Canvas_ shouldn've been harsher.This will improve my feedback’s quality and the quality of the feedback my team gives me.
+
+You should organize another _Feedback Canvas_ session some months later. At least 3 months later. Not earlier. You need time to work on the feedback you just received. On the next session your team will mention that you have improved. And, ideally, they will focus their feedback on other topics.
 
 ## Wrapping up
 
