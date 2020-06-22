@@ -9,23 +9,23 @@ excerpt: Put a bunch of people together in a room to give you the most brutally 
 
 You can read this post in Spanish [here](/es/feedback-canvas).
 
-My first _Feedback Canvas_ was tough. I remember the days after. I was angry, upset, sad, happy and excited all at the same time. It made me realize that I was not used to honest feedback. It affected me so much that I didn’t really know what to do afterwards nor what actions to take.
+My first _Feedback Canvas_ was tough. I remember the days after. I was angry, upset, sad, happy and excited at the same time. It made me realize that I was not used to receive _honest feedback_. It affected me so much that I didn’t really know what to do afterwards nor what actions to take.
 
-4 months later I had my second _Feedback Canvas_. This time it felt different. The tool didn’t change. I did. In these 4 months, I learned how to receive feedback and what strategy to follow afterwards. And I’m going to share with you my own experience, the feedback my team has given me and the actions I am taking based on that feedback.
+4 months later I had my second _Feedback Canvas_. This time it felt different. The tool didn’t change. I did. In these 4 months, I learned how to receive feedback and what strategy to follow afterwards. I’m going to share with you my own experience, the feedback my team has given me and the actions I am taking based on that feedback.
 
 ## Why does it work?
 
 As with any feedback, it only works if the people know you. And I mean, really know you. [The real you](https://youtu.be/qg0_FinB6EE). If they don’t, their feedback is going to be shallow, empty, and useless.
 
-And it works because feedback is [a constant](https://www.youtube.com/watch?v=iUaHMOWRYpI) in your day to day. If requesting feedback is not a habit, this tool doesn’t work.
+It works because feedback is [a constant](https://www.youtube.com/watch?v=iUaHMOWRYpI) in your day to day. If requesting feedback is not a habit, this tool doesn’t work.
 
-It also works because you are the one who is requesting the feedback. You are being proactive. You are humble and you understand that you have so much to improve. Because [you want to improve](https://www.youtube.com/watch?v=0iGYp3vTabU), right?
+It works because you are the one who is requesting the feedback. You are being proactive. You are humble and you understand that you have so much to improve. Because [you want to improve](https://www.youtube.com/watch?v=0iGYp3vTabU), right?
 
 ![](/images/good_team.png)
 
 ## What is _Feedback Canvas_?
 
-Basically, you put a bunch of people together in a room to give you the most honest feedback of your life. Hopefully. It’s kind of an [Intervention](https://www.youtube.com/watch?v=sNAbnnHKZFE) but requested by yourself. The format is very similar to a retrospective but you are the subject.
+Basically, you put a bunch of people together in a room to give you the most honest feedback of your life. Hopefully. It’s kind of an [Intervention](https://www.youtube.com/watch?v=sNAbnnHKZFE) but requested by yourself. The format is very similar to a retrospective but you are the subject the team is analyzing.
 
 In Creditas, where I currently "work", we give feedback grouped in 7 categories, which happen to be the principles on which the company's culture is built on: **Love our customers**, **Brutally Honest**, **Learn Fast**, **Thinking like Owners**, **True Team Players**, **Technical Knowledge**, **Warriors and Play to Win**. We also take into account what is expected from somebody in your role. [Here](https://www.patkua.com/blog/the-definition-of-a-tech-lead/) you can find an example of what is expected from a Tech Lead. Change all this to what suits your context.
 
@@ -148,8 +148,8 @@ You should organize another _Feedback Canvas_ session some months later. At leas
 
 ## Wrapping up
 
-_Feedback Canvas_ is a tool and, as any tool, it has to be adapted to your context. [Here](https://medium.com/@reinaldocamargo/feedback-canvas-2-0-2f2040aa4a49) you can find another post explaining it and [here](https://medium.com/@reinaldocamargo/a-feedback-canvas-real-implementation-6fb8e65b0253) you can find a different implementation of it.
+_Feedback Canvas_ is a tool and, as any tool, you need to adapt it to your context. [Here](https://medium.com/@reinaldocamargo/feedback-canvas-2-0-2f2040aa4a49) you can find another post explaining it differently and [here](https://medium.com/@reinaldocamargo/a-feedback-canvas-real-implementation-6fb8e65b0253) you can find a different implementation of it.
 
-The first sessions will be messy and you won’t see the value of it immediately. Probably. Most companies are not used to give honest and direct feedback and a _Feedback Canvas_ session may seem as a lot to begin with. But you need to start somewhere.
+The first sessions will be messy and you won’t see its the value immediately. Probably. Most companies are not used to give honest and direct feedback. A _Feedback Canvas_ session may seem as a lot to begin with. But you need to start somewhere.
 
 Huge thanks to [undraw.com](https://undraw.co) for the illustrations. You can subscribe to my newsletter **With a grain of salt** and receive an email with updates from time to time.
