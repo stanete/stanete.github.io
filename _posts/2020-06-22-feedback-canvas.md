@@ -47,7 +47,7 @@ I know retrospectives can be [organized in different ways](https://www.funretros
 
 1. For every **point to improve** that anybody writes, they should also write an **improvement action** as a suggestion. Sometimes it is not easy to find an **improvement action**. In that case, the feedback can be discussed and you can find one together.
 
-2. Write the feedback using the first person: _David, you are cool_ instead of _David is cool_. the feedback should be direct.
+2. Write the feedback using the first person: _David, you are cool_ instead of _David is cool_. The feedback should be direct.
 
 You could use [Groupmap](https://www.groupmap.com/) but any other online board will do. A Google Sheet would do too.
 

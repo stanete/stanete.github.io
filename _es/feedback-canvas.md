@@ -48,7 +48,7 @@ Sé que las retrospectivas se pueden [organizar de diferentes maneras](https://w
 
 1. Por cada **Punto a mejorar** que alguien escriba, también tiene que escribir una **Acción de mejora**. A veces no es fácil pensar en una **Acción de Mejora**. En ese caso el feedback se puede discutir y encontrar algo entre todos.
 
-2. Escribe el feedback en primera persona: _David, tu molas_ en vez de _David mola_. Esto es feedback directo.
+2. Escribe el feedback en primera persona: _David, tu molas_ en vez de _David mola_. El feedback debe ser directo.
 
 Puedes usar [Groupmap](https://www.groupmap.com/) o [Miro](https://miro.com/) pero supongo que cualquier otro board online funciona. Una hoja de Google Sheets también vale.
 
