@@ -47,6 +47,7 @@ Esta es la actividad principal del _Feedback Canvas_. Lleva alrededor de 20 minu
 Sé que las retrospectivas se pueden [organizar de diferentes maneras](https://www.funretrospectives.com/) dependiendo del objetivo. Pero la estructura de un _Feedback Canvas_ tiene que mantenerse lo más simple posible. Divide el board en 3 columnas: **Puntos positivos**, **Puntos a mejorar** y **Acciones de mejora**. Tanto tu equipo como tu teneis que escribir los puntos en privado y después ponerlos en el board cuando terminéis. Algunos equipos ponen los puntos en el board uno a uno sin esperar al final. Prueba las dos formas. Hay un par de reglas a seguir:
 
 1. Por cada **Punto a mejorar** que alguien escriba, también tiene que escribir una **Acción de mejora**. A veces no es fácil pensar en una **Acción de Mejora**. En ese caso el feedback se puede discutir y encontrar algo entre todos.
+
 2. Escribe el feedback en primera persona: _David, tu molas_ en vez de _David mola_. Esto es feedback directo.
 
 Puedes usar [Groupmap](https://www.groupmap.com/) o [Miro](https://miro.com/) pero supongo que cualquier otro board online funciona. Una hoja de Google Sheets también vale.
