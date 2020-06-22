@@ -10,15 +10,15 @@ excerpt: Pones a un grupo de personas en una habitación para darte el feedback 
 
 Puedes leer este post en inglés [aquí](/feedback-canvas).
 
-Mi primer _Feedback Canvas_ fue duro. Recuerdo los días siguientes. Estaba enfadado, frustrado, triste, feliz y emocionado al mismo tiempo. Me hizo darme cuenta que no estaba acostumbrado a [feedback honesto](https://www.youtube.com/watch?v=X0xS5VNM2x0). Me afectó tanto que realmente no sabía qué hacer ni qué acciones tomar.
+Mi primer _Feedback Canvas_ fue duro. Recuerdo los días siguientes. Estaba enfadado, frustrado, triste, feliz y emocionado al mismo tiempo. Me hizo darme cuenta que no estaba acostumbrado a recibir [feedback tan honesto](https://www.youtube.com/watch?v=X0xS5VNM2x0). Me afectó tanto que realmente no sabía qué hacer ni qué acciones tomar.
 
-4 meses después tuve mi segundo _Feedback Canvas_. Entre cada sesión tienen que pasar al menos 3 meses. Esta vez me sentí diferente. La herramienta no había cambiado. Había cambiado yo. En estos 4 meses, aprendí cómo recibir feedback y qué estrategia seguir para mejorar. Voy a compartir mi propia experiencia, el feedback que me dió mi equipo y las acciones que estoy tomando en base a ese feedback.
+4 meses después tuve mi segundo _Feedback Canvas_. Esta vez me sentí diferente. La herramienta no había cambiado. Había cambiado yo. En estos 4 meses, aprendí cómo recibir feedback y qué estrategia seguir para mejorar. Voy a compartir mi propia experiencia, el feedback que me dió mi equipo y las acciones que estoy tomando en base a ese feedback.
 
 ## Por qué funciona?
 
 Al igual que con cualquier otro feedback, solo funciona si la gente te conoce de verdad. Si conocen [al verdadero tú](https://youtu.be/qg0_FinB6EE). Si no te conocen, su feedback será superficial, vacío e inútil.
 
-Funciona porque el feedback es [constante](https://www.youtube.com/watch?v=iUaHMOWRYpI) en el día a día. Si pides feedback habitualmente, el _Feedback Canvas_ no funciona.
+Funciona porque el feedback es [constante](https://www.youtube.com/watch?v=iUaHMOWRYpI) en el día a día. Si no pides feedback habitualmente, el _Feedback Canvas_ no funciona.
 
 Funciona porque eres tu quien lo está pidiendo. Estás siendo proactivo. Eres humilde y entiendes que tienes mucho por mejorar. Porque [quieres mejorar](https://www.youtube.com/watch?v=0iGYp3vTabU), ¿verdad?
 
@@ -144,7 +144,7 @@ Yo fui a hablar con mi _Team Lead_ y con mi _Engineering Manager_. Ellos me ayud
 
 4. Dar feedback honesto y verdadero a cada miembro del equipo. Eso no será posible si no tengo una [conexión real](https://www.youtube.com/watch?v=01ZCnCXpG4A) con las personas de mi equipo. Construir relaciones verdaderas y honestas es difícil. Estoy empezando una iniciativa llamada _Honest coffee_ para conocer mejor a las personas con las que trabajo. Para ser sincero, mi _Feedback Canvas_ debería haber sido mucho más duro. Esto mejorará la calidad de mi feedback y la calidad del feedback que me da mi equipo.
 
-Deberías organizar otra sesión de _Feedback Canvas_ al menos 3 meses más tarde. No antes. Necesitas tiempo para trabajar en el feedback que acabas de recibir. En la siguiente sesión, tu equipo va a mencionar que has mejorado. Idealmente, van a enfocar su feedback en otros temas.
+Deberías organizar otra sesión de _Feedback Canvas_ algunos meses más tarde. Entre cada sesión tienen que pasar al menos 3 meses. Necesitas tiempo para trabajar en el feedback que acabas de recibir. En la siguiente sesión, tu equipo va a mencionar que has mejorado. Idealmente, van a enfocar su feedback en otros temas.
 
 ## Wrapping up
 
