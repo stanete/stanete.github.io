@@ -85,7 +85,7 @@ Aquí dejo un extracto de mi propio board de retrospectiva. Solo los **Puntos de
   <thead>
     <tr class="header">
       <th>Puntos de mejora</th>
-      <th>Actiones para mejorar</th>
+      <th>Acciones para mejorar</th>
     </tr>
   </thead>
   <tbody>
