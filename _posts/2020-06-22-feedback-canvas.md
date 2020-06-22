@@ -27,7 +27,7 @@ It works because you are the one who is requesting the feedback. You are being p
 
 Basically, you put a bunch of people together in a room to give you the most honest feedback of your life. Hopefully. It’s kind of an [Intervention](https://www.youtube.com/watch?v=sNAbnnHKZFE) but requested by yourself. The format is very similar to a retrospective but you are the subject the team is analyzing.
 
-In Creditas, where I currently "work", we give feedback grouped in 7 categories, which happen to be the principles on which the company's culture is built on: **Love our customers**, **Brutally Honest**, **Learn Fast**, **Thinking like Owners**, **True Team Players**, **Technical Knowledge**, **Warriors and Play to Win**. We also take into account what is expected from somebody in your role. [Here](https://www.patkua.com/blog/the-definition-of-a-tech-lead/) you can find an example of what is expected from a Tech Lead. Change all this to what suits your context.
+In Creditas, where I currently work, we give feedback grouped in 7 categories, which happen to be the principles on which the company's culture is built on: **Love our customers**, **Brutally Honest**, **Learn Fast**, **Thinking like Owners**, **True Team Players**, **Technical Knowledge**, **Warriors and Play to Win**. We also take into account what is expected from somebody in your role. [Here](https://www.patkua.com/blog/the-definition-of-a-tech-lead/) you can find an example of what is expected from a Tech Lead. Change all this to what suits your context.
 
 ## How to organize one?
 
@@ -43,7 +43,10 @@ If you want to say something before starting, do it. I thanked everybody for com
 
 This is the main activity of the _Feedback Canvas_. It takes around 20 minutes and its purpose is to receive detailed feedback from each member of your team and make a detailed and conscious self assessment.
 
-I know retrospectives can be [organized in different ways](https://www.funretrospectives.com/) depending on the objective. However, in a _Feedback Canvas_, the structure needs to be kept as simple as possible. Divide the board in 3 columns: **Good points**, **Points to improve** and **Improvement actions**. Everybody, your team and yourself, writes their points privately and fill the board when they are finished. Some teams fill the board one point at the time. Try both and see what works better. The only rule is: for every **point to improve** that anybody writes, they must also write an **improvement action** as a suggestion.
+I know retrospectives can be [organized in different ways](https://www.funretrospectives.com/) depending on the objective. However, in a _Feedback Canvas_, the structure needs to be kept as simple as possible. Divide the board in 3 columns: **Good points**, **Points to improve** and **Improvement actions**. Everybody, your team and yourself, writes their points privately and fill the board when they are finished. Some teams fill the board one point at the time. Try both and see what works better. There are a couple of rules to follow:
+
+1. For every **point to improve** that anybody writes, they should also write an **improvement action** as a suggestion. Sometimes it is not easy to find an **improvement action**. In that case, the feedback can be discussed and you can find one together.
+2. Write the feedback using the first person: _David, you are cool._ instead of _David is cool._. It is direct feedback.
 
 You could use [Groupmap](https://www.groupmap.com/) but any other online board will do. A Google Sheet would do too.
 
@@ -53,13 +56,15 @@ You could use [Groupmap](https://www.groupmap.com/) but any other online board w
 
 It takes around 5 minutes and its purpose is to compare how you perceive yourself with how others perceive you. The activity is very similar to a [Planning Poker](https://es.wikipedia.org/wiki/Planning_poker). Disclarimer. I'm just using Planning Poker as an example, please don't use it as a real tool in your day to day. Please. Please.
 
-Give a note from 1 to 5 for every feedback category. 3 means **as expected**, 1 means **hugely over expected** and 5 means **hugely under expected**. It’s rare to have a 1 and its rare to have a 5. Yourself and your team vote privately at the same time and then share it with everybody to compare the results.
+Give a note from 1 to 5 for every feedback category. We in Creditas use the company principles and values. You should adapt it to your own context.
+
+3 means **as expected**, 1 means **hugely over expected** and 5 means **hugely under expected**. It’s rare to have a 1 and its rare to have a 5. Yourself and your team vote privately at the same time and then share it with everybody to compare the results.
 
 You could use [Mentimeter](https://www.mentimeter.com/) but I’m sure a Google Sheet would do too.
 
-### Compare the score for feedback categories
+### Compare the score
 
-Show the results of the category score and compare your results with the ones from your team.
+Show the results of the category score and compare your results with the ones from your team. This score should reflect what you and your team just put in the retrospective board.
 
 ![My own](/images/feedback_canvas_mentimenter_myself.png) | ![My teams](/images/feedback_canvas_mentimenter_team.png)
 
@@ -67,11 +72,11 @@ At the left you can see my own assessment. At the right you can see the weighted
 
 ### Read the retrospective board
 
-Start with the **Good points**. You read out loud your own assessment first. Then, the facilitator reads the rest.
-
-Continue with the second column. Every **Point to improve** is read together with its related **Improvement action**. You read your own out loud first. Then, the facilitator reads the rest.
+Start with the second and third column. Every **Point to improve** is read together with its related **Improvement action**. You read your own out loud first. Then, the facilitator reads the rest. The main reason of organizing a _Feedback Canvas_ are the **Points to improve**. In your day to day it is easier to receive feedback about the good stuff. This is the what will make you improve.
 
 Don’t agree or disagree with the feedback. It’s not the place nor the time to do that. You can ask for clarifications or examples though. You can also ask for who wrote the feedback. The feedback is not anonymous. This whole thing would be just a charade if it were.
+
+Finish with the **Good points**. You read out loud your own assessment first. Then, the facilitator reads the rest.
 
 Here is an excerpt from my own retrospective board. Just the **Points to improve** and related **Improvement actions**. If you are interested, and I know you are, you can find the whole thing [here](/images/feedback_canvas_retrospective_board.jpeg). Disclaimer! You’ll find English, Portuguese and Spanish in there. Use Google Translate.
 
