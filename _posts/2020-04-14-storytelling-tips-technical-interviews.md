@@ -83,4 +83,4 @@ Unfortunately you just have time to explore so much. But by the time the story i
 
 A more humane way of driving interviews.
 
-Huge thanks to [undraw.com](https://undraw.co) for the illustrations. You can subscribe to my newsletter **With a grain of salt** and get notified every time there is a new post.
+Huge thanks to [undraw.com](https://undraw.co) for the illustrations. You can subscribe to my newsletter **With a grain of salt** and receive an email with updates from time to time.

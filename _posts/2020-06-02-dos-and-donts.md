@@ -69,4 +69,4 @@ Some even think [meetings are toxic](https://twitter.com/dhh/status/124293539635
 
 These rules are supposed to shape the team towards a healthier product mindset and culture. They are part of the utopia and they will never be respected 100% of the time. Our environment is complex and unpredictable and we are better that blindly following a list of rules. Be wise.
 
-Huge thanks to [undraw.co](https://undraw.co) for the illustrations. You can subscribe to my newsletter **With a grain of salt** and get notified every time I post something new.
+Huge thanks to [undraw.com](https://undraw.co) for the illustrations. You can subscribe to my newsletter **With a grain of salt** and receive an email with updates from time to time.

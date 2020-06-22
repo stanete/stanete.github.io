@@ -78,4 +78,4 @@ Without visualizing value, it is difficult to start asking questions. It is even
 
 Have patience though. Growing a _Product Engineering_ team from childhood to maturity takes time. Because it's not about changing processes but about changing people and evolving culture.
 
-Huge thanks to [undraw.co](https://undraw.co) for the illustrations. You can subscribe to my newsletter **With a grain of salt** and get notified every time I post something new.
+Huge thanks to [undraw.com](https://undraw.co) for the illustrations. You can subscribe to my newsletter **With a grain of salt** and receive an email with updates from time to time.

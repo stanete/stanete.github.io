@@ -74,4 +74,4 @@ Adapt it to what your team actually needs. Address the issues your team is strug
 
 Whether or not you should be even doing pull requests is a topic for another post.
 
-Huge thanks to [undraw.co](https://undraw.co) for the illustrations. You can subscribe to my newsletter **With a grain of salt** and get notified every time I post something new.
+Huge thanks to [undraw.com](https://undraw.co) for the illustrations. You can subscribe to my newsletter **With a grain of salt** and receive an email with updates from time to time.
