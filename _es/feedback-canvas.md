@@ -14,7 +14,7 @@ Mi primer _Feedback Canvas_ fue duro. Recuerdo los días siguientes. Estaba enfa
 
 4 meses después tuve mi segundo _Feedback Canvas_. Esta vez me sentí diferente. La herramienta no había cambiado. Había cambiado yo. En estos 4 meses, aprendí cómo recibir feedback y qué estrategia seguir para mejorar. Voy a compartir mi propia experiencia, el feedback que me dió mi equipo y las acciones que estoy tomando en base a ese feedback.
 
-## Por qué funciona?
+## ¿Por qué funciona?
 
 Al igual que con cualquier otro feedback, solo funciona si la gente te conoce de verdad. Si conocen [al verdadero tú](https://youtu.be/qg0_FinB6EE). Si no te conocen, su feedback será superficial, vacío e inútil.
 
@@ -24,13 +24,13 @@ Funciona porque eres tu quien lo está pidiendo. Estás siendo proactivo. Eres h
 
 ![](/images/good_team.png)
 
-## Qué es un _Feedback Canvas_?
+## ¿Qué es un _Feedback Canvas_?
 
 Básicamente, pones a un grupo de personas en una habitación para darte el feedback más directo y honesto de tu vida. Es una especie de [Intervención](https://www.youtube.com/watch?v=sNAbnnHKZFE) pero la pides tu. El formato es muy similar a una retrospectiva, pero la gente que va, te analiza a ti.
 
 En Creditas, donde "trabajo" actualmente, damos feedback en 7 categorías, que resultan ser los principios de la cultura de la empresa: **Love our customers**, **Brutally Honest**, **Learn Fast**, **Thinking like Owners**, **True Team Players**, **Technical Knowledge**, **Warriors and Play to Win**. También tomamos en cuenta lo que se espera de alguien en tu rol. [Aquí](https://www.patkua.com/blog/the-definition-of-a-tech-lead/) puedes encontrar un ejemplo de lo que se espera de un Tech Lead. Todo esto lo tienes que adaptar a tu contexto.
 
-## Cómo organizar un _Feedback Canvas_?
+## ¿Cómo organizar un _Feedback Canvas_?
 
 Elije las personas con las que trabajas cerca en tu día a día. **Entre 5 y 9**. Si lideras un equipo, como yo, tienen que estar allí. Tu manager o mentor también debería estar allí.
 
