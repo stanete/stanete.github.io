@@ -42,13 +42,13 @@ Si quieres decir algo antes de empezar, hazlo. Yo di las gracias a todos por ven
 
 ### Rellenar el board de retrospectiva
 
-Esta es la actividad principal del _Feedback Canvas_. Lleva alrededor de 20 minutos. Aquí las personas te van a dar feedback detallado y tu vas a hacer una autoevaluación consciente de ti mismo.
+Esta es la actividad principal del _Feedback Canvas_. Lleva alrededor de 20 minutos. Aquí las personas te van a dar feedback detallado y tú vas a hacer una autoevaluación consciente de ti mismo.
 
-Sé que las retrospectivas se pueden [organizar de diferentes maneras](https://www.funretrospectives.com/) dependiendo del objetivo. Pero la estructura de un _Feedback Canvas_ tiene que mantenerse lo más simple posible. Divide el board en 3 columnas: **Puntos positivos**, **Puntos a mejorar** y **Acciones de mejora**. Tanto tu equipo como tu teneis que escribir los puntos en privado y después ponerlos en el board cuando terminéis. Algunos equipos ponen los puntos en el board uno a uno sin esperar al final. Prueba las dos formas. Hay un par de reglas a seguir:
+Sé que las retrospectivas se pueden [organizar de diferentes maneras](https://www.funretrospectives.com/) dependiendo del objetivo. Pero la estructura de un _Feedback Canvas_ tiene que mantenerse lo más simple posible. Divide el board en 3 columnas: **Puntos positivos**, **Puntos a mejorar** y **Acciones de mejora**. Tanto tu equipo como tú tenéis que escribir los puntos en privado y después ponerlos en el board cuando terminéis. Algunos equipos ponen los puntos en el board uno a uno sin esperar al final. Prueba las dos formas. Hay un par de reglas a seguir:
 
 1. Por cada **punto a mejorar** que alguien escriba, también debería escribir una **acción de mejora**. A veces es difícil pensar en una **acción de mejora**. Cuando eso ocurra, el feedback se puede discutir y podéis encontrar algo entre todos.
 
-2. Escribir el feedback en primera persona: _David, tu molas_ en vez de _David mola_. El feedback debe ser directo.
+2. Escribir el feedback en primera persona: _David, tú molas_ en vez de _David mola_. El feedback debe ser directo.
 
 Puedes usar [Groupmap](https://www.groupmap.com/) o [Miro](https://miro.com/) pero supongo que cualquier otro board online funciona. Una hoja de Google Sheets también vale.
 
@@ -58,9 +58,9 @@ Puedes usar [Groupmap](https://www.groupmap.com/) o [Miro](https://miro.com/) pe
 
 Esto lleva unos 5 minutos. El propósito de esta actividad es comparar cómo te percibes a ti mismo con cómo te perciben los demás. La actividad es muy similar a un [Planning Poker](https://es.wikipedia.org/wiki/Planning_poker). ¡Disclaimer! Solo estoy usando Planning Poker como ejemplo, no lo uses como una herramienta real en tu día a día, por favor. Por favor. Por favor.
 
-Se trata de poner una nota del 1 al 5 para cada categoría de feedback. Nosotros, en Creditas, usamos los valores y principios de la compañia. Tu tienes que adaptarlo a tu contexto.
+Se trata de poner una nota del 1 al 5 para cada categoría de feedback. Nosotros, en Creditas, usamos los valores y principios de la compañía. Tú tienes que adaptarlo a tu contexto.
 
-3 significa **como se esperaba**, 1 significa **mucho más de lo esperado** y 5 significa **muy por debajo de lo esperado**. Es raro tener un 1 y es raro tener un 5. Tu y tu equipo votan en privado al mismo tiempo y luego lo comparten publicamente para comparar los resultados.
+3 significa **como se esperaba**, 1 significa **mucho más de lo esperado** y 5 significa **muy por debajo de lo esperado**. Es raro tener un 1 y es raro tener un 5. Tu equipo y tú votáis en privado al mismo tiempo y luego lo compartís publicamente para comparar los resultados.
 
 Puedes usar [Mentimeter](https://www.mentimeter.com/) pero estoy seguro de que una hoja de Google Sheets también funciona.
 
