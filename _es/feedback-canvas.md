@@ -32,9 +32,9 @@ En Creditas, donde trabajo actualmente, damos feedback en 7 categorías, que res
 
 ## ¿Cómo organizar un _Feedback Canvas_?
 
-Elije las personas con las que trabajas cerca en tu día a día. **Entre 5 y 9**. Si lideras un equipo, como yo, tienen que estar allí. Tu manager o mentor también debería estar allí.
+Elige las personas con las que trabajas cerca en tu día a día. **Entre 5 y 9**. Si lideras un equipo, como yo, tienen que estar allí. Tu manager o mentor también debería estar allí.
 
-Elije un facilitador. Se encargará de programar el evento, establecer un orden, mantener la estructura, explicar a todo el mundo cómo funciona el _Feedback Canvas_ y moderar la sesión. Puede ser cualquier persona.
+Elige un facilitador. Se encargará de programar el evento, establecer un orden, mantener la estructura, explicar a todo el mundo cómo funciona el _Feedback Canvas_ y moderar la sesión. Puede ser cualquier persona.
 
 La sesión dura **entre una y dos horas** dependiendo de la cantidad de personas que has invitado. El facilitador tiene que asegurarse de que todos sepan cuanto queda. Pon un temporizador y que lo vea todo el mundo.
 
