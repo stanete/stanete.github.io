@@ -8,7 +8,7 @@ image: /images/alone_before_dawn.png
 excerpt: Todos la cagamos. Forma parte de ser humano. Y está bien. Mientras aprendamos de nuestras cagadas y no permitamos que nuestro ego nos ciegue.
 ---
 
-Puedes leer este post en inglés [aquí](/fucked-up-everybody-knows.md).
+Puedes leer este post en inglés [aquí](/fucked-up-everybody-knows).
 
 Todos la cagamos. Constantemente. Forma parte de ser humano. Y está bien. Mientras aprendamos de nuestras cagadas y no permitamos que nuestro ego nos ciegue.
 
