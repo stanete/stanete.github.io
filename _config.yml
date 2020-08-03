@@ -26,9 +26,6 @@ url: "https://stanete.com"
 
 # Site Build
 highlighter: rouge
-#markdown:           redcarpet
-#redcarpet:
-#    extensions:     ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data", "highlight", "footnotes"]
 markdown: kramdown
 kramdown:
   input: GFM
@@ -38,7 +35,7 @@ sass:
 # Other Params
 include: ["robots.txt"]
 exclude: ["LICENSE", "README.md", "CNAME", "vendor", "Gemfile"]
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-redirect-from
