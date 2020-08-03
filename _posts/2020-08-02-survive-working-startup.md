@@ -45,11 +45,11 @@ For any product or feature you must make it simple, make it valuable and build i
 
 ![](/images/get-shit-done.png)
 
-### Understand the business
+### Understand how business works
 
 Working at a startup is all about using your skills to create a profitable and sustainable business focused on growth. It doesn't matter if you are a Software Engineer, a Product Designer or a Growth Marketer. Don't get obsessed over code, design, processes or management. Your skills are means to an end.
 
-Learn the core business concepts for your context. Create a basic dictionary that everyone can consult. Understand how your work impacts the numbers. Read a book about the market you're targeting. Figure out how the Venture Capital landscape expects from startups like yours. If you don't understand the business, you won't be able to make the right questions. And you'll take poor decisions. And you're not going to be able to focus your energy on the right actions.
+Learn the core business concepts for your context. Create a basic dictionary that everyone can consult. Understand how your work impacts the numbers. Read a book about the market you're targeting. Figure out how the Venture Capital landscape expects from startups like yours. If you don't understand the business, you won't be able to make the right questions. And you'll take poor decisions. And you're not going to be able to focus your energy on the right actions. Understand HOW business works. Probably you familiar with the business but you need to understand how business is made in your context.
 
 ### Care about the customer
 

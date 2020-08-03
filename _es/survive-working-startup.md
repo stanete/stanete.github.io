@@ -50,7 +50,7 @@ Construye cualquier producto o feature pieza por pieza. Que sea simple y añada 
 
 Trabajar en una startup va de utilizar tus habilidades para crear un negocio rentable y sostenible centrado en el crecimiento. No importa si eres ingeniero de software, diseñador de producto o te dedicas a vender. No te obsesiones con el código, el diseño, los procesos o el management. Tus habilidades son un medio para un fin.
 
-Aprende los conceptos básicos del negocio para tu contexto. Crea un diccionario básico que todos puedan consultar. Comprende cómo tu trabajo impacta los números. Lee un libro sobre el mercado al que apuntas. Descubre qué espera el panorama del Venture Capital de una startup como la tuya. Si no entiendes el negocio, no podrás hacer las preguntas correctas. Y tomarás malas decisiones. Y no podrás concentrar tu energía en las acciones correctas.
+Aprende los conceptos básicos del negocio para tu contexto. Crea un diccionario básico que todos puedan consultar. Comprende cómo tu trabajo impacta los números. Lee un libro sobre el mercado al que apuntas. Descubre qué espera el panorama del Venture Capital de una startup como la tuya. Si no entiendes el negocio, no podrás hacer las preguntas correctas. Y tomarás malas decisiones. Y no podrás concentrar tu energía en las acciones correctas. A un nivel más profundo, necesitas entender cómo se hace el negocio en tu startup. No solamente la parte teórica sino también los procesos, las relaciones con partners externos y las palancas que hay que mover para hacer dinero.
 
 ### Preocúpate por el cliente
 
