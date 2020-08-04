@@ -139,4 +139,12 @@ Take time to talk to people in your industry. Don't limit yourself by their role
 
 Don't wait for other people to reach you. Go and deliberately search for the people you want to meet. Most people won't say no to a coffee. It works better if you already have a specific topic that interests you. That will be the catalyst for a good relationship. Reach and talk to other people in an honest way. We are all tired of having cliche conversations.
 
+### Go watch TV
+
+Working a crazy amount of hours doens't mean you're doing a great job. You should work smart. Not hard. Hard work is for idiots and losers. Instead you should try to work smart and be efficient. Being successful is not a matter of how much time you put in. It's a matter of the quality of your decisions.
+
+Don't fall into the trap of meritocracy. It's just bullshit. Erik Dietrich talks a lot about this topic in [Developer Hegemony: The Future of Labor](https://www.amazon.es/Developer-Hegemony-Future-Erik-Dietrich/dp/0692866809).
+
+Take care of yourself. Sleep a decent amount of hours, exercise, meditate, learn something you like and dedicate time to your loved ones. As [Morty says](https://www.youtube.com/watch?v=E_qvy82U4RE): _Nobody belongs anywhere, nobody exists on purpose, everybody's going to die. Go watch TV._
+
 You can subscribe to my newsletter **With a grain of salt** and receive an email with updates from time to time.
