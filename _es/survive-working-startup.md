@@ -142,10 +142,10 @@ Pero no esperes a que otras personas te contacten. Ve y busca deliberadamente a 
 
 ### Ve a ver la tele
 
-Trabajar hasta las tantas no significa que estás haciendo un gran trabajo. Trabaja de manera inteligente. No trabajes duro. El trabajo duro es para idiotas y perdedores. En vez de eso, trabaja de forma inteligente y sé eficiente. Tener éxito no es una cuestión de cuánto tiempo inviertes. Es una cuestión de la calidad de tus decisiones.
+Quedarte hasta las tantas no significa que estás haciendo un gran trabajo. El trabajo duro es para idiotas y perdedores. En vez de eso, hazlo de forma inteligente y sé eficiente. Tener éxito no es una cuestión de cuánto tiempo inviertes sino de la calidad de tus decisiones.
 
-No caigas en la trampa de la meritocracia. Es puro bullshit. Erik Dietrich habla mucho sobre este tema en [Developer Hegemony: The Future of Labor](https://www.amazon.es/Developer-Hegemony-Future-Erik-Dietrich/dp/0692866809).
+No caigas en la trampa de la meritocracia porque es puro bullshit. Erik Dietrich habla mucho sobre este tema en [Developer Hegemony: The Future of Labor](https://www.amazon.es/Developer-Hegemony-Future-Erik-Dietrich/dp/0692866809).
 
-Cuídate. Duerme bien, haz ejercicio, medita, aprende algo que te guste y dedica tiempo a tus seres queridos. Como [dice Morty](https://www.youtube.com/watch?v=E_qvy82U4RE): _Nadie pertenece a ninguna parte, nadie existe a propósito, todos vamos a morir. Ve a ver la tele._
+Cuídate, duerme bien, haz ejercicio, medita, aprende algo que te guste y dedica tiempo a tus seres queridos. Como [dice Morty](https://www.youtube.com/watch?v=E_qvy82U4RE): _Nadie pertenece a ninguna parte, nadie existe a propósito, todos vamos a morir. Ven a ver la tele._
 
 Puedes suscribirte a mi newsletter **With a grain of salt** y recibir un email con novedades cada cierto tiempo.
