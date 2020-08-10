@@ -17,6 +17,10 @@ Good _Product Software Engineers_ have a [high sense of ownership](https://www.y
 
 Inexperienced _Product Software Engineers_ focus on technology. They find solutions to problems but they don't question if it is a problem worth solving. They don't know the value they are adding so they don't find the most adequate solution either.
 
+You can subscribe to my newsletter **With a grain of salt** and receive an email with updates from time to time.
+
+{% include mailchimp.html %}
+
 ## What is value?
 
 The [Cambridge Dictionary](https://dictionary.cambridge.org/es-LA/dictionary/english/value) defines it as:

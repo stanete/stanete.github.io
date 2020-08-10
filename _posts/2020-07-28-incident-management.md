@@ -15,6 +15,10 @@ Unlike other processes, Incident Management doesn't emerge naturally. It's a def
 
 You can't fix it all at once and you can't do perfect from the beginning. But you need to start somewhere. This post is about how to go from having nothing related to Incidenct Management to having something.
 
+You can subscribe to my newsletter **With a grain of salt** and receive an email with updates from time to time.
+
+{% include mailchimp.html %}
+
 ## Where to start
 
 You may feel the urge to adopt [Pager Duty's incident response process](https://response.pagerduty.com/) or [Atlassian's Incident Management process](https://www.atlassian.com/incident-management/handbook/incident-response). Or even to use what's in this post. Be careful. I'm writting what has worked for my team. Don't just copy. You have a brain. Use it.

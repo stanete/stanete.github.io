@@ -12,6 +12,10 @@ Puedes leer este post en inglés [aquí](/improve-code-reviews).
 
 En algún momento, en un equipo de _Ingeniería de Producto_ tendrás que abordar problemas relacionados con las revisiones de código. En algunos equipos, el código se lleva a master sólamente mirándolo por encima porque las revisiones son meramente superficiales. En otros, el código se queda en el limbo durante mucho tiempo porque las revisiones son demasiado duras. En otros, las _Pull Requests_ se abandonan por completo porque nadie revisa el código en su día a día.
 
+Puedes suscribirte a mi newsletter **With a grain of salt** y recibir un email con novedades cada cierto tiempo.
+
+{% include mailchimp.html %}
+
 Algunos equipos más maduros, como Netlify, llegan a [soluciones bastante creativas](https://www.netlify.com/blog/2020/03/05/feedback-ladders-how-we-encode-code-reviews-at-netlify/), como adoptar una metáfora para dar feedback sobre las _Pull Requests_. Otros, como Squarespace, crean [guías](https://engineering.squarespace.com/blog/2019/code-review-culture-part-1) bastante [extensas](https://engineering.squarespace.com/blog/2019/code-review-culture-part-2) y Google tiene una [guía inlcuso más extensa](https://google.github.io/eng-practices/review/reviewer/standard.html). No tiene que ser todo tan profesional. Puede ser algo más simple. Quiero compartir mi enfoque para los equipos con los que he trabajado. De hecho, tenemos esto escrito en una página de Confluence.
 
 ![](/images/code_reviews.png)

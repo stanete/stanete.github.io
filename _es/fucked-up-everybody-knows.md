@@ -12,6 +12,10 @@ Puedes leer este post en inglés [aquí](/fucked-up-everybody-knows).
 
 Todos la cagamos. Constantemente. Forma parte de ser humano. Y está bien. Mientras aprendamos de nuestras cagadas y no permitamos que nuestro ego nos ciegue.
 
+Puedes suscribirte a mi newsletter **With a grain of salt** y recibir un email con novedades cada cierto tiempo.
+
+{% include mailchimp.html %}
+
 ### La has cagado
 
 Este es un mensaje que escribí en un canal privado de Slack hace algo de tiempo:

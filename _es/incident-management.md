@@ -16,6 +16,10 @@ La Gestión de Incidencias no es un proceso que surje de forma natural. De hecho
 
 No puedes arreglarlo todo de golpe, pero necesitas empezar en alguna parte. Este post va de cómo pasar de no tener ningún proceso para gestionar incidencias a tener algo.
 
+Puedes suscribirte a mi newsletter **With a grain of salt** y recibir un email con novedades cada cierto tiempo.
+
+{% include mailchimp.html %}
+
 ## Por dónde empezar
 
 Pudes tener el impulso de adoptar procesos famosos como el de [Pager Duty](https://response.pagerduty.com/) o [el de Atlassian](https://www.atlassian.com/incident-management/handbook/incident-response). O incluso copiar este post tal cual. Pero ten cuidado. Estoy escribiendo lo que ha funcionado para mi equipo. No lo copies todo sin más. Tienes un cerebro. Úsalo.

@@ -14,6 +14,10 @@ Mi primer _Feedback Canvas_ fue duro. Recuerdo los días siguientes. Estaba enfa
 
 4 meses después tuve mi segundo _Feedback Canvas_. Esta vez me sentí diferente. La herramienta no había cambiado. Había cambiado yo. En estos 4 meses, aprendí cómo recibir feedback y qué estrategia seguir para mejorar. Voy a compartir mi propia experiencia, el feedback que me dió mi equipo y las acciones que estoy tomando en base a ese feedback.
 
+Puedes suscribirte a mi newsletter **With a grain of salt** y recibir un email con novedades cada cierto tiempo.
+
+{% include mailchimp.html %}
+
 ## ¿Por qué funciona?
 
 Al igual que con cualquier otro feedback, solo funciona si la gente te conoce de verdad. Si conocen [al verdadero tú](https://youtu.be/qg0_FinB6EE). Si no te conocen, su feedback será superficial, vacío e inútil.

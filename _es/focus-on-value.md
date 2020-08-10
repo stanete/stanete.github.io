@@ -18,6 +18,10 @@ Los buenos _Ingenieros de Software de Producto_ tienen un [alto sentido de owner
 
 Sin embargo, los _Ingenieros de Software de Producto_ sin experiencia se centran en la tecnología. Sí que encuentran soluciones a los problemas, pero no cuestionan si vale la pena resolverlo siquiera. No conocen el valor que están aportando, por lo que tampoco encuentran la solución más adecuada.
 
+Puedes suscribirte a mi newsletter **With a grain of salt** y recibir un email con novedades cada cierto tiempo.
+
+{% include mailchimp.html %}
+
 ## Qué es el valor?
 
 El [Diccionario de Cambridge](https://dictionary.cambridge.org/es-LA/dictionary/english/value) lo define como:

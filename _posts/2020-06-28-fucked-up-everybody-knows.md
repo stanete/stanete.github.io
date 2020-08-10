@@ -11,6 +11,10 @@ You can read this post in Spanish [here](/es/fucked-up-everybody-knows).
 
 We all fuck up. All the time. It's human and it's ok. As long as we don't let our ego blind us and learn from our mistakes.
 
+You can subscribe to my newsletter **With a grain of salt** and receive an email with updates from time to time.
+
+{% include mailchimp.html %}
+
 ### You fucked up
 
 Here is a message I wrote on a private Slack channel not so long ago:

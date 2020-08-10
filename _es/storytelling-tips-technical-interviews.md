@@ -14,6 +14,10 @@ A los humanos nos encantan las historias. Nos encanta contarlas y nos encanta le
 
 Como las [las historias son tan importantes](https://www.youtube.com/watch?v=LuD2Aa0zFiA), parece que no hay mejor forma de explorar la mente humana. Me gustaría compartir cómo hago yo las entrevistas técnicas y enfatizar la importancia del storytelling. Supongo que estos consejos también se pueden aplicar a entrevistas para _Product Managers_, _Product Designers_, etc.
 
+Puedes suscribirte a mi newsletter **With a grain of salt** y recibir un email con novedades cada cierto tiempo.
+
+{% include mailchimp.html %}
+
 Tu quieres que los candidatos a los que entrevistas te cuenten una buena historia. La verdad es que la mayoría de las veces, no lo harán. A menos que hayan investigado mucho, los candidato no conocen qué le gusta a su audiencia. En este caso, tu. Van a necesitar que les guíes y el primer paso es que conozcan a su audiencia.
 
 ![](/images/conversation.png)

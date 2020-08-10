@@ -13,6 +13,10 @@ My first _Feedback Canvas_ was tough. I remember the days after. I was angry, up
 
 4 months later I had my second _Feedback Canvas_. This time it felt different. The tool didn’t change. I did. In these 4 months, I learned how to receive feedback and what strategy to follow afterwards. I’m going to share with you my own experience, the feedback my team has given me and the actions I am taking based on that feedback.
 
+You can subscribe to my newsletter **With a grain of salt** and receive an email with updates from time to time.
+
+{% include mailchimp.html %}
+
 ## Why does it work?
 
 As with any feedback, it only works if the people know you. And I mean, really know you. [The real you](https://youtu.be/qg0_FinB6EE). If they don’t, their feedback is going to be shallow, empty, and useless.

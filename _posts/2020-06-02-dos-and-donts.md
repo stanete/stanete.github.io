@@ -13,6 +13,10 @@ No _Product Engineering_ team is perfect but every one feels the need to improve
 
 The little brother of the **Engineering Principles** are the **Dos and Don'ts**. It's just a list of specific rules. They address specific problems that a smaller team has at a certain time. **Dos and Don'ts** need to be reminded constantly until they become part of the team's mindset. They can and will change over time. Write them down somewhere, create a Slack bot to remind them automatically or create a poster and place it where everyone can see it. You can even portray them on blog post, like I'm doing here. The following **Dos and Don'ts** are specific for my current team. Yours can and should be different. This tool may or may not work for your team depending on your context. There is no silver bullet and it is sad that I have to make this disclaimer.
 
+You can subscribe to my newsletter **With a grain of salt** and receive an email with updates from time to time.
+
+{% include mailchimp.html %}
+
 ### Ask "why" more than once and be ready to be asked "why" more than once
 
 When doing a presentation to expose a new product initiative or technical strategy, be ready to be asked ["why" as much as five times](https://www.youtube.com/watch?v=FJ0eWm5PxkU). Do your research beforehand and go as deep as necessary to have the answers but keep being pragmatic.

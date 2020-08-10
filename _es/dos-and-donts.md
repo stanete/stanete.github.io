@@ -10,9 +10,13 @@ excerpt: El hermano menor de los Principios de Ingeniería son los Dos and Don't
 
 Puedes leer este post en inglés [aquí](/dos-and-donts).
 
-Ningún equipo de Ingeniería de Producto es perfecto pero todos tienes la necesidad de mejorar. Esa mejora se realiza bajo algún tipo de guía. Existen muchos posts sobre **Principios de Ingeniería**. Personalmente me gustan y me inspiran los de [Monzo](https://monzo.com/blog/2018/06/29/engineering-principles) o [Medium](https://medium.engineering/engineering-values-7143c0db0bd6). Los **Principios de Ingeneniería** son necesarios pero suelen ser genéricos y estátics.
+Ningún equipo de Ingeniería de Producto es perfecto pero todos tienes la necesidad de mejorar. Esa mejora se realiza bajo algún tipo de guía. Existen muchos posts sobre **Principios de Ingeniería**. Personalmente me gustan y me inspiran los de [Monzo](https://monzo.com/blog/2018/06/29/engineering-principles) o [Medium](https://medium.engineering/engineering-values-7143c0db0bd6). Los **Principios de Ingeneniería** son necesarios pero suelen ser genéricos y estáticos.
 
 El hermano menor de los **Principios de Ingeniería** son los **Dos and Don'ts**. Es sólo una lista de reglas específicas. Se enfocan en problemas específicos que tiene un equipo más pequeño en un momento determinado. Los **Dos y Don'ts** tienen que recordarse constantemente hasta que formen parte de la mentalidad del equipo. Pueden y van a cambiar con el tiempo. Escríbelos en alguna parte, crea un bot de Slack que se lo recuerde al equipo automáticamente o crea un poster y cuélgalo donde todos puedan verlo. Puedes incluso plasmarlos en un blog post, como lo estoy haciendo yo aquí. Los siguientes **Dos y don'ts** son específicos para mi equipo actual. Los tuyos podrían y quizá deberían ser diferentes. Esta herramineta puede funcionar o no para tu equipo dependiendo de tu contexto. No existen balas de plata y es triste que tenga que hacer este disclaimer.
+
+Puedes suscribirte a mi newsletter **With a grain of salt** y recibir un email con novedades cada cierto tiempo.
+
+{% include mailchimp.html %}
 
 ### Pregunta "por qué" más de una vez y prepárate para lo mismo
 

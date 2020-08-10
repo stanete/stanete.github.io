@@ -13,6 +13,10 @@ Humans love stories. We love telling them and we love reading, listening and wat
 
 Given the [importance of stories to the human mind](https://www.youtube.com/watch?v=LuD2Aa0zFiA), it seems there is no better way to explore it. I would like to share my approach to interviews and to emphasize the importance of storytelling when interviewing candidates for technical positions. Although I assume these tips can also be applied to interviews for product managers, designers, etc.
 
+You can subscribe to my newsletter **With a grain of salt** and receive an email with updates from time to time.
+
+{% include mailchimp.html %}
+
 You must assume the candidate will tell you the story you wish to hear; although most of the time, they won't. Unless they have done a lot of research, the candidate doesn't know the taste of their audience. In this case, you. They will need guidance and the first step is to let them know who is their audience.
 
 ![](/images/conversation.png)

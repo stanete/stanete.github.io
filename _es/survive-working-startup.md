@@ -34,7 +34,7 @@ Así que sé humilde. Porque en realidad [no tienes ni idea de lo que estás hac
 
 [Ried Hoffman](https://twitter.com/reidhoffman) habla en su libro [Blitzscaling](https://www.blitzscaling.com/) sobre las 5 etapas de una startup: familia (de 1 a 9 empleados), tribu (decenas de empleados), aldea (cientos de empleados), ciudad (miles de empleados) y nación (más de decenas de miles). En cada etapa, algunos equipos son piratas, mientras que otros son marines. Algunos actúan como una startup en etapa temprana y otros como consultores especializados. Algunos equipos abrazan el caos mientras que otros luchan contra la entropía a toda costa. Algunos se adaptan e improvisan, mientras que otros tienen procesos estrictos y bien definidos. Algunos son [equipos de producto](https://amplitude.com/blog/journey-to-product-teams-infographic), mientras que otros son feature factories.
 
-Comprende esto lo antes posible. Sabrás cómo comportarte y en qué gastar tu energía. Te dirá qué tipo de personas contratar, si debes actuar como generalista o especialista, si debes tener un solo foco o varios. Si debes dejar que se quemen los fuegos o cuidar cada detalle.
+Comprende esto lo antes posible. Sabrás como comportarte y en qué gastar tu energía. Te dirá qué tipo de personas contratar, si debes actuar como generalista o especialista, si debes tener un solo foco o varios. Si debes dejar que se quemen los fuegos o cuidar cada detalle.
 
 ### Haz cosas
 
