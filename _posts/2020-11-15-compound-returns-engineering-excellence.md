@@ -41,7 +41,7 @@ But before starting the journey, I shared the initiative with the people I trust
 
 ## What to improve?
 
-There are many ways you can lead the people you have chosen to help you find it out. But the main idea is drawn from the [Design Spring](https://www.thesprintbook.com/) methodology: diverge and converge. You need to find spaces where you can together explore many possibilities, find out what others think, set clear objectives, ask for feedback, give everyone a role and make decisions. Other book that talks about how to approach a problem as a team, explore possible solutions and make a decision is [Mastering Collaboration: Make Working Together Less Painful and More Productive](https://www.amazon.es/Mastering-Collaboration-Working-Together-Productive/dp/1492041734).
+There are many ways you can lead the people you have chosen to help you find it out. But the main idea is drawn from the [Design Sprint](https://www.thesprintbook.com/) methodology: diverge and converge. You need to find spaces where you can together explore many possibilities, find out what others think, set clear objectives, ask for feedback, give everyone a role and make decisions. Other book that talks about how to approach a problem as a team, explore possible solutions and make a decision is [Mastering Collaboration: Make Working Together Less Painful and More Productive](https://www.amazon.es/Mastering-Collaboration-Working-Together-Productive/dp/1492041734).
 
 ![](/images/engineering_excellence_diagram.png)
 
@@ -67,7 +67,7 @@ Make sure you have checkpoints along the journey so you can adjust your plans fo
 
 ## What could possibly go wrong?
 
-Everythin. One of the most famous quotes in business is:
+Everything. One of the most famous quotes in business is:
 
 > If you can't measure it, you can't improve it.
 
