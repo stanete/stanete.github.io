@@ -39,6 +39,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-redirect-from
+  - jekyll-target-blank
 
 collections:
   es:
