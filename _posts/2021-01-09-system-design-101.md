@@ -1,6 +1,6 @@
 ---
 title: System Design 101
-updated: 2021-01-01 00:00
+updated: 2021-01-09 00:00
 comments: true
 mailchimp: true
 image: /images/system_design_cover.png
