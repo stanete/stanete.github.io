@@ -17,7 +17,7 @@ Good _Product Software Engineers_ have a [high sense of ownership](https://www.y
 
 Inexperienced _Product Software Engineers_ focus on technology. They find solutions to problems but they don't question if it is a problem worth solving. They don't know the value they are adding so they don't find the most adequate solution either.
 
-You can subscribe to my newsletter **With a grain of salt** and receive an email with updates from time to time.
+[Share this post on 🐦 twitter](https://twitter.com/intent/tweet?text={{page.title}}&url={{site.url}}{{page.url}}&via={{site.twitter_username}}&related={{site.twitter_username}}) or subscribe to my newsletter **With a grain of salt** and receive an email with updates from time to time.
 
 {% include mailchimp.html %}
 
@@ -82,4 +82,6 @@ Without visualizing value, it is difficult to start asking questions. It is even
 
 Have patience though. Growing a _Product Engineering_ team from childhood to maturity takes time. Because it's not about changing processes but about changing people and evolving culture.
 
-Huge thanks to [undraw.com](https://undraw.co) for the illustrations. You can subscribe to my newsletter **With a grain of salt** and receive an email with updates from time to time.
+Huge thanks to [undraw.com](https://undraw.co) for the illustrations.
+
+[Share this post on 🐦 twitter](https://twitter.com/intent/tweet?text={{page.title}}&url={{site.url}}{{page.url}}&via={{site.twitter_username}}&related={{site.twitter_username}}) or subscribe to my newsletter **With a grain of salt** and receive an email with updates from time to time.

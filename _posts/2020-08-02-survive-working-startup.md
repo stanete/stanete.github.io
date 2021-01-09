@@ -17,7 +17,7 @@ Startups are [chaotic shit shows](https://www.youtube.com/watch?v=jisaFcn-IFM). 
 
 Putting too much energy into lowering the entropy of your startup is guaranteed to end up in burnout. And you'll leave or you'll get fired. Instead you should invest in what will give you [compound returns](https://www.investopedia.com/terms/c/compoundreturn.asp). This is a list of behaviours, attitudes, tips and activities you should focus on while working at a startup. Your position doesn't matter. This list is generic enough that anyone working at a startup can apply it in their day to day.
 
-As I always say, these are my truths and they may or may not work for you. You can subscribe to my newsletter **With a grain of salt** and receive an email with updates from time to time.
+As I always say, these are my truths and they may or may not work for you. [Share this post on 🐦 twitter](https://twitter.com/intent/tweet?text={{page.title}}&url={{site.url}}{{page.url}}&via={{site.twitter_username}}&related={{site.twitter_username}}) or subscribe to my newsletter **With a grain of salt** and receive an email with updates from time to time.
 
 {% include mailchimp.html %}
 
@@ -147,4 +147,4 @@ Don't fall into the trap of meritocracy because it's just bullshit. Erik Dietric
 
 Take care of yourself, sleep a decent amount of hours, exercise, meditate, learn something you like and dedicate time to your loved ones. As [Morty says](https://www.youtube.com/watch?v=E_qvy82U4RE): _Nobody belongs anywhere, nobody exists on purpose, everybody's going to die. Come watch TV._
 
-You can subscribe to my newsletter **With a grain of salt** and receive an email with updates from time to time.
+[Share this post on 🐦 twitter](https://twitter.com/intent/tweet?text={{page.title}}&url={{site.url}}{{page.url}}&via={{site.twitter_username}}&related={{site.twitter_username}}) or subscribe to my newsletter **With a grain of salt** and receive an email with updates from time to time.

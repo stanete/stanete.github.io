@@ -14,7 +14,7 @@ A los humanos nos encantan las historias. Nos encanta contarlas y nos encanta le
 
 Como las [las historias son tan importantes](https://www.youtube.com/watch?v=LuD2Aa0zFiA), parece que no hay mejor forma de explorar la mente humana. Me gustaría compartir cómo hago yo las entrevistas técnicas y enfatizar la importancia del storytelling. Supongo que estos consejos también se pueden aplicar a entrevistas para _Product Managers_, _Product Designers_, etc.
 
-Puedes suscribirte a mi newsletter **With a grain of salt** y recibir un email con novedades cada cierto tiempo.
+[Comparte este post en 🐦 twitter](https://twitter.com/intent/tweet?text={{page.title}}&url={{site.url}}{{page.url}}&via={{site.twitter_username}}&related={{site.twitter_username}}) o suscríbete a mi newsletter **With a grain of salt** para recibir un email con novedades cada cierto tiempo.
 
 {% include mailchimp.html %}
 
@@ -88,4 +88,6 @@ Por desgracia, no tienes tiempo para explorarlo todo. Pero cuando la historia ha
 
 Una forma más humana de conducir entrevistas.
 
-Muchas gracias a [undraw.co](https://undraw.co) por las ilustraciones. Puedes suscribirte a mi newsletter **With a grain of salt** y recibir un email con novedades cada cierto tiempo.
+Muchas gracias a [undraw.co](https://undraw.co) por las ilustraciones.
+
+[Comparte este post en 🐦 twitter](https://twitter.com/intent/tweet?text={{page.title}}&url={{site.url}}{{page.url}}&via={{site.twitter_username}}&related={{site.twitter_username}}) o suscríbete a mi newsletter **With a grain of salt** para recibir un email con novedades cada cierto tiempo.

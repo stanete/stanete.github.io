@@ -14,7 +14,7 @@ Ningún equipo de Ingeniería de Producto es perfecto pero todos tienes la neces
 
 El hermano menor de los **Principios de Ingeniería** son los **Dos and Don'ts**. Es sólo una lista de reglas específicas. Se enfocan en problemas específicos que tiene un equipo más pequeño en un momento determinado. Los **Dos y Don'ts** tienen que recordarse constantemente hasta que formen parte de la mentalidad del equipo. Pueden y van a cambiar con el tiempo. Escríbelos en alguna parte, crea un bot de Slack que se lo recuerde al equipo automáticamente o crea un poster y cuélgalo donde todos puedan verlo. Puedes incluso plasmarlos en un blog post, como lo estoy haciendo yo aquí. Los siguientes **Dos y don'ts** son específicos para mi equipo actual. Los tuyos podrían y quizá deberían ser diferentes. Esta herramineta puede funcionar o no para tu equipo dependiendo de tu contexto. No existen balas de plata y es triste que tenga que hacer este disclaimer.
 
-Puedes suscribirte a mi newsletter **With a grain of salt** y recibir un email con novedades cada cierto tiempo.
+[Comparte este post en 🐦 twitter](https://twitter.com/intent/tweet?text={{page.title}}&url={{site.url}}{{page.url}}&via={{site.twitter_username}}&related={{site.twitter_username}}) o suscríbete a mi newsletter **With a grain of salt** para recibir un email con novedades cada cierto tiempo.
 
 {% include mailchimp.html %}
 
@@ -74,4 +74,4 @@ Algunos incluso piensan que [las reuniones son tóxicas](https://twitter.com/dhh
 
 Se supone que estas reglas van moldeando poco a poco al equipo hacia una mentalidad y una cultura de producto más saludables. Forman parte de la utopía y nunca serán respetados el 100% del tiempo. Nuestro entorno es complejo e impredecible y somos mejores que seguir ciegamente una lista de reglas. Se sabio.
 
-Muchas gracias a [undraw.co](https://undraw.co) por las ilustraciones. Puedes suscribirte a mi newsletter **With a grain of salt** y recibir un email con novedades cada cierto tiempo.
+Muchas gracias a [undraw.co](https://undraw.co) por las ilustraciones. [Comparte este post en 🐦 twitter](https://twitter.com/intent/tweet?text={{page.title}}&url={{site.url}}{{page.url}}&via={{site.twitter_username}}&related={{site.twitter_username}}) o suscríbete a mi newsletter **With a grain of salt** para recibir un email con novedades cada cierto tiempo.

@@ -16,7 +16,7 @@ La Gestión de Incidencias no es un proceso que surje de forma natural. De hecho
 
 No puedes arreglarlo todo de golpe, pero necesitas empezar en alguna parte. Este post va de cómo pasar de no tener ningún proceso para gestionar incidencias a tener algo.
 
-Puedes suscribirte a mi newsletter **With a grain of salt** y recibir un email con novedades cada cierto tiempo.
+[Comparte este post en 🐦 twitter](https://twitter.com/intent/tweet?text={{page.title}}&url={{site.url}}{{page.url}}&via={{site.twitter_username}}&related={{site.twitter_username}}) o suscríbete a mi newsletter **With a grain of salt** para recibir un email con novedades cada cierto tiempo.
 
 {% include mailchimp.html %}
 
@@ -90,4 +90,4 @@ Más adelante, puedes añadir otros roles como **Comandante de Incidencia** o **
 
 Empieza con poquito. Algo es mejor que nada. Y hecho es mejor que perfecto. Educa y da tiempo a las personas para comprender y utilizar el proceso. Utiliza cada _Postmortem_ para analizar el proceso de _Gestión de Incidencias_ e intenta mejorarlo de forma iterativa.
 
-Muchas gracias a [undraw.co](https://undraw.co) por las ilustraciones. Puedes suscribirte a mi newsletter **With a grain of salt** y recibir un email con novedades cada cierto tiempo.
+Muchas gracias a [undraw.co](https://undraw.co) por las ilustraciones. [Comparte este post en 🐦 twitter](https://twitter.com/intent/tweet?text={{page.title}}&url={{site.url}}{{page.url}}&via={{site.twitter_username}}&related={{site.twitter_username}}) o suscríbete a mi newsletter **With a grain of salt** para recibir un email con novedades cada cierto tiempo.

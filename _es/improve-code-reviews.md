@@ -12,7 +12,7 @@ Puedes leer este post en inglés [aquí](/improve-code-reviews).
 
 En algún momento, en un equipo de _Ingeniería de Producto_ tendrás que abordar problemas relacionados con las revisiones de código. En algunos equipos, el código se lleva a master sólamente mirándolo por encima porque las revisiones son meramente superficiales. En otros, el código se queda en el limbo durante mucho tiempo porque las revisiones son demasiado duras. En otros, las _Pull Requests_ se abandonan por completo porque nadie revisa el código en su día a día.
 
-Puedes suscribirte a mi newsletter **With a grain of salt** y recibir un email con novedades cada cierto tiempo.
+[Comparte este post en 🐦 twitter](https://twitter.com/intent/tweet?text={{page.title}}&url={{site.url}}{{page.url}}&via={{site.twitter_username}}&related={{site.twitter_username}}) o suscríbete a mi newsletter **With a grain of salt** para recibir un email con novedades cada cierto tiempo.
 
 {% include mailchimp.html %}
 
@@ -79,4 +79,4 @@ Adapta esta herramienta a lo que tu equipo realmente necesita. Aborda los proble
 
 Si deberías o no estar haciendo revisiones de código es un tema para otro post.
 
-Muchas gracias a [undraw.co](https://undraw.co) por las ilustraciones. Puedes suscribirte a mi newsletter **With a grain of salt** y recibir un email con novedades cada cierto tiempo.
+Muchas gracias a [undraw.co](https://undraw.co) por las ilustraciones. [Comparte este post en 🐦 twitter](https://twitter.com/intent/tweet?text={{page.title}}&url={{site.url}}{{page.url}}&via={{site.twitter_username}}&related={{site.twitter_username}}) o suscríbete a mi newsletter **With a grain of salt** para recibir un email con novedades cada cierto tiempo.

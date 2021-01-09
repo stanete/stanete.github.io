@@ -14,7 +14,7 @@ Veo una falta de honestidad en nuestra industria cuando compartimos conocimiento
 
 Voy a intentar ser honesto y compartir una simple iniciativa que estoy probando con mi equipo. Mi objetivo es solucionar algunos de los tantos problemas que tenemos y mejorar nuestra **Excelencia de Ingeniería**.
 
-Puedes suscribirte a mi newsletter **With a grain of salt** y recibir un email con novedades cada cierto tiempo.
+[Comparte este post en 🐦 twitter](https://twitter.com/intent/tweet?text={{page.title}}&url={{site.url}}{{page.url}}&via={{site.twitter_username}}&related={{site.twitter_username}}) o suscríbete a mi newsletter **With a grain of salt** para recibir un email con novedades cada cierto tiempo.
 
 {% include mailchimp.html %}
 
@@ -82,4 +82,4 @@ Si conoces lo más mínimo sobre equipos de *Ingeniería* y sobre personas en ge
 
 La verdad es que nunca vas a terminar. Y cuando lo hagas, si es que lo llegas a hacer, empezarás de nuevo. Sólo asegúrate de vez en cuando de evaluar que el equipo realmente haya mejorado su *Excelencia de Ingeniería*.
 
-Puedes suscribirte a mi newsletter **With a grain of salt** y recibir un email con novedades cada cierto tiempo.
+[Comparte este post en 🐦 twitter](https://twitter.com/intent/tweet?text={{page.title}}&url={{site.url}}{{page.url}}&via={{site.twitter_username}}&related={{site.twitter_username}}) o suscríbete a mi newsletter **With a grain of salt** para recibir un email con novedades cada cierto tiempo.

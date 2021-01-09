@@ -13,7 +13,7 @@ I see a lack of honesty in our industry when we share knowledge. Every post is i
 
 I'm going to try to be honest and share with you a simple initiative I'm trying out with my team. My objective is to solve some of the problems we have and improve our **Engineering Excellence**.
 
-You can subscribe to my newsletter **With a grain of salt** and receive an email with updates from time to time.
+[Share this post on 🐦 twitter](https://twitter.com/intent/tweet?text={{page.title}}&url={{site.url}}{{page.url}}&via={{site.twitter_username}}&related={{site.twitter_username}}) or subscribe to my newsletter **With a grain of salt** and receive an email with updates from time to time.
 
 {% include mailchimp.html %}
 
@@ -81,4 +81,4 @@ If you know something about *Engineering* teams and people in general you know t
 
 You never finish. When you do, if you do, you start over. But make sure you assess your team has actually improved their *Engineering Excellence* from time to time.
 
-You can subscribe to my newsletter **With a grain of salt** and receive an email with updates from time to time.
+[Share this post on 🐦 twitter](https://twitter.com/intent/tweet?text={{page.title}}&url={{site.url}}{{page.url}}&via={{site.twitter_username}}&related={{site.twitter_username}}) or subscribe to my newsletter **With a grain of salt** and receive an email with updates from time to time.

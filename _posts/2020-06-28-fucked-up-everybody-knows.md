@@ -11,7 +11,7 @@ You can read this post in Spanish [here](/es/fucked-up-everybody-knows).
 
 We all fuck up. All the time. It's human and it's ok. As long as we don't let our ego blind us and learn from our mistakes.
 
-You can subscribe to my newsletter **With a grain of salt** and receive an email with updates from time to time.
+[Share this post on 🐦 twitter](https://twitter.com/intent/tweet?text={{page.title}}&url={{site.url}}{{page.url}}&via={{site.twitter_username}}&related={{site.twitter_username}}) or subscribe to my newsletter **With a grain of salt** and receive an email with updates from time to time.
 
 {% include mailchimp.html %}
 
@@ -59,4 +59,6 @@ Everyone has their own journey but the basics are:
 
 4. Start identifying and fixing the systemic problems of your unhealthy culture [one by one](https://twitter.com/JonErlichman/status/1276618589441835008). ASAP. Mostly because it takes a lot of time and effort. So the sooner you start, the sooner you're going to see results. Your role doesn't matter. Take ownership and start fixing your culture. Some books I recommend on this topic: [Debugging Teams](https://www.oreilly.com/library/view/debugging-teams/9781491932049/), [It Doesn't Have to Be Crazy at Work](https://basecamp.com/books/calm), [Mastering Collaboration](https://www.oreilly.com/library/view/mastering-collaboration/9781492041726/) and [What You Do Is Who You Are: How to Create Your Business Culture](https://www.amazon.com/What-You-Do-Who-Are/dp/0062871331/).
 
-Huge thanks to [undraw.com](https://undraw.co) for the illustrations. You can subscribe to my newsletter **With a grain of salt** and receive an email with updates from time to time.
+Huge thanks to [undraw.com](https://undraw.co) for the illustrations.
+
+[Share this post on 🐦 twitter](https://twitter.com/intent/tweet?text={{page.title}}&url={{site.url}}{{page.url}}&via={{site.twitter_username}}&related={{site.twitter_username}}) or subscribe to my newsletter **With a grain of salt** and receive an email with updates from time to time.

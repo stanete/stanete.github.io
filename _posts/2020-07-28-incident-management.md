@@ -89,4 +89,6 @@ Later on you can add other roles as **Commander** or **Deputy**, set up **On-Cal
 
 Start small. Something is better than nothing. And done is better than perfect. Educate and give people time to understand and use the process. Ask for feedback, use each postmortem to analyze the Incident Management process and try to improve it just a tiny bit.
 
-Huge thanks to [undraw.com](https://undraw.co) for the illustrations. You can subscribe to my newsletter **With a grain of salt** and receive an email with updates from time to time.
+Huge thanks to [undraw.com](https://undraw.co) for the illustrations.
+
+[Share this post on 🐦 twitter](https://twitter.com/intent/tweet?text={{page.title}}&url={{site.url}}{{page.url}}&via={{site.twitter_username}}&related={{site.twitter_username}}) or subscribe to my newsletter **With a grain of salt** and receive an email with updates from time to time.

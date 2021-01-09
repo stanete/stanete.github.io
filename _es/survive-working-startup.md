@@ -18,7 +18,7 @@ Las startups son [espectáculos caóticos](https://www.youtube.com/watch?v=jisaF
 
 Gastar demasiada energía en reducir la entropía de tu startup es garantía de burnout. Te acabarás yendo o te acabarán despidiendo. En cambio, invierte en lo que te dará [rendimientos o retornos compuestos](https://www.investopedia.com/terms/c/compoundreturn.asp). Esta es una lista de comportamientos, actitudes, consejos y actividades en los que te tienes que centrar si trabajas en una startup. Tu rol no importa. Esta lista es lo suficientemente genérica como para que cualquiera pueda aplicarla en su día a día.
 
-Como siempre digo, estas son mis verdades personales y pueden o no funcionarte a ti. Puedes suscribirte a mi newsletter **With a grain of salt** y recibir un email con novedades cada cierto tiempo.
+Como siempre digo, estas son mis verdades personales y pueden o no funcionarte a ti. [Comparte este post en 🐦 twitter](https://twitter.com/intent/tweet?text={{page.title}}&url={{site.url}}{{page.url}}&via={{site.twitter_username}}&related={{site.twitter_username}}) o suscríbete a mi newsletter **With a grain of salt** para recibir un email con novedades cada cierto tiempo.
 
 {% include mailchimp.html %}
 
@@ -148,4 +148,4 @@ No caigas en la trampa de la meritocracia porque es puro bullshit. Erik Dietrich
 
 Cuídate, duerme bien, haz ejercicio, medita, aprende algo que te guste y dedica tiempo a tus seres queridos. Como [dice Morty](https://www.youtube.com/watch?v=E_qvy82U4RE): _Nadie pertenece a ninguna parte, nadie existe a propósito, todos vamos a morir. Ven a ver la tele._
 
-Puedes suscribirte a mi newsletter **With a grain of salt** y recibir un email con novedades cada cierto tiempo.
+[Comparte este post en 🐦 twitter](https://twitter.com/intent/tweet?text={{page.title}}&url={{site.url}}{{page.url}}&via={{site.twitter_username}}&related={{site.twitter_username}}) o suscríbete a mi newsletter **With a grain of salt** para recibir un email con novedades cada cierto tiempo.

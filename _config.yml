@@ -11,9 +11,6 @@ author_gravatar: 43c674a8e565e1f9d4b34bdfe7cc6088 # Gravatar md5 hash
 twitter_username: stanete
 github_username: stanete # GitHub username
 
-# Disqus
-disqus_shortname: stanete
-
 # Site Settings
 baseurl: "" # Base URL must end WITHOUT a slash, default: ""
 permalink: /:title # Post permalink

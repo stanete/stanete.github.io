@@ -13,7 +13,7 @@ My first _Feedback Canvas_ was tough. I remember the days after. I was angry, up
 
 4 months later I had my second _Feedback Canvas_. This time it felt different. The tool didn’t change. I did. In these 4 months, I learned how to receive feedback and what strategy to follow afterwards. I’m going to share with you my own experience, the feedback my team has given me and the actions I am taking based on that feedback.
 
-You can subscribe to my newsletter **With a grain of salt** and receive an email with updates from time to time.
+[Share this post on 🐦 twitter](https://twitter.com/intent/tweet?text={{page.title}}&url={{site.url}}{{page.url}}&via={{site.twitter_username}}&related={{site.twitter_username}}) or subscribe to my newsletter **With a grain of salt** and receive an email with updates from time to time.
 
 {% include mailchimp.html %}
 
@@ -162,4 +162,6 @@ _Feedback Canvas_ is a tool and, as any tool, you need to adapt it to your conte
 
 The first sessions will be messy and you won’t see its the value immediately. Probably. Most companies are not used to give honest and direct feedback. A _Feedback Canvas_ session may seem as a lot to begin with. But you need to start somewhere.
 
-Huge thanks to [undraw.com](https://undraw.co) for the illustrations. You can subscribe to my newsletter **With a grain of salt** and receive an email with updates from time to time.
+Huge thanks to [undraw.com](https://undraw.co) for the illustrations.
+
+[Share this post on 🐦 twitter](https://twitter.com/intent/tweet?text={{page.title}}&url={{site.url}}{{page.url}}&via={{site.twitter_username}}&related={{site.twitter_username}}) or subscribe to my newsletter **With a grain of salt** and receive an email with updates from time to time.

@@ -13,7 +13,7 @@ Humans love stories. We love telling them and we love reading, listening and wat
 
 Given the [importance of stories to the human mind](https://www.youtube.com/watch?v=LuD2Aa0zFiA), it seems there is no better way to explore it. I would like to share my approach to interviews and to emphasize the importance of storytelling when interviewing candidates for technical positions. Although I assume these tips can also be applied to interviews for product managers, designers, etc.
 
-You can subscribe to my newsletter **With a grain of salt** and receive an email with updates from time to time.
+[Share this post on 🐦 twitter](https://twitter.com/intent/tweet?text={{page.title}}&url={{site.url}}{{page.url}}&via={{site.twitter_username}}&related={{site.twitter_username}}) or subscribe to my newsletter **With a grain of salt** and receive an email with updates from time to time.
 
 {% include mailchimp.html %}
 
@@ -87,4 +87,6 @@ Unfortunately you just have time to explore so much. But by the time the story i
 
 A more humane way of driving interviews.
 
-Huge thanks to [undraw.com](https://undraw.co) for the illustrations. You can subscribe to my newsletter **With a grain of salt** and receive an email with updates from time to time.
+Huge thanks to [undraw.com](https://undraw.co) for the illustrations.
+
+[Share this post on 🐦 twitter](https://twitter.com/intent/tweet?text={{page.title}}&url={{site.url}}{{page.url}}&via={{site.twitter_username}}&related={{site.twitter_username}}) or subscribe to my newsletter **With a grain of salt** and receive an email with updates from time to time.

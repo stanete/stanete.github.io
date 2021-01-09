@@ -13,7 +13,7 @@ No _Product Engineering_ team is perfect but every one feels the need to improve
 
 The little brother of the **Engineering Principles** are the **Dos and Don'ts**. It's just a list of specific rules. They address specific problems that a smaller team has at a certain time. **Dos and Don'ts** need to be reminded constantly until they become part of the team's mindset. They can and will change over time. Write them down somewhere, create a Slack bot to remind them automatically or create a poster and place it where everyone can see it. You can even portray them on blog post, like I'm doing here. The following **Dos and Don'ts** are specific for my current team. Yours can and should be different. This tool may or may not work for your team depending on your context. There is no silver bullet and it is sad that I have to make this disclaimer.
 
-You can subscribe to my newsletter **With a grain of salt** and receive an email with updates from time to time.
+[Share this post on 🐦 twitter](https://twitter.com/intent/tweet?text={{page.title}}&url={{site.url}}{{page.url}}&via={{site.twitter_username}}&related={{site.twitter_username}}) or subscribe to my newsletter **With a grain of salt** and receive an email with updates from time to time.
 
 {% include mailchimp.html %}
 
@@ -73,4 +73,6 @@ Some even think [meetings are toxic](https://twitter.com/dhh/status/124293539635
 
 These rules are supposed to shape the team towards a healthier product mindset and culture. They are part of the utopia and they will never be respected 100% of the time. Our environment is complex and unpredictable and we are better that blindly following a list of rules. Be wise.
 
-Huge thanks to [undraw.com](https://undraw.co) for the illustrations. You can subscribe to my newsletter **With a grain of salt** and receive an email with updates from time to time.
+Huge thanks to [undraw.com](https://undraw.co) for the illustrations.
+
+[Share this post on 🐦 twitter](https://twitter.com/intent/tweet?text={{page.title}}&url={{site.url}}{{page.url}}&via={{site.twitter_username}}&related={{site.twitter_username}}) or subscribe to my newsletter **With a grain of salt** and receive an email with updates from time to time.

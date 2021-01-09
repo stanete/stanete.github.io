@@ -11,7 +11,7 @@ You can read this post in Spanish [here](/es/improve-code-reviews).
 
 At some point in a _Product Engineering_ team you will need to address some issues related to code reviews. In some teams, code is pushed without barely looking at because reviews are too light. In others, code stays there for too long because reviews are too harsh. In others, pull requests are completely abandoned because nobody actually reviews code in their day to day.
 
-You can subscribe to my newsletter **With a grain of salt** and receive an email with updates from time to time.
+[Share this post on 🐦 twitter](https://twitter.com/intent/tweet?text={{page.title}}&url={{site.url}}{{page.url}}&via={{site.twitter_username}}&related={{site.twitter_username}}) or subscribe to my newsletter **With a grain of salt** and receive an email with updates from time to time.
 
 {% include mailchimp.html %}
 
@@ -78,4 +78,6 @@ Adapt it to what your team actually needs. Address the issues your team is strug
 
 Whether or not you should be even doing pull requests is a topic for another post.
 
-Huge thanks to [undraw.com](https://undraw.co) for the illustrations. You can subscribe to my newsletter **With a grain of salt** and receive an email with updates from time to time.
+Huge thanks to [undraw.com](https://undraw.co) for the illustrations.
+
+[Share this post on 🐦 twitter](https://twitter.com/intent/tweet?text={{page.title}}&url={{site.url}}{{page.url}}&via={{site.twitter_username}}&related={{site.twitter_username}}) or subscribe to my newsletter **With a grain of salt** and receive an email with updates from time to time.

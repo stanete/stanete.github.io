@@ -12,7 +12,7 @@ Puedes leer este post en inglés [aquí](/fucked-up-everybody-knows).
 
 Todos la cagamos. Constantemente. Forma parte de ser humano. Y está bien. Mientras aprendamos de nuestras cagadas y no permitamos que nuestro ego nos ciegue.
 
-Puedes suscribirte a mi newsletter **With a grain of salt** y recibir un email con novedades cada cierto tiempo.
+[Comparte este post en 🐦 twitter](https://twitter.com/intent/tweet?text={{page.title}}&url={{site.url}}{{page.url}}&via={{site.twitter_username}}&related={{site.twitter_username}}) o suscríbete a mi newsletter **With a grain of salt** para recibir un email con novedades cada cierto tiempo.
 
 {% include mailchimp.html %}
 
@@ -60,4 +60,4 @@ Cada uno tiene que encontrar su propio camino, pero los pasos básicos son:
 
 4. Empieza a identificar y solucionar los problemas sistémicos de la cultura poco saludable de tu equipo [uno a uno](https://twitter.com/JonErlichman/status/1276618589441835008). Lo antes posible. Más que nada porque lleva mucho tiempo y esfuerzo. Cuanto antes empieces, antes vas a ver resultados. Tu rol no importa. Toma ownership y empieza a arreglar la cultura de tu equipo. Algunos libros que recomiendo sobre este tema: [Debugging Teams](https://www.oreilly.com/library/view/debugging-teams/9781491932049/), [It Doesn't Have to Be Crazy at Work](https://basecamp.com/books/calm), [Mastering Collaboration](https://www.oreilly.com/library/view/mastering-collaboration/9781492041726/) y [What You Do Is Who You Are: How to Create Your Business Culture](https://www.amazon.com/What-You-Do-Who-Are/dp/0062871331/).
 
-Muchas gracias a [undraw.co](https://undraw.co) por las ilustraciones. Puedes suscribirte a mi newsletter **With a grain of salt** y recibir un email con novedades cada cierto tiempo.
+Muchas gracias a [undraw.co](https://undraw.co) por las ilustraciones. [Comparte este post en 🐦 twitter](https://twitter.com/intent/tweet?text={{page.title}}&url={{site.url}}{{page.url}}&via={{site.twitter_username}}&related={{site.twitter_username}}) o suscríbete a mi newsletter **With a grain of salt** para recibir un email con novedades cada cierto tiempo.
