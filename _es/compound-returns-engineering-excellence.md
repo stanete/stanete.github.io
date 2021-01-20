@@ -1,5 +1,5 @@
 ---
-title: Retornos compuestos en la Excelencia de Ingeniería
+title: Retornos compuestos en la Excelencia de Ingenieria
 updated: 2020-11-15 00:00
 comments: true
 mailchimp: true
