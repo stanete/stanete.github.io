@@ -1,5 +1,5 @@
 ---
-title: Cómo sobrevivir trabajando en una startup
+title: Como sobrevivir trabajando en una startup
 updated: 2020-08-03 00:00
 comments: true
 mailchimp: true

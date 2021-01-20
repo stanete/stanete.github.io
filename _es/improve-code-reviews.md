@@ -1,5 +1,5 @@
 ---
-title: Mejora las revisiones de código sin ser tan pro
+title: Mejora las revisiones de codigo sin ser tan pro
 updated: 2020-05-30 08:00
 comments: true
 mailchimp: true

@@ -1,5 +1,5 @@
 ---
-title: Cómo empezar a centrarse en el valor
+title: Como empezar a centrarse en el valor
 updated: 2020-05-27 14:00
 comments: true
 mailchimp: true

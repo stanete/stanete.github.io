@@ -1,5 +1,5 @@
 ---
-title: Gestión de Incidencias. No todo es crítico
+title: Gestion de Incidencias. No todo es critico
 updated: 2020-07-28 08:00
 comments: true
 mailchimp: true

@@ -1,5 +1,5 @@
 ---
-title: Tips de storytelling para entrevistas técnicas
+title: Tips de storytelling para entrevistas tecnicas
 updated: 2020-04-14 08:00
 comments: true
 mailchimp: true

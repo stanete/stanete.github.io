@@ -1,5 +1,5 @@
 ---
-title: La has cagado. Todos lo saben. ¿Y ahora qué?
+title: La has cagado. Todos lo saben. Y ahora que.
 updated: 2020-06-28 08:00
 comments: true
 mailchimp: true

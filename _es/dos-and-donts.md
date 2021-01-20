@@ -1,5 +1,5 @@
 ---
-title: Dos and Don'ts para un equipo de Ingeniería de Producto
+title: Dos and Don'ts para un equipo de Ingenieria de Producto
 updated: 2020-06-02 08:00
 comments: true
 mailchimp: true
