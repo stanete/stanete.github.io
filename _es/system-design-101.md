@@ -12,13 +12,13 @@ Puedes leer este post en inglés [aquí](/system-design-101).
 
 Casi todas las entrevistas que hago giran alrededor de [una pequeña historia](storytelling-tips-technical-interviews). Y en casi todas acabo haciendo una simple pregunta: 
 
-> Por qué es tan importante diseñar nuestros servicios para que no tengan estado? Especialmente si se ejecutan en un servidor.
+> ¿Por qué es tan importante diseñar nuestros servicios para que no tengan estado? Especialmente si se ejecutan en un servidor.
 
 ![](/images/system_design_question.png)
 
 Es increíble cuántas personas contestan mal. Y cuando se equivocan, hago una segunda pregunta:
 
-> Qué es un Balanceador de Carga?
+> ¿Qué es un Balanceador de Carga?
 
 Casi todas las personas contestan que DevOps/SRE no es su campo. ¡Esto está mal! !Muy mal¡ ¡Caca!
 
@@ -32,7 +32,7 @@ Cualquier persona que haga Ingeniería de Software (me da igual si te llamas dev
 
 Este es el primer post de una serie (quizá tres) que cubre lo básico sobre _System Design_. Todo esto te ayudará a encontrar mejores soluciones a los problemas que intentas resolver. No voy a entrar en demasiados detalles porque tendría que escribir libros enteros sobre cada tema. Pero sí que voy a dejar muchos recursos para que puedas leer e investigar por tu cuenta.
 
-[Comparte este post en 🐦 twitter](https://twitter.com/intent/tweet?text={{page.title}}&url={{site.url}}{{page.url}}&via={{site.twitter_username}}&related={{site.twitter_username}}) o suscríbete a mi newsletter **With a grain of salt** para recibir un email con novedades cada cierto tiempo.
+[Comparte este post en 🐦 Twitter](https://twitter.com/intent/tweet?text={{page.title}}&url={{site.url}}{{page.url}}&via={{site.twitter_username}}&related={{site.twitter_username}}) o suscríbete a mi newsletter **With a grain of salt** para recibir un email con novedades cada cierto tiempo.
 
 {% include mailchimp.html %}
 
@@ -42,7 +42,7 @@ El setup más típico que vas a encontrarte por ahí es una aplicación frontend
 
 ![](/images/system_design_basic.png)
 
-Peeeeeero esta representación del sistem es, en el mejor de los casos, incompleta. La verdad es que no existe solamente una instancia de la aplicación frontend. Eso sería terrible porque significaría que solamente una persona está usando tu producto. Quizá esa persona seas tú. Sino que cada cliente ejecuta una instancia diferente en su máquina (desktop o mobile) con diferentes condiciones de conectividad usando navegadores diferentes. Y eso que estamos ignorando por completo cosas como [DNS](https://www.cloudflare.com/learning/dns/what-is-dns/).
+Peeeeeero esta representación del sistema es, en el mejor de los casos, incompleta. La verdad es que no existe solamente una instancia de la aplicación frontend. Eso sería terrible porque significaría que solamente una persona está usando tu producto. Y quizá esa persona seas tú. Lo que ocurre en realidad es que cada persona ejecuta una instancia diferente en su máquina (desktop o mobile) con diferentes condiciones de conectividad usando navegadores diferentes. Y eso que estamos ignorando por completo cosas como [DNS](https://www.cloudflare.com/learning/dns/what-is-dns/).
 
 ![](/images/system_design_dns.png)
 
@@ -50,7 +50,7 @@ Esta forma de ver el sistema es un poco más precisa pero todavía está lejos d
 
 ## Y presionas Enter
 
-Hoy en día las personas conectan su repositorio de [GitHub](http://github.com/stanete) a algún servicio tipo [Netlify](https://www.netlify.com/) y son felices. Pero dando un paso atrás debes saber que todo el contenido de una página web (HTML, CSS, JS y todos los demás assets estáticos), debe estar almacenado en algún rincón oscuro de Internet. Netlify se encarga de esto y de mucho más pero hace no mucho las personas tenían que construir su applicación frontend y subir el contenido a un servicio de almacenamiento como [AWS S3](https://aws.amazon.com/s3/).
+Hoy en día las personas conectan su repositorio de [GitHub](http://github.com/stanete) a algún servicio tipo [Netlify](https://www.netlify.com/) y son felices. Pero dando un paso atrás debes saber que todo el contenido de una página web (HTML, CSS, JS y todos los demás assets estáticos), debe estar almacenado en algún rincón oscuro de Internet. Netlify se encarga de esto y de mucho más pero hace no mucho las personas tenían que construir su aplicación frontend y subir el contenido a un servicio de almacenamiento como [AWS S3](https://aws.amazon.com/s3/).
 
 Pero no basta con almacenar el contenido; hay que servirlo de alguna manera y resulta que las [CDNs](https://www.cloudflare.com/learning/cdn/what-is-a-cdn/) son muy buenas para ello.
 
@@ -76,7 +76,7 @@ A menos que tu página web tenga muchísimo tráfico, no te vas a tener que preo
 
 No puedes controlar dónde se ejecutan las diferentes instancias de la aplicación frontend. Pero con los servicios backend es diferente. No sólo puedes controlar cuántas instancias se ejecutan en cualquier momento, sino que también puedes cambiar la configuración del servidor (como RAM o CPU) en el que se ejecuta cada instancia.
 
-Puedes escalar el sistema verticalmente. Sobre todo cuando tienes poco tráfico. Añade más memoria y/o CPU al servidor y ya estaría. Pero como podrás imaginar, esto tiene un límite natural. Los costes aumentan muy rápido porque tanto la memoria como la capacidad del CPU son bastante caras. 
+Puedes escalar el sistema verticalmente. Sobre todo cuando tienes poco tráfico. Añade más memoria y/o CPU al servidor y ya estaría. Pero como podrás imaginar, esto tiene un límite natural. Los costes aumentan muy rápido porque tanto la memoria como la capacidad de la CPU son bastante caras. 
 
 Escalar el sistema horizontalmente suele ser más deseable cuando tienes mucho tráfico. No quiere decir otra cosa que levantar tantas instancias como sea necesario. Pero esta solución viene con un par de problemas. No te preocupes, tienen solución. ¿Cómo puedes tener un sólo punto de entrada para que el diseño no se filtre al mundo exterior? ¿Cómo puedes equilibrar la carga del tráfico entre todas las instancias? Tienes razón. Usando un [Load Balancer](https://www.nginx.com/resources/glossary/load-balancing/).
 
@@ -88,7 +88,7 @@ Escalar horizontalmente tiene beneficios adicionales. Si una instancia se cae, e
 
 Y aquí está la pregunta inicial. De nuevo.
 
-> Por qué es tan importante diseñar nuestros servicios para que no tengan estado? Especialmente si se ejecutan en un servidor.
+> ¿Por qué es tan importante diseñar nuestros servicios para que no tengan estado? Especialmente si se ejecutan en un servidor.
 
 Suponiendo que el sistema está escalado horizontalmente, no se puede garantizar que un cliente acceda a la misma instancia dos veces seguidas. Es cierto que dependiendo del algoritmo del Load Balancer puedes tener cierta consistencia. Pero, ¿qué pasa si una instancia falla por completo? El estado (los datos) se perdería para siempre. Es por eso que el estado se almacena en una base de datos, lo que en algún momento puede convertirse en un problema porque solo hay una instancia. Y ese será probablemente el próximo cuello de botella.
 
@@ -96,9 +96,9 @@ Suponiendo que el sistema está escalado horizontalmente, no se puede garantizar
 
 > Solo hay dos cosas difíciles en Ciencias de la Computación: invalidación de caché y nombrar cosas. -- Phil Karlton
 
-Puedes eliminar parte de la carga de la base de datos utilizando una [caché](https://aws.amazon.com/caching/), que no es más que una capa de almacenamiento de datos temporal, como [Redis](https://redis.io/topics/introduction) o [Memcached](https://memcached.org/). En general, la caché almacena el resultado de respuestas pesadas o datos a los que se accede con bastante frecuencia. Es mucho más rápida que la base de datos porque almacena los datos en la memoria. Peeeeero, debe tener cuidado: si se reinicia un servidor de caché, todos los datos se perderán. Obviamente.
+Puedes eliminar parte de la carga de la base de datos utilizando una [caché](https://aws.amazon.com/caching/), que no es más que una capa de almacenamiento de datos temporal, como [Redis](https://redis.io/topics/introduction) o [Memcached](https://memcached.org/). En general, la caché almacena el resultado de respuestas pesadas o datos a los que se accede con bastante frecuencia. Es mucho más rápida que la base de datos porque almacena los datos en la memoria. Peeeeero, debes tener cuidado: si se reinicia un servidor de caché, todos los datos se perderán. Obviamente.
 
-Cómo funciona? 
+¿Cómo funciona? 
 
 1. Después de recibir una request, el servicio backend primero verifica si la caché tiene la respuesta disponible.
    
@@ -120,7 +120,7 @@ Las operaciones de lectura suelen ser más frecuentes que las de escritura. Cuan
 
 ![](/images/system_design_db_replication.png)
 
-La replicación tiene múltiples ventajas. Vas a tener mejor rendimiento, confiabilidad y alta disponibilidad. Las operaciones de lectura se distribuyen entre las instancias secundarias, los datos nunca se pierden porque se replican en varias ubicaciones. Incluso si instancia secundaria se desconecta o apaga, aún puedes acceder a los datos de otras ubicaciones.
+La replicación tiene múltiples ventajas. Vas a tener mejor rendimiento, confiabilidad y alta disponibilidad. Las operaciones de lectura se distribuyen entre las instancias secundarias, los datos nunca se pierden porque se replican en varias ubicaciones. Incluso si la instancia secundaria se desconecta o apaga, aún puedes acceder a los datos de otras ubicaciones.
 
 Si todas las secundarias se desconectan o apagan, las operaciones de lectura se dirigirán temporalmente a la base de datos principal. Cuando al menos una instancia secundaria esté funcionando correctamente, las operaciones de lectura se redireccionarán de nuevo a ella.
 
@@ -140,7 +140,9 @@ La arquitectura básica de una cola es simple. Algunos servicios, llamados produ
 
 > Solo hay dos cosas difíciles en los sistemas distribuidos: 
 > 2. Entregar un mensaje exactamente una vez.
+> 
 > 1. Garantizar el orden de los mensajes.
+> 
 > 2. Entregar un mensaje exactamente una vez.
 
 Usar una message Queue viene con sus propios problemas. Es difícil asegurarse de que un mensaje se entregará [exactamente una vez](https://bravenewgeek.com/you-cannot-have-exactly-once-delivery/). Y es igualmente difícil garantizar que todos los mensajes se consumen en el orden deseado.
@@ -151,6 +153,6 @@ Ahora sí. Esta es una vista más sistémica y holística sobre cómo interactú
 
 ![](/images/system_design_complete.png)
 
-Además, todavía hay dos monolitos: uno para el frontend y otro para el backend. Aún necesito hablar sobre las implicaciones de tener múltiples servicios interactuando entre sí cuando decidas romper esos monolitos, backends for frontend, microfrontends o renderización del lado del servidor (SSR). En los próximos dos posts cubriré estos y temas como múltiples centros de datos, redes privadas virtuales o sharding.
+Además, todavía hay dos monolitos: uno para el frontend y otro para el backend. Aún necesito hablar sobre las implicaciones de tener múltiples servicios interactuando entre sí cuando decidas romper esos monolitos, backends for frontend, microfrontends o renderización del lado del servidor (SSR). En los próximos dos posts cubriré estos y otros temas como múltiples centros de datos, redes privadas virtuales o sharding.
 
-[Comparte este post en 🐦 twitter](https://twitter.com/intent/tweet?text={{page.title}}&url={{site.url}}{{page.url}}&via={{site.twitter_username}}&related={{site.twitter_username}}) o suscríbete a mi newsletter **With a grain of salt** para recibir un email con novedades cada cierto tiempo.
+[Comparte este post en 🐦 Twitter](https://twitter.com/intent/tweet?text={{page.title}}&url={{site.url}}{{page.url}}&via={{site.twitter_username}}&related={{site.twitter_username}}) o suscríbete a mi newsletter **With a grain of salt** para recibir un email con novedades cada cierto tiempo.
