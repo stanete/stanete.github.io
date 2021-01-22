@@ -3,7 +3,7 @@ title: System Design 102
 updated: 2021-01-22 00:00
 comments: true
 mailchimp: true
-image: /images/system_design_cover.png
+image: /images/system_design_holistic_cover.png
 excerpt: More basic System Design concepts every Software Engineer should understand.
 ---
 
