@@ -145,6 +145,6 @@ Here is a more complete and hollistic view of the system and how the different s
 
 ![](/images/system_design_complete.png)
 
-In the diagram you can see a bunch of monoliths: one for the frontend and other for the backend. I still need to talk about the implications of having multiple services talking to each other when breaking the monoliths, backends for frontend, microfrontends or server side rendering. In next posts I will cover those and other topics such as multiple data centers, virtual private networks or sharding.
+In the diagram you can see a bunch of monoliths: one for the frontend and other for the backend. Read [the second post](/system-design-102) in which I talk about the implications of having multiple services talking to each other when breaking the monoliths, backends for frontend, microfrontends or server side rendering. In next posts I will cover other topics such as multiple data centers, virtual private networks or sharding.
 
 [Share this post on 🐦 twitter](https://twitter.com/intent/tweet?text={{page.title}}&url={{site.url}}{{page.url}}&via={{site.twitter_username}}&related={{site.twitter_username}}) or subscribe to my newsletter **With a grain of salt** and receive an email with updates from time to time.

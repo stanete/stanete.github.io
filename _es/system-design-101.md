@@ -153,6 +153,6 @@ Ahora sí. Esta es una vista más sistémica y holística sobre cómo interactú
 
 ![](/images/system_design_complete.png)
 
-Además, todavía hay dos monolitos: uno para el frontend y otro para el backend. Aún necesito hablar sobre las implicaciones de tener múltiples servicios interactuando entre sí cuando decidas romper esos monolitos, backends for frontend, microfrontends o renderización del lado del servidor (SSR). En los próximos dos posts cubriré estos y otros temas como múltiples centros de datos, redes privadas virtuales o sharding.
+Además, todavía hay dos monolitos: uno para el frontend y otro para el backend. Lee [el segundo post](/es/system-design-102) que habla sobre las implicaciones de tener múltiples servicios interactuando entre sí cuando decidas romper esos monolitos, backends for frontend, microfrontends o renderización del lado del servidor (SSR). Más adelante otros temas como múltiples centros de datos, redes privadas virtuales o sharding.
 
 [Comparte este post en 🐦 Twitter](https://twitter.com/intent/tweet?text={{page.title}}&url={{site.url}}{{page.url}}&via={{site.twitter_username}}&related={{site.twitter_username}}) o suscríbete a mi newsletter **With a grain of salt** para recibir un email con novedades cada cierto tiempo.
