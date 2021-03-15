@@ -1,6 +1,6 @@
 ---
 title: Lidiando con los problemas de las scaleups
-updated: 2021-02-14 00:00
+updated: 2021-02-15 00:00
 comments: true
 mailchimp: true
 layout: post

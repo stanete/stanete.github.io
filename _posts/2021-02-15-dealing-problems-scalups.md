@@ -1,6 +1,6 @@
 ---
 title: Dealing with the problems of scaleups
-updated: 2021-02-14 00:00
+updated: 2021-02-15 00:00
 comments: true
 mailchimp: true
 image: /images/scalups_cover.png
@@ -13,16 +13,16 @@ You can read this post in Spanish [here](/es/dealing-problems-scalups).
 
 ![](/images/scalups_cover.png)
 
-There may be structural problems, missing information, lack of trust between teams, poor defined business goals, lack of a unified engineering or product strategy, communication probles between departments, huge dependencies between teams, a lot of bureaucracy and the list goes on and on. I've faced some of these problems. I tried to solve some, I had to accept some and I'm still frustrated with others. I want to share with you how to identify and deal with some of them.
+There may be structural problems, missing information, lack of trust between teams, poor defined business goals, lack of a unified engineering or product strategy, communication problems between departments, huge dependencies between teams, a lot of bureaucracy and the list goes on and on. I've faced some of these problems. I tried to solve some, I had to accept some and I'm still frustrated with others. I want to share with you how to identify and deal with some of them.
 
 ## The newcomer
-As a leader your success will be measured by the success of your team plus the success of the people you influence. Your primary focus should be to make your team achieve their goals. Your seconday focus should be to gain the credibility and trust of your peers and managers. Even if you have to take care of both at the same time, always prioritize your team. Ask for forgiveness instead of permission. It's more valuable to get your team achieve the business goals than to please your peers. So if you have to choose between making a decision to get your team on track and waiting for approval from other departments, choose what's best for your team. This is only sustainable in the short term. And it has a lot of risk because if you make a decision and your team underachieves or fails, other people can use your decisions as an argument against you or against your team.
+As a leader your success will be measured by the sum of the success of your team plus the success of the people you influence. Your primary focus should be to make your team achieve their goals. Your seconday focus should be to gain the credibility and trust of your peers and managers. Even if you have to take care of both at the same time, always prioritize your team. Ask for forgiveness instead of permission. It's more valuable to get your team achieve the business goals than to please your peers. So if you have to choose between making a decision to get your team on track and waiting for approval from other departments, choose what's best for your team. This is only sustainable in the short term. And it has a lot of risk because if you make a decision and your team underachieves or fails, other people can use your decisions as an argument against you or against your team.
 
 [Share this post on 🐦 twitter](https://twitter.com/intent/tweet?text={{page.title}}&url={{site.url}}{{page.url}}&via={{site.twitter_username}}&related={{site.twitter_username}}) or subscribe to my newsletter **With a grain of salt** and receive an email with updates from time to time.
 
 {% include mailchimp.html %}
 
-Some of the most common anti patters you'll see in a team are: lack of clear business objectives, lack of information and poorly managed dependencies. Let's dig deeper in each of these.
+Some of the most common anti-patterns you'll see in a team are: lack of clear business objectives, lack of information and poorly managed dependencies. Let's dig deeper in each of these.
 
 ## The north star
 A team without a clear business goal is doomed and destined to fail. Your job as a leader is to make sure a business goal exists and both the team and the stakeholders are comfortable with it.
@@ -93,7 +93,7 @@ Ask for two hours of another Engineer so they can pair program with your team fo
 
 ![](/images/scalups_dependencies.png)
 
-When managing dependencies you'll need to solve the lack of trust you'll often observe between members of different teams. In such big organisations it's normal for most people to not know eachother. Preserving a unified culture gets more and more difficult. People from another teams seem like people from another companies. You will see antipatters like [Us vs Them](https://www.theemotionmachine.com/the-us-vs-them-mentality-how-group-thinking-can-irrationally-divide-us/) and interactions between teams characterised by lack of trust and constant tension. This gets more problematic in a remote world where people interact with avatars ignoring the human on the other side of the screen. It's easy to de-humanize and antagonise people from different contexts. Try to solve this for teams that depend upon eachother. Have some team building sessions before starting any kind of collaboration or interaction. Make members from different teams have an informal coffee chat. This has proven to work better than establishing rigid processes and rules. Don't get me wrong. Processes and rules about interaction patters are important. Read [Team Topologies](https://teamtopologies.com/book) if you want to dig deeper into this topic.
+When managing dependencies you'll need to solve the lack of trust you'll often observe between members of different teams. In such big organisations it's normal for most people to not know eachother. Preserving a unified culture gets more and more difficult. People from another teams seem like people from another companies. You will see anti-patters like [Us vs Them](https://www.theemotionmachine.com/the-us-vs-them-mentality-how-group-thinking-can-irrationally-divide-us/) and interactions between teams characterised by lack of trust and constant tension. This gets more problematic in a remote world where people interact with avatars ignoring the human on the other side of the screen. It's easy to de-humanize and antagonise people from different contexts. Try to solve this for teams that depend upon eachother. Have some team building sessions before starting any kind of collaboration or interaction. Make members from different teams have an informal coffee chat. This has proven to work better than establishing rigid processes and rules. Don't get me wrong. Processes and rules about interaction patters are important. Read [Team Topologies](https://teamtopologies.com/book) if you want to dig deeper into this topic.
 
 ## Credibility
 As organizations grow, getting anything approved gets slower. Getting access to some internal service or obtaining budget for using a third party product may take weeks. Starting an initiative to solve a structural problem may never see the light of day. When you ask for permission, many people from diferent departments will want to jump in and discuss the details with you. Legal, compliance, security, business, PPM, etc. Decisions can take months. Don't fall into that trap. It doesn't go anywhere. Try to find shortcuts and establish them as a standard when you have enough credibility. But how do you achieve that?
