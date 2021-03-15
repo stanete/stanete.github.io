@@ -10,7 +10,7 @@ excerpt: Cómo lidiar con algunos de los problemas que aparecen gracias a lo que
 
 Puedes leer este post en inglés [aquí](/dealing-problems-scaleups).
 
-[Ried Hoffman](https://twitter.com/reidhoffman) habla en su libro [Blitzscaling](https://www.blitzscaling.com/) sobre los sacrificios que una startup debe hacer para poder escalar de forma agresiva. Y si tu trabajo es liderar un equipo y te unes a una empresa que está escalando de esa manera, nadie te dice qué se sacrificó y qué se está sacrificando. Pero no te preocupes. Lo vas a descubrir de una forma u otra. Tienes que hacerlo.
+[Reid Hoffman](https://twitter.com/reidhoffman) habla en su libro [Blitzscaling](https://www.blitzscaling.com/) sobre los sacrificios que una startup debe hacer para poder escalar de forma agresiva. Y si tu trabajo es liderar un equipo y te unes a una empresa que está escalando de esa manera, nadie te dice qué se sacrificó y qué se está sacrificando. Pero no te preocupes. Lo vas a descubrir de una forma u otra. Tienes que hacerlo.
 
 ![](/images/scaleups_cover.png)
 

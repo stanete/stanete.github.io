@@ -9,7 +9,7 @@ excerpt: How to deal with some of the problems that come with the sacrifices nee
 
 You can read this post in Spanish [here](/es/dealing-problems-scaleups).
 
-[Ried Hoffman](https://twitter.com/reidhoffman) talks in his book [Blitzscaling](https://www.blitzscaling.com/) about the sacrifices a company needs to make so it can scale aggressively fast. And when your job is to lead a team and you join a company that's blitzscaling, nobody tells you what was sacrificed. But don't worry. One way or another, you'll find out.
+[Reid Hoffman](https://twitter.com/reidhoffman) talks in his book [Blitzscaling](https://www.blitzscaling.com/) about the sacrifices a company needs to make so it can scale aggressively fast. And when your job is to lead a team and you join a company that's blitzscaling, nobody tells you what was sacrificed. But don't worry. One way or another, you'll find out.
 
 ![](/images/scaleups_cover.png)
 
