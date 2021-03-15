@@ -4,15 +4,15 @@ updated: 2021-02-15 00:00
 comments: true
 mailchimp: true
 layout: post
-image: /images/scalups_cover.png
+image: /images/scaleups_cover.png
 excerpt: Cómo lidiar con algunos de los problemas que aparecen gracias a lo que sacrificas cuando escalas una startup tan agresivamente rápido?
 ---
 
-Puedes leer este post en inglés [aquí](/dealing-problems-scalups).
+Puedes leer este post en inglés [aquí](/dealing-problems-scaleups).
 
 [Ried Hoffman](https://twitter.com/reidhoffman) habla en su libro [Blitzscaling](https://www.blitzscaling.com/) sobre los sacrificios que una startup debe hacer para poder escalar de forma agresiva. Y si tu trabajo es liderar un equipo y te unes a una empresa que está escalando de esa manera, nadie te dice qué se sacrificó y qué se está sacrificando. Pero no te preocupes. Lo vas a descubrir de una forma u otra. Tienes que hacerlo.
 
-![](/images/scalups_cover.png)
+![](/images/scaleups_cover.png)
 
 Pueden haber problemas estructurales, falta de información o documentación, falta de confianza entre equipos, metas de negocio mal definidas, falta de una estrategia unificada de ingeniería o producto, problemas de comunicación entre áreas, grandes dependencias entre equipos, mucha burocracia y un largo etcétera. Me he enfrentado a algunos de estos problemas. Traté de resolver algunos, tuve que aceptar algunos y todavía estoy frustrado con otros. Quiero compartir cómo identificar y lidiar con algunos de ellos.
 
@@ -51,9 +51,9 @@ Cómo identificar rápidamente que este problema existe:
 
 * La información no tiene diferentes niveles. La architectura de sofware se documenta con el [modelo C4](https://c4model.com/) precisamente porque no todo el mundo está interesado en el mismo nivel de detalle.
 
-* La documentación no tiene estándar. Especialmente la documentación que debería servir de interfaz con otros equipos.
+* La documentación no tiene estándar. Especialmente aquella que debería servir de interfaz con otros equipos.
 
-* La información se distribuye a través de múltiples servicios y formatos. Docs, Sheets, Confluence o Notion, JIRA, Trello, etc.
+* La información está repartida a través de múltiples servicios y formatos. Docs, Sheets, Confluence o Notion, JIRA, Trello, etc.
 
 * La información se comparte constantemente a través de mensajes anclados en los canales de Slack. Slack se usa a menudo como otra aplicación de chat más y no como un foro. [Este post](https://highgrowthengineering.substack.com/p/taming-slack-) habla de cómo mejorar este problema en concreto.
 
@@ -61,14 +61,14 @@ Cómo identificar rápidamente que este problema existe:
 
 * Existen diferentes versiones del mismo documento pero nadie sabe cuál es la versión correcta ni dónde encontrarla.
 
-La mayoría de las veces, la única forma de obtener la información correcta es preguntarle a otra persona. Alguien que lleva más tiempo en la empresa que tú. Así que minimiza la cantidad de personas necesarias para esas interacciones. Hazlo tú si es necesario. O pídele a alguien de tu equipo que te ayude. Organiza en un solo lugar la información relevante para tu equipo. Obtén la mayor cantidad de documentación posible y luego resúmala. Con el tiempo, este trabajo será menos y menos necesario.
+La mayoría de las veces, la única forma de obtener la información correcta es preguntarle a otra persona. Alguien que lleva más tiempo en la empresa que tú. Así que minimiza la cantidad de personas necesarias para esas interacciones. Hazlo tú si es necesario. O pídele a alguien de tu equipo que te ayude. Organiza en un solo lugar la información relevante para tu equipo. Obtén la mayor cantidad de documentación posible y luego resúmela. Con el tiempo, este trabajo será menos y menos necesario.
 
-![](/images/scalups_documentation.png)
+![](/images/scaleups_documentation.png)
 
-Si tu equipo también tiene el mal comportamiento de no documentar sus decisiones y no registrar información, da un taller. Establece [algunas reglas básicas](/es/dos-and-donts) y evangeliza la cultura del [desarrollo guiado por documentación](https://medium.com/swlh/documentation-driven-development-f9a6d3258e5). Si tu equipo tiene buena documentación, evitarás estar en reuniones inútiles. Cuando alguien te pregunte sobre algo, puedes redirigir a la documentación. Cuanto más documentación tengas, a diferentes niveles, mejor.
+Si tu equipo también tiene la mala constumbre de no documentar sus decisiones y no registrar información, da un taller. Establece [algunas reglas básicas](/es/dos-and-donts) y evangeliza la cultura del [desarrollo guiado por documentación](https://medium.com/swlh/documentation-driven-development-f9a6d3258e5). Si te esfuerzas en crear buena documentación, evitarás estar en reuniones inútiles. Cuando alguien te pregunte sobre algo, puedes redirigir a la documentación. Cuanto más documentación haya, a diferentes niveles, mejor. Eso de a diferentes niveles es importante. Muchas personas no tienen el tiempo de leerse todo en detalle. Quieren algo resumido.
 
 ## Dependencias
-Una scalup es un [sistema socio-técnico](https://es.wikipedia.org/wiki/Sistema_sociot%C3%A9cnico) complejo. Y la mayoría de las veces, los diferentes equipos dependen unos de otros. Una de las razones puede ser que a medida que aumenta la escala, los equipos tienden a especializarse. Para llevar a cabo iniciativas mayores, hay que involucrar a muchos equipos o al menos a muchos sistemas. Otra razón puede ser que un scalup haya pasado por muchas reorganizaciones. Y la estructura actual no refleja la arquitectura de los sistemas. Busca información sobre [la Ley de Conway](https://es.wikipedia.org/wiki/Ley_de_Conway) para entender las consecuencias de esto. A menudo encontrarás confusión acerca de qué equipo es owner de qué servicio. Un equipo o algunas personas pueden tener un conocimiento más profundo de algunos sistemas, pero ya no trabajan activamente en ellos. Tendrás que lidiar también con estas dependencias de conocimiento de dominio.
+Una scaleup es un [sistema socio-técnico](https://es.wikipedia.org/wiki/Sistema_sociot%C3%A9cnico) complejo. Y la mayoría de las veces, muchos equipos dependen unos de otros. Una de las razones puede ser que a medida que aumenta la escala, la especialición es cada vez más común. Para llevar a cabo iniciativas mayores, hay que involucrar a muchos equipos o al menos tocar muchos sistemas. Otra razón puede ser que un scaleup haya pasado por muchas reorganizaciones. Y la estructura actual no refleja la arquitectura de los sistemas. Busca información sobre [la Ley de Conway](https://es.wikipedia.org/wiki/Ley_de_Conway) para entender las consecuencias de esto. A menudo encontrarás confusión acerca de qué equipo es owner de qué servicio. Un equipo o algunas personas pueden tener un conocimiento más profundo de algunos sistemas, pero ya no trabajan activamente en ellos. Tendrás que lidiar también con estas dependencias de conocimiento de dominio.
 
 Cómo identificar rápidamente que este problema existe:
 
@@ -92,7 +92,7 @@ Pero en lugar de pedir una funcionalidad, obtener el _sí_, descubrir que se ha 
 ### El pie en la puerta
 Pide dos horas a una persona de Ingenieria para que haga pair programming con tu equipo durante dos o tres días. Nadie va a rechazar esa propuesta. Por lo general, las personas están felices de colaborar siempre que el tiempo requerido no sea muy largo. Dos horas al día. Durante una semana. Empezaréis la funcionalidad juntos y, con suerte, tu equipo adquirirá suficiente conocimiento del dominio para que puedan resolver sus propias dependencias. Este enfoque funciona mucho mejor. Garantizado.
 
-![](/images/scalups_dependencies.png)
+![](/images/scaleups_dependencies.png)
 
 Antes de siquiera tratar de resolver las dependencias, tendrás que resolver la falta de confianza que a menudo hay entre los miembros de diferentes equipos. En organizaciones tan grandes, es normal que la mayoría de las personas ni se conozcan. Preservar una cultura unificada se vuelve cada vez más difícil. Las personas de otros equipos parecen personas de otras empresas. Verás anti-patrones como [Nosotros vs Ellos](https://www.theemotionmachine.com/the-us-vs-them-mentality-how-group-thinking-can-irrationally-divide-us/) e interacciones entre equipos donde falta de confianza y la tensión constante son protagonistas. Esto se vuelve más problemático en un mundo remoto donde las personas interactúan con avatares ignorando a la persona del otro lado de la pantalla. Es fácil deshumanizar y antagonizar a personas que pertenecen a contextos diferentes. Intenta resolver esto para equipos que dependen unos de otros. Organiza algunas sesiones de team building antes de comenzar cualquier tipo de colaboración o interacción. Haz que los miembros de diferentes equipos tengan una café virtual informal. Garantizado que esto funciona mejor que establecer procesos rígidos y reglas arbitrarias. No quiero que se me malinterprete. Los procesos y las reglas sobre los patrones de interacción son importantes. [Team Topologies](https://teamtopologies.com/book) habla largo y tendido sobre esto.
 
@@ -111,7 +111,7 @@ En una empresa que está escalando así de rápido, la gente pedirá ayuda const
 ### Colaborar en iniciativas cross
 Es muy raro que una empresa esté en el extremo en el que nadie esté tratando de solucionar nada. Por eso en cualquier startup encontrarás personas que están liderando o tratando de liderar iniciativas para mejorar y resolver los problemas estructurales que vienen con el blitzscaling. Al principio, únete a ellos. Utiliza esas oportunidades para colaborar con otras personas. Haz amistad con cualquiera que esté intentando cambiar el status quo. Si nadie más lo está haciendo, reúne a esas personas. A veces eso es suficiente. Otras veces, necesitarás agregar algo de estructura a estas iniciativas. Y quizá algo de estandarización.
 
-![](/images/scalups_collaboration.png)
+![](/images/scaleups_collaboration.png)
 
 La credibilidad te ayudará a tener apoyo temprano cuando intentes resolver cualquier problema que creas que merece tu atención. Tendrás un acceso más rápido a los recursos. La gente no intentará discutir los detalles de tus decisiones e iniciativas. Incluso si no están de acuerdo contigo, podrás poner en marcha cualquier iniciativa. Tu credibilidad también ayudará a su equipo a tener éxito. Otros equipos aprobarán las PRs de tu equipo antes. Podrás abrir puertas para tu equipo que antes estaban cerradas.
 

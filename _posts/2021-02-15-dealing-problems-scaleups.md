@@ -3,15 +3,15 @@ title: Dealing with the problems of scaleups
 updated: 2021-02-15 00:00
 comments: true
 mailchimp: true
-image: /images/scalups_cover.png
+image: /images/scaleups_cover.png
 excerpt: How to deal with some of the problems that come with the sacrifices needed to scale a company that fast?
 ---
 
-You can read this post in Spanish [here](/es/dealing-problems-scalups).
+You can read this post in Spanish [here](/es/dealing-problems-scaleups).
 
 [Ried Hoffman](https://twitter.com/reidhoffman) talks in his book [Blitzscaling](https://www.blitzscaling.com/) about the sacrifices a company needs to make so it can scale aggressively fast. And when your job is to lead a team and you join a company that's blitzscaling, nobody tells you what was sacrificed. But don't worry. One way or another, you'll find out.
 
-![](/images/scalups_cover.png)
+![](/images/scaleups_cover.png)
 
 There may be structural problems, missing information, lack of trust between teams, poor defined business goals, lack of a unified engineering or product strategy, communication problems between departments, huge dependencies between teams, a lot of bureaucracy and the list goes on and on. I've faced some of these problems. I tried to solve some, I had to accept some and I'm still frustrated with others. I want to share with you how to identify and deal with some of them.
 
@@ -52,7 +52,7 @@ A few points that can help you identify this problem:
 
 * Documentation has no standard. Specially the one that should serve as a interface with another teams.
 
-* Information is spread across multiple services and formats. Docs, Sheets, Confluence or Notion pages, JIRA, Trello, etc. 
+* Information is spreaded across multiple services and formats. Docs, Sheets, Confluence or Notion, JIRA, Trello, etc.
 
 * Information is constantly shared through pinned messages in Slack channels. Slack is often used as a chat messaging app and not as a forum. [This post](https://highgrowthengineering.substack.com/p/taming-slack-) talks about how to solve this specific problem.
 
@@ -62,12 +62,12 @@ A few points that can help you identify this problem:
 
 Most of the times, the only way to get the right information is to ask somebody else. Somebody that has been in the company longer than you. So minimize the amount of people needed for those interactions. Do it yourself if needed. Or ask somebody from your team to join you. Organize the relevant information for your team in a single place. Read as much documentation as possible then summarize it for your team.
 
-![](/images/scalups_documentation.png)
+![](/images/scaleups_documentation.png)
 
 If your team also has the bad behaviour of not documenting their decisions and not recording information, do a workshop with them. Establish [some ground rules](/dos-and-donts) and try to evangelize the culture of [documentation driven development](https://medium.com/swlh/documentation-driven-development-f9a6d3258e5). If your team has good documentation you'll avoid being in pointless meetings. When somebody asks you about something, you can redirect them to the documentation.
 
 ## Dependencies
-A scalup is a complex [socio-technical system](https://en.wikipedia.org/wiki/Sociotechnical_system). And more often than not, different teams depend upon each-other. One of the reasons may be that as a startup grows, teams tend to specialiase. Company wide initiatives will involve many teams or at least, many systems. Another reason may be that a scalup has went through many reorganisations. And the current structure does not reflect the architecture of the systems. Check [Conway's Law](https://en.wikipedia.org/wiki/Conway%27s_law) for the consequences of this. Often you will find confusion about what team owns what service. A team or some people can have a deeper knowledge of some systems but they don't own that system anymore. And you'll have to deal with these domain knowledge dependencies.
+A scaleup is a complex [socio-technical system](https://en.wikipedia.org/wiki/Sociotechnical_system). And more often than not, different teams depend upon each-other. One of the reasons may be that as a startup grows, teams tend to specialiase. Company wide initiatives will involve many teams or at least, many systems. Another reason may be that a scaleup has went through many reorganisations. And the current structure does not reflect the architecture of the systems. Check [Conway's Law](https://en.wikipedia.org/wiki/Conway%27s_law) for the consequences of this. Often you will find confusion about what team owns what service. A team or some people can have a deeper knowledge of some systems but they don't own that system anymore. And you'll have to deal with these domain knowledge dependencies.
 
 A few points that can help you identify this problem:
 
@@ -91,7 +91,7 @@ But instead of asking for a feature, getting the yes, discovering it has been de
 ### Go in. Be intense. Get out
 Ask for two hours of another Engineer so they can pair program with your team for a couple of days. Nobody will reject that proposal. Usually people are happy to collaborate as long as the required time is kept small. Two hours a day. For a week. So you'll start the feature together and hopefully gain enough domain knowledge so your team can solve their own dependencies. This approach works way better. Guaranteed.
 
-![](/images/scalups_dependencies.png)
+![](/images/scaleups_dependencies.png)
 
 When managing dependencies you'll need to solve the lack of trust you'll often observe between members of different teams. In such big organisations it's normal for most people to not know eachother. Preserving a unified culture gets more and more difficult. People from another teams seem like people from another companies. You will see anti-patterns like [Us vs Them](https://www.theemotionmachine.com/the-us-vs-them-mentality-how-group-thinking-can-irrationally-divide-us/) and interactions between teams characterised by lack of trust and constant tension. This gets more problematic in a remote world where people interact with avatars ignoring the human on the other side of the screen. It's easy to de-humanize and antagonise people from different contexts. Try to solve this for teams that depend upon eachother. Have some team building sessions before starting any kind of collaboration or interaction. Make members from different teams have an informal coffee chat. This has proven to work better than establishing rigid processes and rules. Don't get me wrong. Processes and rules about interaction patterns are important. Read [Team Topologies](https://teamtopologies.com/book) if you want to dig deeper into this topic.
 
@@ -109,7 +109,7 @@ In a company that is blitzscaling, people will constantly ask for help. Don't ju
 ### Collaborate in cross initiatives
 It's very unusual for a company to be on the extreme that nobody is trying to fix anything. So in any compnay you'll find people who are leading or trying to lead initiatives to improve and solve the structural problems that come with blitzscaling. In the beginning, join them. Use those opportunities to collaborate with other people. Partner with anyone who is trying to change the status quo. If nobody else is doing it, bring those people together. Sometimes that's enough. Other times you'll need to add some structure to these initiatives.
 
-![](/images/scalups_collaboration.png)
+![](/images/scaleups_collaboration.png)
 
 Credibility will help you have early support when you try to solve any problem you think is worth your attention. You'll have faster access to resources. People won't try to discuss the details of your decisions and initiatives. Even if they don't agree with you, you'll be able to pull anything off. Your credibility will also help your team succeed. Other teams will approve your team's PRs earlier. You'll be able to open doors for your team that were closed before.
 
