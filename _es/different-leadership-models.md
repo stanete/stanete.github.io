@@ -4,7 +4,7 @@ updated: 2021-02-16 00:00
 comments: true
 mailchimp: true
 layout: post
-image: /images/scaleups_cover.png
+image: /images/leadership_cover.png
 excerpt: Facilitar no es suficiente. Para liderar necesitas ser diferente, habilitar a otras personas, inspirar y, eventualmente, conseguir que te sustituyan.
 ---
 
