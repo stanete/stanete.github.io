@@ -1,11 +1,11 @@
 ---
-title: Different leadership models
+title: Modelos de liderazgo diferentes
 updated: 2021-02-16 00:00
 comments: true
 mailchimp: true
 layout: post
 image: /images/scaleups_cover.png
-excerpt: Being a facilitator isn't enough. You need to be different, to enable others, to inspire and to make others grow so you can get replaced.
+excerpt: Facilitar no es suficiente. Para liderar necesitas ser diferente, habilitar a otras personas, inspirar y, eventualmente, conseguir que te sustituyan.
 ---
 
 Puedes leer este post en inglés [aquí](/different-leadership-models).
@@ -55,7 +55,7 @@ ARPANET no fue accidental. Pero tampoco fue premeditado por el Departamento de D
 
 ![](/images/leadership_inspire.png)
 
-Si lideras un equipo, expresa tu visión y reúne a personas que la compartan. Trata de mejorar tu estilo de comunicación. Pon especial atención a las palabras y cómo expresas tus ideas. Se un soñador pero no vendas humo. Se optimista con positividad todo el tiempo.
+Si lideras un equipo, expresa tu visión y reúne a personas que la compartan. Trata de mejorar tu estilo de comunicación. Pon especial atención a las palabras y cómo expresas tus ideas. Sé un soñador pero no vendas humo. Sé optimista con positividad todo el tiempo.
 
 ## Lidera para que alguien te sustituya
 Licklider dejó ARPA en 1964, el año de [Pretty Woman](https://www.youtube.com/watch?v=_PLq0_7k1jk). Pero antes de irse encontró a su propio reemplazo: [Ivan Sutherland](https://en.wikipedia.org/wiki/Ivan_Sutherland). Tenía 26 años en ese momento. [Bob Taylor](https://en.wikipedia.org/wiki/Robert_Taylor_(computer_scientist)) fue contratado como asistente de Sutherland en 1965 y se convirtió en director en 1966.
