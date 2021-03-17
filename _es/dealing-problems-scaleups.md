@@ -82,7 +82,7 @@ Cómo identificar rápidamente que este problema existe:
 
 * Los repositorios en los que contribuyen muchos equipos no tienen documentación clara.
 
-No intentes eliminar las dependencias. Eso es imposible. Trata de gestionarlas. He encontré dos formas principales de sobrevivir a las dependencias:
+No intentes eliminar las dependencias. Eso es imposible. Trata de gestionarlas. He encontrado dos formas principales de sobrevivir a las dependencias:
 
 ### Proveedor de servicios
 Intenta resolver las dependencias con antelación. Esto funciona si tu equipo tiene suficiente estructura y visión a largo plazo sobre los objetivos de negocio. La funcionalidad de la que depende tu equipo se retrasará. Sobre todo porque cada equipo prioriza sus propios objetivos. Planifica con eso en mente.
